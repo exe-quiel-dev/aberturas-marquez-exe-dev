@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-body{
+    background-image: url('../../public/imgs/bg_body.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-index{
+    background-image: url('../../public/imgs/banner_principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.bg-header{
+    background-color: rgba(0, 0, 0, 0.30);
+}
+.bg-ch-simple{
+    background-image: url('../../public/imgs/front-elevation-design.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
