@@ -95,7 +95,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\doblechapa.jsx"
   );
-  import.meta.hot.lastModified = "1691096954578.752";
+  import.meta.hot.lastModified = "1691167459078.8528";
 }
 function Doblechapa() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", { className: "min-h-screen bg-ch-simple py-10 border-b border-gray-300", children: [
@@ -104,7 +104,7 @@ function Doblechapa() {
       lineNumber: 28,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col flex-wrap lg:flex-row items-center justify-center gap-6 container mx-auto min-h-screen", children: chapaDoble.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(card_default, { nombre: puerta.nombre, marco: puerta.marco, hoja: puerta.hoja, bisagras: puerta.bisagras, cerradura: puerta.cerradura, img: puerta.img }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col flex-wrap lg:flex-row items-center justify-center gap-6 container mx-auto min-h-screen bg-gray-100/75 py-10", children: chapaDoble.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(card_default, { nombre: puerta.nombre, marco: puerta.marco, hoja: puerta.hoja, bisagras: puerta.bisagras, cerradura: puerta.cerradura, img: puerta.img }, void 0, false, {
       fileName: "app/routes/doblechapa.jsx",
       lineNumber: 30,
       columnNumber: 35
@@ -128,4 +128,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   doblechapa_default as default
 };
-//# sourceMappingURL=/build/routes/doblechapa-MZ5ZQEN2.js.map
+//# sourceMappingURL=/build/routes/doblechapa-N45LRSM3.js.map

@@ -20,7 +20,7 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // app/styles/index.css
-var styles_default = "/build/_assets/index-NSZNDCGH.css";
+var styles_default = "/build/_assets/index-C52LHT25.css";
 
 // app/components/nav.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -340,7 +340,7 @@ if (import.meta) {
 }
 function meta() {
   return [{
-    charset: "utf-8",
+    charset: "UTF-8",
     title: "Aberturas Marquez",
     description: "Tienda de aberturas online",
     viewport: "width=device-width, initial-scale= 1"
@@ -432,4 +432,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-5UUJYPFM.js.map
+//# sourceMappingURL=/build/root-XW6N3RHY.js.map

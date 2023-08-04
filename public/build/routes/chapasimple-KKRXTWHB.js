@@ -95,7 +95,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\chapasimple.jsx"
   );
-  import.meta.hot.lastModified = "1691094934037.3696";
+  import.meta.hot.lastModified = "1691167437630.5273";
 }
 function Chapasimple() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", { className: "min-h-screen bg-ch-simple py-10 border-b border-gray-300", children: [
@@ -104,7 +104,7 @@ function Chapasimple() {
       lineNumber: 28,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col flex-wrap lg:flex-row items-center justify-center gap-6 container mx-auto min-h-screen", children: chapaSimple.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(card_default, { nombre: puerta.nombre, marco: puerta.marco, hoja: puerta.hoja, bisagras: puerta.bisagras, cerradura: puerta.cerradura, img: puerta.img }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col flex-wrap lg:flex-row items-center justify-center gap-6 container mx-auto min-h-screen bg-gray-100/75 py-10", children: chapaSimple.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(card_default, { nombre: puerta.nombre, marco: puerta.marco, hoja: puerta.hoja, bisagras: puerta.bisagras, cerradura: puerta.cerradura, img: puerta.img }, void 0, false, {
       fileName: "app/routes/chapasimple.jsx",
       lineNumber: 30,
       columnNumber: 36
@@ -128,4 +128,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   chapasimple_default as default
 };
-//# sourceMappingURL=/build/routes/chapasimple-I4YI54FZ.js.map
+//# sourceMappingURL=/build/routes/chapasimple-KKRXTWHB.js.map
