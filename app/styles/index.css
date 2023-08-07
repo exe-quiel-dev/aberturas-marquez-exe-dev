@@ -20,7 +20,7 @@
 .bg-header{
     background-color: rgba(0, 0, 0, 0.30);
 }
-.bg-ch-simple{
+.bg-categorias{
     background-image: url('../../public/imgs/front-elevation-design.jpg');
     background-position: center;
     background-repeat: no-repeat;

@@ -1,7 +1,7 @@
 
 const Card = ({ nombre, marco, hoja, bisagras, cerradura, img }) => {
   return (
-    <div className="flex flex-col items-center justify-center w-4/5 lg:w-1/3 bg-white shadow">
+    <div className="flex flex-col items-center justify-center w-full h-full bg-white shadow">
       <img src={img} alt={nombre} className="w-full" />
       <div className="p-4 w-full text-start">
         <h2 className="font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center">{nombre}</h2>
