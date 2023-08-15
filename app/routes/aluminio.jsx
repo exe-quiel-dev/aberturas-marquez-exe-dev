@@ -5,6 +5,15 @@ import Card from "../components/card"
 // CONSTANTS
 import { aluminio } from "../productos/puertas_aluminio"
 
+export function meta() {
+  return [
+    {
+      title: 'Aberturas Marquez - Puertas Aluminio',
+      description: 'Venta de aberturas'
+    }
+  ]
+}
+
 function Aluminio() {
   return (
     <Categorias

@@ -15,5 +15,4 @@ const Card = ({ nombre, marco, hoja, bisagras, cerradura, img }) => {
     </div>
   )
 }
-
 export default Card

@@ -11,7 +11,7 @@ export function meta() {
 function Puertas() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center bg-categorias">
-      <div className="bg-gray-400/50 flex flex-col items-center justify-center p-10">
+      <div className="flex flex-col items-center justify-center p-10">
         <h1 className="uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow">Puertas</h1>
         <div className="grid grid-cols-5 items-center justify-items-center p-10 w-full gap-6">
           <Link

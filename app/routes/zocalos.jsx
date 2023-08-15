@@ -5,6 +5,15 @@ import Cardpvc from "../components/cardpvc"
 // CONSTANTS
 import { zocalos } from "../productos/zocalos"
 
+export function meta() {
+  return [
+    {
+      title: 'Aberturas Marquez - Zocalos PVC',
+      description: 'Venta de aberturas'
+    }
+  ]
+}
+
 function Zocalos() {
   return (
     <CategoriasPvc

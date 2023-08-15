@@ -5,6 +5,15 @@ import Categorias from "../components/categorias"
 // CONSTANTS
 import { placa } from "../productos/puertas_placa"
 
+export function meta() {
+  return [
+    {
+      title: 'Aberturas Marquez - Puertas Placa',
+      description: 'Venta de aberturas'
+    }
+  ]
+}
+
 function Placa() {
   return (
     <Categorias

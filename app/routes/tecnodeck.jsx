@@ -5,6 +5,15 @@ import CategoriasPvc from "../components/categoriasPvc"
 // CONSTANTS
 import { tecnodeck } from "../productos/tecnodeck"
 
+export function meta() {
+  return [
+    {
+      title: 'Aberturas Marquez - Tecno Deck',
+      description: 'Venta de aberturas'
+    }
+  ]
+}
+
 function Tecnodeck() {
   return (
     <CategoriasPvc

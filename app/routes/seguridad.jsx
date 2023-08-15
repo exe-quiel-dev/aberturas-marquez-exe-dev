@@ -5,6 +5,15 @@ import Categorias from "../components/categorias"
 //  Constants
 import { seguridad } from "../productos/puertas_seguridad"
 
+export function meta() {
+  return [
+    {
+      title: 'Aberturas Marquez - Puertas de Seguridad',
+      description: 'Venta de aberturas'
+    }
+  ]
+}
+
 function Seguridad() {
   return (
     <Categorias

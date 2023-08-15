@@ -5,6 +5,15 @@ import CategoriasPvc from "../components/categoriasPvc"
 // CONSTANTS
 import { ventanasPvc } from "../productos/ventanas_pvc"
 
+export function meta() {
+  return [
+    {
+      title: 'Aberturas Marquez - Ventanas PVC',
+      description: 'Venta de aberturas'
+    }
+  ]
+}
+
 function VentanasPvc() {
   return (
     <CategoriasPvc

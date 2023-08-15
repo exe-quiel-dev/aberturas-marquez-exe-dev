@@ -12,7 +12,7 @@ import Footer from '~/components/footer'
 export function meta() {
     return [
         {
-            charset: 'UTF-8',
+            charset: 'utf-8',
             title: 'Aberturas Marquez',
             description: 'Tienda de aberturas online',
             viewport: 'width=device-width, initial-scale= 1'
@@ -63,7 +63,7 @@ function Document({children}) {
                 <Meta />
                 <Links />
             </head>
-            <body className='bg-gray-400'>
+            <body className='bg-cyan-900' id='root'>
                 <Header />
                 {children}
                 <Footer />

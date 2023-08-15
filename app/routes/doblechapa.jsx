@@ -5,6 +5,15 @@ import Categorias from "../components/categorias"
 // CONSTANTS
 import { chapaDoble } from "../productos/puertas_doble_ch"
 
+export function meta() {
+  return [
+    {
+      title: 'Aberturas Marquez - Puertas Chapa Doble',
+      description: 'Venta de aberturas'
+    }
+  ]
+}
+
 function Doblechapa() {
   return (
     <Categorias
