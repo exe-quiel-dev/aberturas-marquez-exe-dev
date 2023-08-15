@@ -10,14 +10,14 @@ import Header from '~/components/header'
 import Footer from '~/components/footer'
 
 export function meta() {
-    return [
+    return [(
         {
             charset: 'utf-8',
             title: 'Aberturas Marquez',
             description: 'Tienda de aberturas online',
             viewport: 'width=device-width, initial-scale= 1'
         }
-    ]
+    )]
 }
 
 export function links() {
