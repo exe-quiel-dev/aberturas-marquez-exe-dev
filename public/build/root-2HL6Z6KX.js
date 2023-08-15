@@ -4,7 +4,7 @@ import {
   Meta,
   Outlet,
   useLocation
-} from "/build/_shared/chunk-MT6I2GU2.js";
+} from "/build/_shared/chunk-ZRIOWOYL.js";
 import {
   createHotContext
 } from "/build/_shared/chunk-CKVHI6DB.js";
@@ -343,7 +343,7 @@ function meta() {
     charset: "utf-8",
     title: "Aberturas Marquez",
     description: "Tienda de aberturas online",
-    viewport: "width=device-width,initial-scale= 1"
+    viewport: "width=device-width,initial-scale=1"
   }];
 }
 function links() {
@@ -432,4 +432,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-EVKIF2XI.js.map
+//# sourceMappingURL=/build/root-2HL6Z6KX.js.map
