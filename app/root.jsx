@@ -15,7 +15,7 @@ export function meta() {
             charset: 'utf-8',
             title: 'Aberturas Marquez',
             description: 'Tienda de aberturas online',
-            viewport: 'width=device-width, initial-scale= 1'
+            viewport: 'width=device-width,initial-scale= 1'
         }
     )]
 }
