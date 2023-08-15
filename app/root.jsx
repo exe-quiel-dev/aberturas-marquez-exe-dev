@@ -21,7 +21,8 @@ export function meta() {
             description: 'Tienda de aberturas online'
         },
         {
-            viewport: 'width=device-width, initial-scale=1.0'
+            property: 'viewport',
+            content: 'width=device-width, initial-scale=1.0'
         }
     ]
 }
