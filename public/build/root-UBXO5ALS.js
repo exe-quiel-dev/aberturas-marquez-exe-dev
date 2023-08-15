@@ -340,9 +340,12 @@ if (import.meta) {
 }
 function meta() {
   return [{
-    charset: "utf-8",
-    title: "Aberturas Marquez",
-    description: "Tienda de aberturas online",
+    charset: "utf-8"
+  }, {
+    title: "Aberturas Marquez"
+  }, {
+    description: "Tienda de aberturas online"
+  }, {
     viewport: "width=device-width,initial-scale=1"
   }];
 }
@@ -368,11 +371,11 @@ function links() {
 function App() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Outlet, {}, void 0, false, {
     fileName: "app/root.jsx",
-    lineNumber: 55,
+    lineNumber: 58,
     columnNumber: 13
   }, this) }, void 0, false, {
     fileName: "app/root.jsx",
-    lineNumber: 54,
+    lineNumber: 57,
     columnNumber: 10
   }, this);
 }
@@ -384,39 +387,39 @@ function Document({
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 64,
+        lineNumber: 67,
         columnNumber: 17
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 65,
+        lineNumber: 68,
         columnNumber: 17
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 63,
+      lineNumber: 66,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("body", { className: "bg-cyan-900", id: "root", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(header_default, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 68,
+        lineNumber: 71,
         columnNumber: 17
       }, this),
       children,
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(footer_default, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 70,
+        lineNumber: 73,
         columnNumber: 17
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 67,
+      lineNumber: 70,
       columnNumber: 13
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.jsx",
-    lineNumber: 62,
+    lineNumber: 65,
     columnNumber: 10
   }, this);
 }
@@ -432,4 +435,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-2HL6Z6KX.js.map
+//# sourceMappingURL=/build/root-UBXO5ALS.js.map
