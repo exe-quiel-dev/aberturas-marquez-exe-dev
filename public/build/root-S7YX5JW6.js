@@ -346,7 +346,7 @@ function meta() {
   }, {
     description: "Tienda de aberturas online"
   }, {
-    property: "viewport",
+    name: "viewport",
     content: "width=device-width, initial-scale=1.0"
   }];
 }
@@ -436,4 +436,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-A2KQE24I.js.map
+//# sourceMappingURL=/build/root-S7YX5JW6.js.map
