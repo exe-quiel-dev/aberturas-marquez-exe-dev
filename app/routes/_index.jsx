@@ -16,7 +16,7 @@ function Index() {
           >Ver ventanas</Link>
         </div>
       </section>
-      <section className="flex flex-col min-h-screen items-center justify-center py-10 border-t container mx-auto bg-slate-400">
+      <section className="flex flex-col min-h-screen items-center justify-center py-10 border-t container mx-auto">
         <h2 className="text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold text-white my-10 w-full">Ofertas</h2>
         <div className='grid grid-cols-12 gap-0'>
           <div className='col-start-2 col-end-11 lg:col-start-2 lg:col-end-7 border'>

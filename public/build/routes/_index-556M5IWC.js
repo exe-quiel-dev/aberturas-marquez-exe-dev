@@ -38,7 +38,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\_index.jsx"
   );
-  import.meta.hot.lastModified = "1692069869979.6543";
+  import.meta.hot.lastModified = "1692199997712.8938";
 }
 function Index() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, { children: [
@@ -67,7 +67,7 @@ function Index() {
       lineNumber: 26,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", { className: "flex flex-col min-h-screen items-center justify-center py-10 border-t container mx-auto bg-slate-400", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", { className: "flex flex-col min-h-screen items-center justify-center py-10 border-t container mx-auto", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold text-white my-10 w-full", children: "Ofertas" }, void 0, false, {
         fileName: "app/routes/_index.jsx",
         lineNumber: 34,
@@ -149,4 +149,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   index_default as default
 };
-//# sourceMappingURL=/build/routes/_index-BEGTNTZ6.js.map
+//# sourceMappingURL=/build/routes/_index-556M5IWC.js.map

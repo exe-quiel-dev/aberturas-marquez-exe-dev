@@ -18,7 +18,8 @@ export function meta() {
             title: 'Aberturas Marquez'
         },
         {
-            description: 'Tienda de aberturas online'
+            name: 'description',
+            content: 'Tienda de aberturas online'
         },
         {
             name: 'viewport',
@@ -70,7 +71,7 @@ function Document({ children }) {
                 <Meta />
                 <Links />
             </head>
-            <body className='bg-cyan-900' id='root'>
+            <body className='bg-gradient-to-tl from-cyan-700 to-slate-500' id='root'>
                 <Header />
                 {children}
                 <Footer />

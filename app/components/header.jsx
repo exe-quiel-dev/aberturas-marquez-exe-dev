@@ -16,9 +16,9 @@ function Header() {
         </div>
         <Nav />
         <div className='w-1/3 text-white flex items-center justify-center'>
-          <a href='www.youtube.com' target='_blank'><AiOutlineInstagram className='mx-2 w-4 h-4 hover:text-violet-500 transition-colors hover:cursor-pointer' /></a>
-          <a href='www.youtube.com' target='_blank'><AiOutlineWhatsApp className='mx-2 w-4 h-4 hover:text-green-500 transition-colors hover:cursor-pointer' /></a>
-          <a href='www.youtube.com' target='_blank'><AiOutlineEnvironment className='mx-2 w-4 h-4 hover:text-red-500 transition-colors hover:cursor-pointer' /></a>
+          <a href='https://www.instagram.com/' target='_blank'><AiOutlineInstagram className='mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer' /></a>
+          <a href='www.youtube.com' target='_blank'><AiOutlineWhatsApp className='mx-2 w-6 h-6 hover:text-green-500 transition-colors hover:cursor-pointer' /></a>
+          <a href='/nosotros' target='_blank'><AiOutlineEnvironment className='mx-2 w-6 h-6 hover:text-red-500 transition-colors hover:cursor-pointer' /></a>
         </div>
       </header>
   )

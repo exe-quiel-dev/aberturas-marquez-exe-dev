@@ -99,7 +99,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\categoriasPvc.jsx"
   );
-  import.meta.hot.lastModified = "1692068306098.2925";
+  import.meta.hot.lastModified = "1692199237527.5068";
 }
 function CategoriasPvc({
   children,
@@ -107,19 +107,14 @@ function CategoriasPvc({
   subcategoria
 }) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("section", { className: "min-h-screen bg-categorias border-b border-gray-300 flex flex-col items-center", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black pb-4 text-white text-center w-full drop-shadow bg-gray-600/50", children: categoria }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black pb-4 text-white text-center w-full drop-shadow bg-gray-600/50 py-6", children: categoria }, void 0, false, {
       fileName: "app/components/categoriasPvc.jsx",
       lineNumber: 28,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h3", { className: "uppercase text-3xl md:text-4xl font-black pb-4 text-amber-400 text-center w-full drop-shadow-sm bg-gray-600/50", children: subcategoria }, void 0, false, {
-      fileName: "app/components/categoriasPvc.jsx",
-      lineNumber: 29,
-      columnNumber: 7
-    }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items center justify-items-center gap-4 w-full min-h-screen bg-gray-600/50 py-10 px-5 rounded", children }, void 0, false, {
       fileName: "app/components/categoriasPvc.jsx",
-      lineNumber: 30,
+      lineNumber: 29,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
@@ -139,4 +134,4 @@ export {
   cardpvc_default,
   categoriasPvc_default
 };
-//# sourceMappingURL=/build/_shared/chunk-6TUSJJD5.js.map
+//# sourceMappingURL=/build/_shared/chunk-AWNHQIUF.js.map

@@ -20,7 +20,7 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // app/styles/index.css
-var styles_default = "/build/_assets/index-N46MWICJ.css";
+var styles_default = "/build/_assets/index-CEBAUQ3O.css";
 
 // app/components/nav.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -42,33 +42,33 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\nav.jsx"
   );
-  import.meta.hot.lastModified = "1691094896469.4272";
+  import.meta.hot.lastModified = "1692196060914.3745";
 }
 function Nav() {
   _s();
   const location = useLocation();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("nav", { className: "w-full text-white flex justify-between items-center text-lg font-light py-5 md:py-0 px-4 flex-wrap gap-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/", className: location.pathname === "/" ? "bg-amber-500 rounded p-1" : "hover:text-gray-300 transition-colors hover:cursor-pointer", children: "Inicio" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/", className: location.pathname === "/" ? "bg-amber-500 rounded p-1 text-black font-semibold" : "hover:text-gray-300 transition-colors hover:cursor-pointer", children: "Inicio" }, void 0, false, {
       fileName: "app/components/nav.jsx",
       lineNumber: 28,
       columnNumber: 17
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/nosotros", className: location.pathname === "/nosotros" ? "bg-amber-500 rounded p-1" : "hover:text-gray-300 transition-colors hover:cursor-pointer", children: "Quienes somos" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/nosotros", className: location.pathname === "/nosotros" ? "bg-amber-500 rounded p-1 text-black font-semibold" : "hover:text-gray-300 transition-colors hover:cursor-pointer", children: "Quienes somos" }, void 0, false, {
       fileName: "app/components/nav.jsx",
       lineNumber: 29,
       columnNumber: 17
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/puertas", className: location.pathname === "/puertas" ? "bg-amber-500 rounded p-1" : "hover:text-gray-300 transition-colors hover:cursor-pointer", children: "Puertas" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/puertas", className: location.pathname === "/puertas" ? "bg-amber-500 rounded p-1 text-black font-semibold" : "hover:text-gray-300 transition-colors hover:cursor-pointer", children: "Puertas" }, void 0, false, {
       fileName: "app/components/nav.jsx",
       lineNumber: 30,
       columnNumber: 17
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ventanas", className: location.pathname === "/ventanas" ? "bg-amber-500 rounded p-1" : "hover:text-gray-300 transition-colors hover:cursor-pointer", children: "Ventanas" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ventanas", className: location.pathname === "/ventanas" ? "bg-amber-500 rounded p-1 text-black font-semibold" : "hover:text-gray-300 transition-colors hover:cursor-pointer", children: "Ventanas" }, void 0, false, {
       fileName: "app/components/nav.jsx",
       lineNumber: 31,
       columnNumber: 17
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/pvc", className: location.pathname === "/pvc" ? "bg-amber-500 rounded p-1" : "hover:text-gray-300 transition-colors hover:cursor-pointer", children: "Linea pvc" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/pvc", className: location.pathname === "/pvc" ? "bg-amber-500 rounded p-1 text-black font-semibold" : "hover:text-gray-300 transition-colors hover:cursor-pointer", children: "Linea pvc" }, void 0, false, {
       fileName: "app/components/nav.jsx",
       lineNumber: 32,
       columnNumber: 17
@@ -207,7 +207,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\header.jsx"
   );
-  import.meta.hot.lastModified = "1692068506667.0667";
+  import.meta.hot.lastModified = "1692198932180.1714";
 }
 function Header() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("header", { className: "flex flex-col md:flex-row items-center justify-center bg-slate-900/50 py-5 border-b border-gray-300 sticky top-0 w-full z-10", children: [
@@ -230,16 +230,16 @@ function Header() {
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "w-1/3 text-white flex items-center justify-center", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "www.youtube.com", target: "_blank", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(AiOutlineInstagram, { className: "mx-2 w-4 h-4 hover:text-violet-500 transition-colors hover:cursor-pointer" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://www.instagram.com/", target: "_blank", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(AiOutlineInstagram, { className: "mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer" }, void 0, false, {
         fileName: "app/components/header.jsx",
         lineNumber: 36,
-        columnNumber: 53
+        columnNumber: 64
       }, this) }, void 0, false, {
         fileName: "app/components/header.jsx",
         lineNumber: 36,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "www.youtube.com", target: "_blank", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(AiOutlineWhatsApp, { className: "mx-2 w-4 h-4 hover:text-green-500 transition-colors hover:cursor-pointer" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "www.youtube.com", target: "_blank", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(AiOutlineWhatsApp, { className: "mx-2 w-6 h-6 hover:text-green-500 transition-colors hover:cursor-pointer" }, void 0, false, {
         fileName: "app/components/header.jsx",
         lineNumber: 37,
         columnNumber: 53
@@ -248,10 +248,10 @@ function Header() {
         lineNumber: 37,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "www.youtube.com", target: "_blank", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(AiOutlineEnvironment, { className: "mx-2 w-4 h-4 hover:text-red-500 transition-colors hover:cursor-pointer" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/nosotros", target: "_blank", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(AiOutlineEnvironment, { className: "mx-2 w-6 h-6 hover:text-red-500 transition-colors hover:cursor-pointer" }, void 0, false, {
         fileName: "app/components/header.jsx",
         lineNumber: 38,
-        columnNumber: 53
+        columnNumber: 47
       }, this) }, void 0, false, {
         fileName: "app/components/header.jsx",
         lineNumber: 38,
@@ -344,7 +344,8 @@ function meta() {
   }, {
     title: "Aberturas Marquez"
   }, {
-    description: "Tienda de aberturas online"
+    name: "description",
+    content: "Tienda de aberturas online"
   }, {
     name: "viewport",
     content: "width=device-width, initial-scale=1.0"
@@ -372,11 +373,11 @@ function links() {
 function App() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Outlet, {}, void 0, false, {
     fileName: "app/root.jsx",
-    lineNumber: 59,
+    lineNumber: 60,
     columnNumber: 13
   }, this) }, void 0, false, {
     fileName: "app/root.jsx",
-    lineNumber: 58,
+    lineNumber: 59,
     columnNumber: 10
   }, this);
 }
@@ -388,39 +389,39 @@ function Document({
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 68,
+        lineNumber: 69,
         columnNumber: 17
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 69,
+        lineNumber: 70,
         columnNumber: 17
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 67,
+      lineNumber: 68,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("body", { className: "bg-cyan-900", id: "root", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("body", { className: "bg-gradient-to-tl from-cyan-700 to-slate-500", id: "root", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(header_default, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 72,
+        lineNumber: 73,
         columnNumber: 17
       }, this),
       children,
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(footer_default, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 74,
+        lineNumber: 75,
         columnNumber: 17
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 71,
+      lineNumber: 72,
       columnNumber: 13
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.jsx",
-    lineNumber: 66,
+    lineNumber: 67,
     columnNumber: 10
   }, this);
 }
@@ -436,4 +437,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-S7YX5JW6.js.map
+//# sourceMappingURL=/build/root-UHXDKKE3.js.map
