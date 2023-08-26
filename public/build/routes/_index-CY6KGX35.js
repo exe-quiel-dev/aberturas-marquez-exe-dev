@@ -38,7 +38,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\_index.jsx"
   );
-  import.meta.hot.lastModified = "1692199997712.8938";
+  import.meta.hot.lastModified = "1692730325068.084";
 }
 function Index() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, { children: [
@@ -149,4 +149,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   index_default as default
 };
-//# sourceMappingURL=/build/routes/_index-556M5IWC.js.map
+//# sourceMappingURL=/build/routes/_index-CY6KGX35.js.map

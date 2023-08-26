@@ -4,7 +4,7 @@ import {
 import {
   card_default,
   categorias_default
-} from "/build/_shared/chunk-QYHZSCTZ.js";
+} from "/build/_shared/chunk-FB7R36IV.js";
 import {
   createHotContext
 } from "/build/_shared/chunk-CKVHI6DB.js";
@@ -125,4 +125,4 @@ export {
   chapasimple_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/chapasimple-TG7DWRGI.js.map
+//# sourceMappingURL=/build/routes/chapasimple-FRPBVBEC.js.map

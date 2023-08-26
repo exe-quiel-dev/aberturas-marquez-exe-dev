@@ -8,9 +8,19 @@ import { placa } from "../productos/puertas_placa"
 export function meta() {
   return [
     {
-      title: 'Aberturas Marquez - Puertas Placa',
-      description: 'Venta de aberturas'
-    }
+      charset: 'utf-8'
+  },
+  {
+      title: 'Aberturas Marquez'
+  },
+  {
+      name: 'description',
+      content: 'Tienda de aberturas online'
+  },
+  {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1.0'
+  }
   ]
 }
 

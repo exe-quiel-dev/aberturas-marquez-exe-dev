@@ -1,7 +1,7 @@
 import {
   card_default,
   categorias_default
-} from "/build/_shared/chunk-QYHZSCTZ.js";
+} from "/build/_shared/chunk-FB7R36IV.js";
 import {
   createHotContext
 } from "/build/_shared/chunk-CKVHI6DB.js";
@@ -112,4 +112,4 @@ export {
   placa_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/placa-JRTH5PLV.js.map
+//# sourceMappingURL=/build/routes/placa-MHNKF4JH.js.map

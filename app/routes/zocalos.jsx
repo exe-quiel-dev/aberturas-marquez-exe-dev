@@ -8,9 +8,19 @@ import { zocalos } from "../productos/zocalos"
 export function meta() {
   return [
     {
-      title: 'Aberturas Marquez - Zocalos PVC',
-      description: 'Venta de aberturas'
-    }
+      charset: 'utf-8'
+  },
+  {
+      title: 'Aberturas Marquez'
+  },
+  {
+      name: 'description',
+      content: 'Tienda de aberturas online'
+  },
+  {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1.0'
+  }
   ]
 }
 

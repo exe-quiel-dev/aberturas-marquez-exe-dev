@@ -1,7 +1,7 @@
 import {
   card_default,
   categorias_default
-} from "/build/_shared/chunk-QYHZSCTZ.js";
+} from "/build/_shared/chunk-FB7R36IV.js";
 import {
   createHotContext
 } from "/build/_shared/chunk-CKVHI6DB.js";
@@ -125,4 +125,4 @@ export {
   doblechapa_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/doblechapa-Q2VK4F4N.js.map
+//# sourceMappingURL=/build/routes/doblechapa-VIPBURJQ.js.map

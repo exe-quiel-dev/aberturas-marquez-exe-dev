@@ -27,7 +27,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\card.jsx"
   );
-  import.meta.hot.lastModified = "1692051286525.083";
+  import.meta.hot.lastModified = "1692891978522.3213";
 }
 var Card = ({
   nombre,
@@ -140,7 +140,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\categorias.jsx"
   );
-  import.meta.hot.lastModified = "1692095855907.387";
+  import.meta.hot.lastModified = "1692891992446.8838";
 }
 var Categorias = ({
   children,
@@ -175,4 +175,4 @@ export {
   card_default,
   categorias_default
 };
-//# sourceMappingURL=/build/_shared/chunk-QYHZSCTZ.js.map
+//# sourceMappingURL=/build/_shared/chunk-FB7R36IV.js.map

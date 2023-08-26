@@ -8,9 +8,19 @@ import Categorias from "../components/categorias"
 export function meta() {
   return [
     {
-      title: 'Aberturas Marquez - Puertas Chapa Simple',
-      description: 'Venta de aberturas'
-    }
+      charset: 'utf-8'
+  },
+  {
+      title: 'Aberturas Marquez'
+  },
+  {
+      name: 'description',
+      content: 'Tienda de aberturas online'
+  },
+  {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1.0'
+  }
   ]
 }
 

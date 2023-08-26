@@ -20,7 +20,7 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // app/styles/index.css
-var styles_default = "/build/_assets/index-CEBAUQ3O.css";
+var styles_default = "/build/_assets/index-RK7RS6ZN.css";
 
 // app/components/nav.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -437,4 +437,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-UHXDKKE3.js.map
+//# sourceMappingURL=/build/root-VM4AWUJ7.js.map

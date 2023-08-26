@@ -3,9 +3,19 @@ import mapa from '../../public/imgs/map.jpg'
 export function meta() {
   return [
     {
-      title: 'Aberturas Marquez - Sobre Nosotros',
-      description: 'Venta de aberturas'
-    }
+      charset: 'utf-8'
+  },
+  {
+      title: 'Aberturas Marquez'
+  },
+  {
+      name: 'description',
+      content: 'Tienda de aberturas online'
+  },
+  {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1.0'
+  }
   ]
 }
 

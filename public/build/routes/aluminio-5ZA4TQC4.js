@@ -1,7 +1,7 @@
 import {
   card_default,
   categorias_default
-} from "/build/_shared/chunk-QYHZSCTZ.js";
+} from "/build/_shared/chunk-FB7R36IV.js";
 import {
   createHotContext
 } from "/build/_shared/chunk-CKVHI6DB.js";
@@ -122,4 +122,4 @@ export {
   aluminio_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/aluminio-ZXWLLXRA.js.map
+//# sourceMappingURL=/build/routes/aluminio-5ZA4TQC4.js.map

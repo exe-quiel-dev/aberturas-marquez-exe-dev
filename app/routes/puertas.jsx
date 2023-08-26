@@ -3,8 +3,19 @@ import { Link } from "@remix-run/react"
 export function meta() {
   return [
     {
-      title: 'Aberturas Marquez - Puertas'
-    }
+      charset: 'utf-8'
+  },
+  {
+      title: 'Aberturas Marquez'
+  },
+  {
+      name: 'description',
+      content: 'Tienda de aberturas online'
+  },
+  {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1.0'
+  }
   ]
 }
 
