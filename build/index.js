@@ -145,7 +145,7 @@ __export(root_exports, {
 var import_react3 = require("@remix-run/react");
 
 // app/styles/index.css
-var styles_default = "/build/_assets/index-RK7RS6ZN.css";
+var styles_default = "/build/_assets/index-AYLVBS6U.css";
 
 // app/components/nav.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
@@ -594,8 +594,18 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
 function meta2() {
   return [
     {
-      title: "Aberturas Marquez - Puertas Chapa Simple",
-      description: "Venta de aberturas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -617,7 +627,7 @@ function Chapasimple() {
         !1,
         {
           fileName: "app/routes/chapasimple.jsx",
-          lineNumber: 21,
+          lineNumber: 31,
           columnNumber: 9
         },
         this
@@ -628,7 +638,7 @@ function Chapasimple() {
     !1,
     {
       fileName: "app/routes/chapasimple.jsx",
-      lineNumber: 19,
+      lineNumber: 29,
       columnNumber: 5
     },
     this
@@ -798,8 +808,18 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime");
 function meta3() {
   return [
     {
-      title: "Aberturas Marquez - Ventanas PVC",
-      description: "Venta de aberturas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -818,7 +838,7 @@ function VentanasPvc() {
         !1,
         {
           fileName: "app/routes/ventanaspvc.jsx",
-          lineNumber: 21,
+          lineNumber: 31,
           columnNumber: 11
         },
         this
@@ -830,7 +850,7 @@ function VentanasPvc() {
     !1,
     {
       fileName: "app/routes/ventanaspvc.jsx",
-      lineNumber: 19,
+      lineNumber: 29,
       columnNumber: 5
     },
     this
@@ -906,8 +926,18 @@ var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
 function meta4() {
   return [
     {
-      title: "Aberturas Marquez - Puertas Chapa Doble",
-      description: "Venta de aberturas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -929,7 +959,7 @@ function Doblechapa() {
         !1,
         {
           fileName: "app/routes/doblechapa.jsx",
-          lineNumber: 21,
+          lineNumber: 31,
           columnNumber: 9
         },
         this
@@ -940,7 +970,7 @@ function Doblechapa() {
     !1,
     {
       fileName: "app/routes/doblechapa.jsx",
-      lineNumber: 19,
+      lineNumber: 29,
       columnNumber: 5
     },
     this
@@ -977,8 +1007,18 @@ var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
 function meta5() {
   return [
     {
-      title: "Aberturas Marquez - Puertas de Seguridad",
-      description: "Venta de aberturas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -1000,7 +1040,7 @@ function Seguridad() {
         !1,
         {
           fileName: "app/routes/seguridad.jsx",
-          lineNumber: 21,
+          lineNumber: 31,
           columnNumber: 9
         },
         this
@@ -1011,7 +1051,7 @@ function Seguridad() {
     !1,
     {
       fileName: "app/routes/seguridad.jsx",
-      lineNumber: 19,
+      lineNumber: 29,
       columnNumber: 5
     },
     this
@@ -1044,8 +1084,18 @@ var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
 function meta6() {
   return [
     {
-      title: "Aberturas Marquez - Tecno Deck",
-      description: "Venta de aberturas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -1064,7 +1114,7 @@ function Tecnodeck() {
         !1,
         {
           fileName: "app/routes/tecnodeck.jsx",
-          lineNumber: 21,
+          lineNumber: 31,
           columnNumber: 11
         },
         this
@@ -1076,7 +1126,7 @@ function Tecnodeck() {
     !1,
     {
       fileName: "app/routes/tecnodeck.jsx",
-      lineNumber: 19,
+      lineNumber: 29,
       columnNumber: 5
     },
     this
@@ -1149,8 +1199,18 @@ var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
 function meta7() {
   return [
     {
-      title: "Aberturas Marquez - Puertas Aluminio",
-      description: "Venta de aberturas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -1172,7 +1232,7 @@ function Aluminio() {
         !1,
         {
           fileName: "app/routes/aluminio.jsx",
-          lineNumber: 21,
+          lineNumber: 31,
           columnNumber: 9
         },
         this
@@ -1183,7 +1243,7 @@ function Aluminio() {
     !1,
     {
       fileName: "app/routes/aluminio.jsx",
-      lineNumber: 19,
+      lineNumber: 29,
       columnNumber: 5
     },
     this
@@ -1206,8 +1266,18 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
 function meta8() {
   return [
     {
-      title: "Aberturas Marquez - Sobre Nosotros",
-      description: "Venta de aberturas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -1216,48 +1286,48 @@ function Nosotros() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h1", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "Nosotros" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
-        lineNumber: 17,
+        lineNumber: 27,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-md md:text-lg font-light py-4", children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias ad. Aliquid quod sed perferendis debitis nesciunt necessitatibus, temporibus tempora accusantium eligendi, dolorum facilis reiciendis ex dolore est architecto quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias ad. Aliquid quod sed perferendis debitis nesciunt necessitatibus, temporibus tempora accusantium eligendi, dolorum facilis reiciendis ex dolore est architecto quis!" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
-        lineNumber: 18,
+        lineNumber: 28,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/nosotros.jsx",
-      lineNumber: 16,
+      lineNumber: 26,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "\xBF Donde nos encontramos ?" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
-        lineNumber: 23,
+        lineNumber: 33,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: map_default, alt: "Imagen de mapa", className: "w-full my-2" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
-        lineNumber: 24,
+        lineNumber: 34,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center border-b border-black border-spacing-4", children: "Av. Brig. Gral. Juan Manuel de Rosas 2475, B1655 Jos\xE9 Le\xF3n Su\xE1rez, Provincia de Buenos Aires" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
-        lineNumber: 25,
+        lineNumber: 35,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center", children: "Horarios de atenci\xF3n: Lunes a Viernes de 9:00 a 12:30 / 15:00 a 19:00 - Sabados de 9:00 a 13:00" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
-        lineNumber: 26,
+        lineNumber: 36,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/nosotros.jsx",
-      lineNumber: 22,
+      lineNumber: 32,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/nosotros.jsx",
-    lineNumber: 15,
+    lineNumber: 25,
     columnNumber: 5
   }, this);
 }
@@ -1288,7 +1358,18 @@ var import_react6 = require("@remix-run/react"), import_jsx_dev_runtime18 = requ
 function meta9() {
   return [
     {
-      title: "Aberturas Marquez - Puertas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -1296,10 +1377,10 @@ function Puertas() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("section", { className: "min-h-screen flex flex-col items-center justify-center bg-categorias", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "flex flex-col items-center justify-center p-10", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow", children: "Puertas" }, void 0, !1, {
       fileName: "app/routes/puertas.jsx",
-      lineNumber: 15,
+      lineNumber: 26,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "grid grid-cols-5 items-center justify-items-center p-10 w-full gap-6", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "flex flex-col lg:grid lg:grid-cols-5 items-center justify-items-center p-10 w-full gap-6", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
         import_react6.Link,
         {
@@ -1311,7 +1392,7 @@ function Puertas() {
         !1,
         {
           fileName: "app/routes/puertas.jsx",
-          lineNumber: 17,
+          lineNumber: 28,
           columnNumber: 11
         },
         this
@@ -1327,7 +1408,7 @@ function Puertas() {
         !1,
         {
           fileName: "app/routes/puertas.jsx",
-          lineNumber: 21,
+          lineNumber: 32,
           columnNumber: 11
         },
         this
@@ -1343,7 +1424,7 @@ function Puertas() {
         !1,
         {
           fileName: "app/routes/puertas.jsx",
-          lineNumber: 25,
+          lineNumber: 36,
           columnNumber: 11
         },
         this
@@ -1359,7 +1440,7 @@ function Puertas() {
         !1,
         {
           fileName: "app/routes/puertas.jsx",
-          lineNumber: 29,
+          lineNumber: 40,
           columnNumber: 11
         },
         this
@@ -1375,23 +1456,23 @@ function Puertas() {
         !1,
         {
           fileName: "app/routes/puertas.jsx",
-          lineNumber: 33,
+          lineNumber: 44,
           columnNumber: 11
         },
         this
       )
     ] }, void 0, !0, {
       fileName: "app/routes/puertas.jsx",
-      lineNumber: 16,
+      lineNumber: 27,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/puertas.jsx",
-    lineNumber: 14,
+    lineNumber: 25,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/routes/puertas.jsx",
-    lineNumber: 13,
+    lineNumber: 24,
     columnNumber: 5
   }, this);
 }
@@ -1422,8 +1503,18 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime");
 function meta10() {
   return [
     {
-      title: "Aberturas Marquez - Zocalos PVC",
-      description: "Venta de aberturas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -1442,7 +1533,7 @@ function Zocalos() {
         !1,
         {
           fileName: "app/routes/zocalos.jsx",
-          lineNumber: 21,
+          lineNumber: 31,
           columnNumber: 11
         },
         this
@@ -1454,7 +1545,7 @@ function Zocalos() {
     !1,
     {
       fileName: "app/routes/zocalos.jsx",
-      lineNumber: 19,
+      lineNumber: 29,
       columnNumber: 5
     },
     this
@@ -1642,8 +1733,18 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime");
 function meta11() {
   return [
     {
-      title: "Aberturas Marquez - Puertas Placa",
-      description: "Venta de aberturas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -1665,7 +1766,7 @@ function Placa() {
         !1,
         {
           fileName: "app/routes/placa.jsx",
-          lineNumber: 21,
+          lineNumber: 31,
           columnNumber: 9
         },
         this
@@ -1676,7 +1777,7 @@ function Placa() {
     !1,
     {
       fileName: "app/routes/placa.jsx",
-      lineNumber: 19,
+      lineNumber: 29,
       columnNumber: 5
     },
     this
@@ -1694,8 +1795,18 @@ var import_react8 = require("@remix-run/react"), import_jsx_dev_runtime22 = requ
 function meta12() {
   return [
     {
-      title: "Aberturas Marquez - PVC",
-      description: "Venta de aberturas"
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
     }
   ];
 }
@@ -1703,10 +1814,10 @@ function Pvc() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_jsx_dev_runtime22.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("section", { className: "min-h-screen flex flex-col items-center justify-center bg-categorias", children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { className: "flex flex-col items-center justify-center p-10", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow", children: "PVC" }, void 0, !1, {
       fileName: "app/routes/pvc.jsx",
-      lineNumber: 17,
+      lineNumber: 27,
       columnNumber: 11
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { className: "grid grid-cols-3 items-center justify-items-center p-10 w-full gap-6", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { className: "flex flex-col lg:grid lg:grid-cols-3 items-center justify-items-center p-10 w-full gap-6", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
         import_react8.Link,
         {
@@ -1718,7 +1829,7 @@ function Pvc() {
         !1,
         {
           fileName: "app/routes/pvc.jsx",
-          lineNumber: 19,
+          lineNumber: 29,
           columnNumber: 13
         },
         this
@@ -1734,7 +1845,7 @@ function Pvc() {
         !1,
         {
           fileName: "app/routes/pvc.jsx",
-          lineNumber: 23,
+          lineNumber: 33,
           columnNumber: 13
         },
         this
@@ -1750,34 +1861,34 @@ function Pvc() {
         !1,
         {
           fileName: "app/routes/pvc.jsx",
-          lineNumber: 27,
+          lineNumber: 37,
           columnNumber: 13
         },
         this
       )
     ] }, void 0, !0, {
       fileName: "app/routes/pvc.jsx",
-      lineNumber: 18,
+      lineNumber: 28,
       columnNumber: 11
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/pvc.jsx",
-    lineNumber: 16,
+    lineNumber: 26,
     columnNumber: 9
   }, this) }, void 0, !1, {
     fileName: "app/routes/pvc.jsx",
-    lineNumber: 15,
+    lineNumber: 25,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/routes/pvc.jsx",
-    lineNumber: 14,
+    lineNumber: 24,
     columnNumber: 5
   }, this);
 }
 var pvc_default = Pvc;
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-VM4AWUJ7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-CY6KGX35.js", imports: ["/build/_shared/chunk-4C27JRJE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-5ZA4TQC4.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-FRPBVBEC.js", imports: ["/build/_shared/chunk-4C27JRJE.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-VIPBURJQ.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-BSW2GF2E.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-MHNKF4JH.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-XY2TFIMG.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-6GBICGIG.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-QKEFOOD5.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-UYYKXSFB.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-QZYWTB7E.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-DS3EBOMC.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-VVSSDSXZ.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "70c3c47e", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1692891993023 }, url: "/build/manifest-70C3C47E.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-5ERONY5A.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-CY6KGX35.js", imports: ["/build/_shared/chunk-4C27JRJE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-XIKVSPLT.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-TEKKZIUJ.js", imports: ["/build/_shared/chunk-4C27JRJE.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-XXELOWEI.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-KVJK6RQQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-JSPH6J63.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-2W5YZ6EV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-RMRTPIZB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-KVJ7GHFA.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-7THQMR7L.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-QZYWTB7E.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-5FRVC64W.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-VND4O3S6.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "82f2f37f", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1693049075109 }, url: "/build/manifest-82F2F37F.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
