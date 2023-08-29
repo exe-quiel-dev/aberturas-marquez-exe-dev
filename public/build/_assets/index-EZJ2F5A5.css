@@ -452,12 +452,6 @@ video {
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
 .flex-col {
   flex-direction: column;
 }
@@ -661,6 +655,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.underline {
+  text-decoration-line: underline;
+}
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -754,20 +751,9 @@ video {
     var(--tw-ring-shadow, 0 0 #0000),
     var(--tw-shadow);
 }
-@media (min-width: 640px) {
-  .sm\:flex {
-    display: flex;
-  }
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-}
 @media (min-width: 768px) {
   .md\:inline {
     display: inline;
-  }
-  .md\:grid {
-    display: grid;
   }
   .md\:h-full {
     height: 100%;
@@ -780,9 +766,6 @@ video {
   }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .md\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
   .md\:flex-row {
     flex-direction: row;
@@ -847,5 +830,9 @@ video {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
-/*# sourceMappingURL=/build/_assets/index-S7X5ZWI3.css.map */
+/*# sourceMappingURL=/build/_assets/index-JOKAWMDV.css.map */

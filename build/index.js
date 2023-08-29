@@ -145,7 +145,7 @@ __export(root_exports, {
 var import_react3 = require("@remix-run/react");
 
 // app/styles/index.css
-var styles_default = "/build/_assets/index-AYLVBS6U.css";
+var styles_default = "/build/_assets/index-EZJ2F5A5.css";
 
 // app/components/nav.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
@@ -1289,7 +1289,7 @@ function Nosotros() {
         lineNumber: 27,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-md md:text-lg font-light py-4", children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias ad. Aliquid quod sed perferendis debitis nesciunt necessitatibus, temporibus tempora accusantium eligendi, dolorum facilis reiciendis ex dolore est architecto quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias ad. Aliquid quod sed perferendis debitis nesciunt necessitatibus, temporibus tempora accusantium eligendi, dolorum facilis reiciendis ex dolore est architecto quis!" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-md md:text-lg font-light py-4", children: "En Aberturas Marquez nos ocupamos de asesorar al cliente sobre sus mejores opciones para sus necesidades teniendo en cuenta la relaci\xF3n calidad precio. Priorizamos el plazo de entrega fijado para brindarles un buen servicio a nuestros clientes. Trabajamos con l\xEDneas de productos economicas y con l\xEDneas premium para que el cliente pueda elegir lo que mas se adapte a sus necesidades y su presupuesto." }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 28,
         columnNumber: 9
@@ -1302,27 +1302,42 @@ function Nosotros() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "\xBF Donde nos encontramos ?" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
-        lineNumber: 33,
+        lineNumber: 32,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: map_default, alt: "Imagen de mapa", className: "w-full my-2" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
-        lineNumber: 34,
+        lineNumber: 33,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center border-b border-black border-spacing-4", children: "Av. Brig. Gral. Juan Manuel de Rosas 2475, B1655 Jos\xE9 Le\xF3n Su\xE1rez, Provincia de Buenos Aires" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
-        lineNumber: 35,
+        lineNumber: 34,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center", children: "Horarios de atenci\xF3n: Lunes a Viernes de 9:00 a 12:30 / 15:00 a 19:00 - Sabados de 9:00 a 13:00" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
+        lineNumber: 35,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h3", { className: "text-start uppercase text-lg md:text-xl lg:text-2xl font-bold underline", children: "Contacto" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
         lineNumber: 36,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-start", children: "Whatsapp: 11-4444-5555 ( Ezequiel )" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 37,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-start", children: "Instagram: @Aberturas_Marquez" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 38,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/nosotros.jsx",
-      lineNumber: 32,
+      lineNumber: 31,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
@@ -1888,7 +1903,7 @@ function Pvc() {
 var pvc_default = Pvc;
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-5ERONY5A.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-CY6KGX35.js", imports: ["/build/_shared/chunk-4C27JRJE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-XIKVSPLT.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-TEKKZIUJ.js", imports: ["/build/_shared/chunk-4C27JRJE.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-XXELOWEI.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-KVJK6RQQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-JSPH6J63.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-2W5YZ6EV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-RMRTPIZB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-KVJ7GHFA.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-7THQMR7L.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-QZYWTB7E.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-5FRVC64W.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-VND4O3S6.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "82f2f37f", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1693049075109 }, url: "/build/manifest-82F2F37F.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-IKFGX5I4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-CY6KGX35.js", imports: ["/build/_shared/chunk-4C27JRJE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-XIKVSPLT.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-TEKKZIUJ.js", imports: ["/build/_shared/chunk-4C27JRJE.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-XXELOWEI.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-KJ33JYHN.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-JSPH6J63.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-2W5YZ6EV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-RMRTPIZB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-KVJ7GHFA.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-7THQMR7L.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-QZYWTB7E.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-5FRVC64W.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-VND4O3S6.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "b97d9436", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1693303776147 }, url: "/build/manifest-B97D9436.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
