@@ -826,13 +826,13 @@ video {
   .lg\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
-/*# sourceMappingURL=/build/_assets/index-JOKAWMDV.css.map */
+/*# sourceMappingURL=/build/_assets/index-D4PVEZEA.css.map */

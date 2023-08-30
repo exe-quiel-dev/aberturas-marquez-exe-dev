@@ -29,7 +29,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\productos\\puertas_placa.js"
   );
-  import.meta.hot.lastModified = "1691354271021.121";
+  import.meta.hot.lastModified = "1693391294974.601";
 }
 var placa = [
   {
@@ -119,4 +119,4 @@ export {
   placa_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/placa-JSPH6J63.js.map
+//# sourceMappingURL=/build/routes/placa-CXQXGCBE.js.map

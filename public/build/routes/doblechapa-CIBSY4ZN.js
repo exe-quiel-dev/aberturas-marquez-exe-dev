@@ -26,13 +26,34 @@ var linea_100_3_default = "/build/_assets/linea-100-3-PXBMA6LI.jpg";
 // public/imgs/chapa-doble-sin-inyectar-1.jpg
 var chapa_doble_sin_inyectar_1_default = "/build/_assets/chapa-doble-sin-inyectar-1-AVJTP3Y2.jpg";
 
+// public/imgs/img-puertas-L1810.png
+var img_puertas_L1810_default = "/build/_assets/img-puertas-L1810-MU6ROHAY.png";
+
+// public/imgs/img-puertas-LC1865_2.png
+var img_puertas_LC1865_2_default = "/build/_assets/img-puertas-LC1865_2-5CLYTZUQ.png";
+
+// public/imgs/img-puertas-clasica155_2.png
+var img_puertas_clasica155_2_default = "/build/_assets/img-puertas-clasica155_2-SH7PGIMO.png";
+
+// public/imgs/img-puertas-clasica1600.png
+var img_puertas_clasica1600_default = "/build/_assets/img-puertas-clasica1600-3WDNDNDU.png";
+
+// public/imgs/img-puertas-clasica1665.png
+var img_puertas_clasica1665_default = "/build/_assets/img-puertas-clasica1665-ZAIV52ON.png";
+
+// public/imgs/img-puertas-clasica1700.png
+var img_puertas_clasica1700_default = "/build/_assets/img-puertas-clasica1700-UP6CLJCO.png";
+
+// public/imgs/img-puertas-clasica1755.png
+var img_puertas_clasica1755_default = "/build/_assets/img-puertas-clasica1755-TGPUHOMJ.png";
+
 // app/productos/puertas_doble_ch.js
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
     "app\\productos\\puertas_doble_ch.js"
   );
-  import.meta.hot.lastModified = "1691097228082.197";
+  import.meta.hot.lastModified = "1693360595386.1294";
 }
 var chapaDoble = [
   {
@@ -74,6 +95,76 @@ var chapaDoble = [
     bisagras: "Municion",
     cerradura: "No especificado",
     img: chapa_doble_sin_inyectar_1_default
+  },
+  {
+    id: 5,
+    nombre: "Clasica 1810",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_L1810_default
+  },
+  {
+    id: 6,
+    nombre: "Clasica 1865",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_LC1865_2_default
+  },
+  {
+    id: 7,
+    nombre: "Clasica 155",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica155_2_default
+  },
+  {
+    id: 8,
+    nombre: "Clasica 1600",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1600_default
+  },
+  {
+    id: 9,
+    nombre: "Clasica 1665",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1665_default
+  },
+  {
+    id: 10,
+    nombre: "Clasica 1700",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1700_default
+  },
+  {
+    id: 11,
+    nombre: "Clasica 1755",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1755_default
   }
 ];
 
@@ -96,7 +187,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\doblechapa.jsx"
   );
-  import.meta.hot.lastModified = "1693047715089.3953";
+  import.meta.hot.lastModified = "1693359929683.709";
 }
 function meta() {
   return [{
@@ -132,4 +223,4 @@ export {
   doblechapa_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/doblechapa-XXELOWEI.js.map
+//# sourceMappingURL=/build/routes/doblechapa-CIBSY4ZN.js.map

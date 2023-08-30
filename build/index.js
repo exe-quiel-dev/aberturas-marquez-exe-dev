@@ -145,7 +145,7 @@ __export(root_exports, {
 var import_react3 = require("@remix-run/react");
 
 // app/styles/index.css
-var styles_default = "/build/_assets/index-EZJ2F5A5.css";
+var styles_default = "/build/_assets/index-ZMFFJFZE.css";
 
 // app/components/nav.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
@@ -877,6 +877,27 @@ var linea_100_3_default = "/build/_assets/linea-100-3-PXBMA6LI.jpg";
 // public/imgs/chapa-doble-sin-inyectar-1.jpg
 var chapa_doble_sin_inyectar_1_default = "/build/_assets/chapa-doble-sin-inyectar-1-AVJTP3Y2.jpg";
 
+// public/imgs/img-puertas-L1810.png
+var img_puertas_L1810_default = "/build/_assets/img-puertas-L1810-MU6ROHAY.png";
+
+// public/imgs/img-puertas-LC1865_2.png
+var img_puertas_LC1865_2_default = "/build/_assets/img-puertas-LC1865_2-5CLYTZUQ.png";
+
+// public/imgs/img-puertas-clasica155_2.png
+var img_puertas_clasica155_2_default = "/build/_assets/img-puertas-clasica155_2-SH7PGIMO.png";
+
+// public/imgs/img-puertas-clasica1600.png
+var img_puertas_clasica1600_default = "/build/_assets/img-puertas-clasica1600-3WDNDNDU.png";
+
+// public/imgs/img-puertas-clasica1665.png
+var img_puertas_clasica1665_default = "/build/_assets/img-puertas-clasica1665-ZAIV52ON.png";
+
+// public/imgs/img-puertas-clasica1700.png
+var img_puertas_clasica1700_default = "/build/_assets/img-puertas-clasica1700-UP6CLJCO.png";
+
+// public/imgs/img-puertas-clasica1755.png
+var img_puertas_clasica1755_default = "/build/_assets/img-puertas-clasica1755-TGPUHOMJ.png";
+
 // app/productos/puertas_doble_ch.js
 var chapaDoble = [
   {
@@ -918,6 +939,76 @@ var chapaDoble = [
     bisagras: "Municion",
     cerradura: "No especificado",
     img: chapa_doble_sin_inyectar_1_default
+  },
+  {
+    id: 5,
+    nombre: "Clasica 1810",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_L1810_default
+  },
+  {
+    id: 6,
+    nombre: "Clasica 1865",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_LC1865_2_default
+  },
+  {
+    id: 7,
+    nombre: "Clasica 155",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica155_2_default
+  },
+  {
+    id: 8,
+    nombre: "Clasica 1600",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1600_default
+  },
+  {
+    id: 9,
+    nombre: "Clasica 1665",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1665_default
+  },
+  {
+    id: 10,
+    nombre: "Clasica 1700",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1700_default
+  },
+  {
+    id: 11,
+    nombre: "Clasica 1755",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1755_default
   }
 ];
 
@@ -986,7 +1077,19 @@ __export(seguridad_exports, {
 });
 
 // public/imgs/puertas-de-seguridad-1.jpg
-var puertas_de_seguridad_1_default = "/build/_assets/puertas-de-seguridad-1-M2EOA4Y2.jpg";
+var puertas_de_seguridad_1_default = "/build/_assets/puertas-de-seguridad-1-TVEZNEF4.jpg";
+
+// public/imgs/2000-2.png
+var __default = "/build/_assets/2000-2-CVFPMY3G.png";
+
+// public/imgs/2000-3.png
+var __default2 = "/build/_assets/2000-3-4NJDQOKB.png";
+
+// public/imgs/2000-4.png
+var __default3 = "/build/_assets/2000-4-SXLSZ2PX.png";
+
+// public/imgs/2000-5.png
+var __default4 = "/build/_assets/2000-5-C2RF44GW.png";
 
 // app/productos/puertas_seguridad.js
 var seguridad = [
@@ -999,6 +1102,46 @@ var seguridad = [
     bisagras: "4 Cerraduras munici\xF3n reforzadas de 124 x 45 x 3 mm",
     cerradura: "Dos cerrojos de seguridad doble paleta",
     img: puertas_de_seguridad_1_default
+  },
+  {
+    id: 2,
+    nombre: "Linea 2000",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: " - ",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "A bolilla",
+    cerradura: "2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada",
+    img: __default
+  },
+  {
+    id: 3,
+    nombre: "Linea 2000",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: " - ",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "A bolilla",
+    cerradura: "2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada",
+    img: __default2
+  },
+  {
+    id: 4,
+    nombre: "Linea 2000",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: " - ",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "A bolilla",
+    cerradura: "2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada",
+    img: __default3
+  },
+  {
+    id: 5,
+    nombre: "Linea 2000",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: " - ",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "A bolilla",
+    cerradura: "2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada",
+    img: __default4
   }
 ];
 
@@ -1259,7 +1402,7 @@ __export(nosotros_exports, {
 });
 
 // public/imgs/map.jpg
-var map_default = "/build/_assets/map-JYISOBJE.jpg";
+var map_default = "/build/_assets/map-HLDFBFIJ.jpg";
 
 // app/routes/nosotros.jsx
 var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
@@ -1903,7 +2046,7 @@ function Pvc() {
 var pvc_default = Pvc;
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-IKFGX5I4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-CY6KGX35.js", imports: ["/build/_shared/chunk-4C27JRJE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-XIKVSPLT.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-TEKKZIUJ.js", imports: ["/build/_shared/chunk-4C27JRJE.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-XXELOWEI.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-KJ33JYHN.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-JSPH6J63.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-2W5YZ6EV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-RMRTPIZB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-KVJ7GHFA.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-7THQMR7L.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-QZYWTB7E.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-5FRVC64W.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-VND4O3S6.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "b97d9436", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1693303776147 }, url: "/build/manifest-B97D9436.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DZPEGCIV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-CY6KGX35.js", imports: ["/build/_shared/chunk-4C27JRJE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-XIKVSPLT.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-TEKKZIUJ.js", imports: ["/build/_shared/chunk-4C27JRJE.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-CIBSY4ZN.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-LGAZIYXD.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-CXQXGCBE.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-2W5YZ6EV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-RMRTPIZB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-7CLMLSW3.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-7THQMR7L.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-QZYWTB7E.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-5FRVC64W.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-VND4O3S6.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "33acdf8d", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1693391295734 }, url: "/build/manifest-33ACDF8D.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

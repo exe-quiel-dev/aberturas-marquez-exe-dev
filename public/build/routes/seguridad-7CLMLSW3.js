@@ -15,7 +15,19 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // public/imgs/puertas-de-seguridad-1.jpg
-var puertas_de_seguridad_1_default = "/build/_assets/puertas-de-seguridad-1-M2EOA4Y2.jpg";
+var puertas_de_seguridad_1_default = "/build/_assets/puertas-de-seguridad-1-TVEZNEF4.jpg";
+
+// public/imgs/2000-2.png
+var __default = "/build/_assets/2000-2-CVFPMY3G.png";
+
+// public/imgs/2000-3.png
+var __default2 = "/build/_assets/2000-3-4NJDQOKB.png";
+
+// public/imgs/2000-4.png
+var __default3 = "/build/_assets/2000-4-SXLSZ2PX.png";
+
+// public/imgs/2000-5.png
+var __default4 = "/build/_assets/2000-5-C2RF44GW.png";
 
 // app/productos/puertas_seguridad.js
 if (import.meta) {
@@ -23,7 +35,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\productos\\puertas_seguridad.js"
   );
-  import.meta.hot.lastModified = "1691354007503.8274";
+  import.meta.hot.lastModified = "1693360771238.3652";
 }
 var seguridad = [
   {
@@ -35,6 +47,46 @@ var seguridad = [
     bisagras: "4 Cerraduras munici\xF3n reforzadas de 124 x 45 x 3 mm",
     cerradura: "Dos cerrojos de seguridad doble paleta",
     img: puertas_de_seguridad_1_default
+  },
+  {
+    id: 2,
+    nombre: "Linea 2000",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: " - ",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "A bolilla",
+    cerradura: "2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada",
+    img: __default
+  },
+  {
+    id: 3,
+    nombre: "Linea 2000",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: " - ",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "A bolilla",
+    cerradura: "2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada",
+    img: __default2
+  },
+  {
+    id: 4,
+    nombre: "Linea 2000",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: " - ",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "A bolilla",
+    cerradura: "2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada",
+    img: __default3
+  },
+  {
+    id: 5,
+    nombre: "Linea 2000",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: " - ",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "A bolilla",
+    cerradura: "2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada",
+    img: __default4
   }
 ];
 
@@ -93,4 +145,4 @@ export {
   seguridad_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/seguridad-KVJ7GHFA.js.map
+//# sourceMappingURL=/build/routes/seguridad-7CLMLSW3.js.map

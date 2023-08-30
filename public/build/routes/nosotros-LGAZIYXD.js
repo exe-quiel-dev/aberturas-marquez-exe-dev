@@ -11,7 +11,7 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // public/imgs/map.jpg
-var map_default = "/build/_assets/map-JYISOBJE.jpg";
+var map_default = "/build/_assets/map-HLDFBFIJ.jpg";
 
 // app/routes/nosotros.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -32,7 +32,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\nosotros.jsx"
   );
-  import.meta.hot.lastModified = "1693303775573.123";
+  import.meta.hot.lastModified = "1693360902267.741";
 }
 function meta() {
   return [{
@@ -122,4 +122,4 @@ export {
   nosotros_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/nosotros-KJ33JYHN.js.map
+//# sourceMappingURL=/build/routes/nosotros-LGAZIYXD.js.map
