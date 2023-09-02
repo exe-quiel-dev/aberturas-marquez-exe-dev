@@ -45,6 +45,10 @@ function Puertas() {
             to='/aluminio'
             className="text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full"
           >Aluminio</Link>
+          <Link
+            to='/plegadizas'
+            className="text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full"
+          >Plegadizas</Link>
         </div>
       </div>
     </section>

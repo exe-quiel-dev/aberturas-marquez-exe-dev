@@ -1,7 +1,12 @@
+// COMPONENTS
 import { Link } from '@remix-run/react'
 
-import oferta1 from '../../public/imgs/Puerta-Roble-578x1030.jpg'
+
+// import oferta1 from '../../public/imgs/Puerta-Roble-578x1030.jpg'
 import oferta2 from '../../public/imgs/simple-chapa-linea-100.jpg'
+
+// CONSTANTS
+import img1 from '../../public/imgs/puerta-placa-pino-marco-pino-finger-jo.webp'
 
 function Index() {
   return (
@@ -21,9 +26,9 @@ function Index() {
         <div className='grid grid-cols-12 gap-0'>
           <div className='col-start-2 col-end-11 lg:col-start-2 lg:col-end-7 border'>
             <div className='py-5 px-3 bg-white flex flex-col items-center'>
-              <img src={oferta1} alt="Imagen Puerta roble oferta" className='w-full' />
-              <h3 className='text-2xl font-bold border-b border-spacing-2 uppercase py-2'>Puerta roble</h3>
-              <p className='py-2 font-light text-lg text-center'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem itaque est hic iste amet. Dignissimos inventore iste, ipsa enim adipisci doloremque, nihil, et odit labore rem minima debitis? Voluptates, debitis.</p>
+              <img src={img1} alt="Imagen Puerta roble oferta" className='w-full' />
+              <h3 className='text-2xl font-bold border-b border-spacing-2 uppercase py-2'>Puerta Placa Pino</h3>
+              <p className='py-2 font-light text-lg text-center'>Puerta placa con hoja de pino y marco de pino. Cerradura simple paleta con 1 llave y 2 bocallaves.</p>
             </div>
           </div>
           <div className='col-start-2 col-end-11 lg:col-start-7 lg:col-end-12 border'>

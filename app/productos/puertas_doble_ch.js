@@ -10,6 +10,9 @@ import img8 from '../../public/imgs/img-puertas-clasica1600.png'
 import img9 from '../../public/imgs/img-puertas-clasica1665.png'
 import img10 from '../../public/imgs/img-puertas-clasica1700.png'
 import img11 from '../../public/imgs/img-puertas-clasica1755.png'
+import img12 from '../../public/imgs/doble-ch-2015.png'
+import img13 from '../../public/imgs/doble-ch-2016.png'
+import img14 from '../../public/imgs/doble-ch-2005-2007.png'
 
 
 export const chapaDoble = [
@@ -122,5 +125,35 @@ export const chapaDoble = [
     bisagras: '-',
     cerradura: 'No especificado',
     img: img11
-  }
+  },
+  {
+    id: 12,
+   nombre: 'Modelo 2015',
+   categoria:'Puerta Doble Chapa',
+   marco: 'Chapa Nº24 ',
+   hoja: 'Chapa Nº24 Inyectada con poliuretano - Aislacion termica-acustica',
+   bisagras: 'Embutidas marco',
+   cerradura: 'Cerradura de seguridad', 
+   img: img12
+   },
+   {
+    id: 13,
+   nombre: 'Modelo 2016',
+   categoria:'Puerta Doble Chapa',
+   marco: 'Chapa Nº24 ',
+   hoja: 'Chapa Nº24 Inyectada con poliuretano - Aislacion termica-acustica / Postigo Lateral / Apliques acero inox 20 mm',
+   bisagras: 'Embutidas marco',
+   cerradura: 'Cerradura de seguridad', 
+   img: img13
+   },
+   {
+    id: 14,
+   nombre: 'Modelo 2005 / 2007',
+   categoria:'Puerta Doble Chapa',
+   marco: 'Chapa Nº24 ',
+   hoja: 'Chapa Nº24 Inyectada con poliuretano - Aislacion termica-acustica',
+   bisagras: 'Embutidas marco',
+   cerradura: 'Cerradura de seguridad', 
+   img: img14
+   }
 ]

@@ -25,7 +25,7 @@ export const seguridad = [
     hoja: 'Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas',
     bisagras: 'A bolilla',
     cerradura: '2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada',
-    img: img3
+    img: img2
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const seguridad = [
     hoja: 'Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas',
     bisagras: 'A bolilla',
     cerradura: '2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada',
-    img: img4
+    img: img3
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ export const seguridad = [
     hoja: 'Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas',
     bisagras: 'A bolilla',
     cerradura: '2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada',
-    img: img5
+    img: img4
   },
   {
     id: 5,
@@ -55,6 +55,16 @@ export const seguridad = [
     hoja: 'Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas',
     bisagras: 'A bolilla',
     cerradura: '2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada',
-    img: img6
+    img: img5
+  },
+  {
+    id: 6,
+    nombre: 'Linea 2000',
+    categoria: 'Chapa doble inyectada con poliuretano expandido de alta densidad',
+    marco: ' - ',
+    hoja: 'Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas',
+    bisagras: 'A bolilla',
+    cerradura: '2 Pernos superiores - 2 Inferiores - 4 Centrales - 3 Pernos fijos del lateral de las bisagras / Llave codificada',
+    img: img5
   }
 ]
