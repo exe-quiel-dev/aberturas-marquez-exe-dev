@@ -493,8 +493,8 @@ var chapaSimple = [
     id: 3,
     nombre: "Puerta chapa simple - Mod 525 (ciega) / 925 / 983 (ciega)",
     categoria: "Chapa simple",
-    marco: "Chapa B.W.G N\xBA 24",
-    hoja: "Chapa B.W.G N\xBA 24",
+    marco: "Chapa B.W.G N\xBA 22",
+    hoja: "Chapa B.W.G N\xBA 22",
     bisagras: "Pomelas",
     cerradura: "Comun sin combinacion",
     img: chapa_simple_linea_300_default
@@ -943,17 +943,8 @@ __export(doblechapa_exports, {
   meta: () => meta4
 });
 
-// public/imgs/linea-100-1.jpg
-var linea_100_1_default = "/build/_assets/linea-100-1-LP4RNFJN.jpg";
-
-// public/imgs/linea-100-2.jpg
-var linea_100_2_default = "/build/_assets/linea-100-2-IRSOKMCU.jpg";
-
-// public/imgs/linea-100-3.jpg
-var linea_100_3_default = "/build/_assets/linea-100-3-PXBMA6LI.jpg";
-
 // public/imgs/chapa-doble-sin-inyectar-1.jpg
-var chapa_doble_sin_inyectar_1_default = "/build/_assets/chapa-doble-sin-inyectar-1-AVJTP3Y2.jpg";
+var chapa_doble_sin_inyectar_1_default = "/build/_assets/chapa-doble-sin-inyectar-1-OTCDLK6L.jpg";
 
 // public/imgs/img-puertas-L1810.png
 var img_puertas_L1810_default = "/build/_assets/img-puertas-L1810-MU6ROHAY.png";
@@ -987,36 +978,6 @@ var doble_ch_2005_2007_default = "/build/_assets/doble-ch-2005-2007-7XSV4CJA.png
 
 // app/productos/puertas_doble_ch.js
 var chapaDoble = [
-  {
-    id: 1,
-    nombre: "Linea 100 marco pesado - Mod 100 / 110 / 112",
-    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
-    bisagras: "Municion",
-    cerradura: "Com\xFAn sin combinaci\xF3n",
-    img: linea_100_1_default
-  },
-  {
-    id: 2,
-    nombre: "Linea 100 marco pesado - Mod 126 / 140 / 142",
-    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
-    bisagras: "Municion",
-    cerradura: "Com\xFAn sin combinaci\xF3n",
-    img: linea_100_2_default
-  },
-  {
-    id: 3,
-    nombre: "Linea 100 marco pesado - Mod 143 / 141 / 146",
-    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
-    bisagras: "Municion",
-    cerradura: "Com\xFAn sin combinaci\xF3n",
-    img: linea_100_3_default
-  },
   {
     id: 4,
     nombre: "Linea 400 marco pesado - Mod 420 / 460",
@@ -1129,6 +1090,75 @@ var chapaDoble = [
   }
 ];
 
+// public/imgs/linea-100-1.jpg
+var linea_100_1_default = "/build/_assets/linea-100-1-LP4RNFJN.jpg";
+
+// public/imgs/linea-100-2.jpg
+var linea_100_2_default = "/build/_assets/linea-100-2-IRSOKMCU.jpg";
+
+// public/imgs/linea-100-3.jpg
+var linea_100_3_default = "/build/_assets/linea-100-3-PXBMA6LI.jpg";
+
+// public/imgs/puerta-doble-chapa-inyectada-linea500-700.jpg
+var puerta_doble_chapa_inyectada_linea500_700_default = "/build/_assets/puerta-doble-chapa-inyectada-linea500-700-FXWVKT6M.jpg";
+
+// public/imgs/linea-900.jpg
+var linea_900_default = "/build/_assets/linea-900-JIKJMT6P.jpg";
+
+// app/productos/puertas_inyectadas.js
+var inyectadas = [
+  {
+    id: 1,
+    nombre: "Linea 100 marco pesado - Mod 100 / 110 / 112",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
+    bisagras: "Municion",
+    cerradura: "Com\xFAn sin combinaci\xF3n",
+    img: linea_100_1_default
+  },
+  {
+    id: 2,
+    nombre: "Linea 100 marco pesado - Mod 126 / 140 / 142",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
+    bisagras: "Municion",
+    cerradura: "Com\xFAn sin combinaci\xF3n",
+    img: linea_100_2_default
+  },
+  {
+    id: 3,
+    nombre: "Linea 100 marco pesado - Mod 143 / 141 / 146",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
+    bisagras: "Municion",
+    cerradura: "Com\xFAn sin combinaci\xF3n",
+    img: linea_100_3_default
+  },
+  {
+    id: 4,
+    nombre: "Lineas 500 - 700 marco pesado - Mod 500 / 700 / 762 / 765",
+    categoria: "Chapa doble sin inyectar",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22",
+    bisagras: "Municion",
+    cerradura: "Cerradura de seguridad doble paleta",
+    img: puerta_doble_chapa_inyectada_linea500_700_default
+  },
+  {
+    id: 5,
+    nombre: "Linea 900 marco pesado - Mod 900 / 904 / 910 / 920",
+    categoria: "Chapa doble sin inyectar",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22",
+    bisagras: "Municion",
+    cerradura: "Cerradura de seguridad doble paleta",
+    img: linea_900_default
+  }
+];
+
 // app/routes/doblechapa.jsx
 var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
 function meta4() {
@@ -1150,39 +1180,86 @@ function meta4() {
   ];
 }
 function Doblechapa() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-    categorias_default,
-    {
-      children: chapaDoble.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-        card_default,
-        {
-          nombre: puerta.nombre,
-          marco: puerta.marco,
-          hoja: puerta.hoja,
-          bisagras: puerta.bisagras,
-          cerradura: puerta.cerradura,
-          img: puerta.img
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/routes/doblechapa.jsx",
-          lineNumber: 31,
-          columnNumber: 9
-        },
-        this
-      )),
-      categoria: "Puertas chapa doble"
-    },
-    void 0,
-    !1,
-    {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("section", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+      categorias_default,
+      {
+        children: inyectadas.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+          card_default,
+          {
+            nombre: puerta.nombre,
+            marco: puerta.marco,
+            hoja: puerta.hoja,
+            bisagras: puerta.bisagras,
+            cerradura: puerta.cerradura,
+            img: puerta.img
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/doblechapa.jsx",
+            lineNumber: 34,
+            columnNumber: 13
+          },
+          this
+        )),
+        categoria: "Puertas chapa doble inyectadas"
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/routes/doblechapa.jsx",
+        lineNumber: 32,
+        columnNumber: 9
+      },
+      this
+    ) }, void 0, !1, {
       fileName: "app/routes/doblechapa.jsx",
-      lineNumber: 29,
-      columnNumber: 5
-    },
-    this
-  );
+      lineNumber: 31,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+      categorias_default,
+      {
+        children: chapaDoble.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+          card_default,
+          {
+            nombre: puerta.nombre,
+            marco: puerta.marco,
+            hoja: puerta.hoja,
+            bisagras: puerta.bisagras,
+            cerradura: puerta.cerradura,
+            img: puerta.img
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/doblechapa.jsx",
+            lineNumber: 49,
+            columnNumber: 13
+          },
+          this
+        )),
+        categoria: "Puertas chapa doble sin inyectar"
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/routes/doblechapa.jsx",
+        lineNumber: 47,
+        columnNumber: 9
+      },
+      this
+    ) }, void 0, !1, {
+      fileName: "app/routes/doblechapa.jsx",
+      lineNumber: 46,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/routes/doblechapa.jsx",
+    lineNumber: 30,
+    columnNumber: 5
+  }, this);
 }
 var doblechapa_default = Doblechapa;
 
@@ -1192,118 +1269,146 @@ __export(plegadizas_exports, {
   default: () => plegadizas_default
 });
 
+// public/imgs/plegadiza-pvc-ciega-6mm.jpg
+var plegadiza_pvc_ciega_6mm_default = "/build/_assets/plegadiza-pvc-ciega-6mm-EBTEW7UL.jpg";
+
+// public/imgs/puerta_todo_vidrio_2.jpg
+var puerta_todo_vidrio_2_default = "/build/_assets/puerta_todo_vidrio_2-U7OWYCFL.jpg";
+
+// public/imgs/todo_vidrio_simil.jpg
+var todo_vidrio_simil_default = "/build/_assets/todo_vidrio_simil-QBFL6J55.jpg";
+
+// public/imgs/ciega_simil.jpg
+var ciega_simil_default = "/build/_assets/ciega_simil-HHJJLCSK.jpg";
+
+// public/imgs/plegadiza-cedro.jpg
+var plegadiza_cedro_default = "/build/_assets/plegadiza-cedro-3WBB546Y.jpg";
+
+// public/imgs/plegadiza-vitraux.jpg
+var plegadiza_vitraux_default = "/build/_assets/plegadiza-vitraux-R7LOTHIL.jpg";
+
+// public/imgs/plegadiza-cedro-vidrio-entero-recto.jpg
+var plegadiza_cedro_vidrio_entero_recto_default = "/build/_assets/plegadiza-cedro-vidrio-entero-recto-JZ6NTWMD.jpg";
+
+// public/imgs/plegadiza-caoba-vidrio-entero-recto.jpg
+var plegadiza_caoba_vidrio_entero_recto_default = "/build/_assets/plegadiza-caoba-vidrio-entero-recto-OHQFMICD.jpg";
+
+// public/imgs/plegadiza-medio-punto.jpg
+var plegadiza_medio_punto_default = "/build/_assets/plegadiza-medio-punto-RBMXQZNM.jpg";
+
 // app/productos/puertas_plegadizas.js
 var plegadizas = [
   {
     id: 1,
     nombre: "Puerta plegadiza ciega 6 mm",
     Colores: "Abedul, Fresno, Cedro, Cerezo, Pino, Blanco, Wengue",
-    vidrio: " - "
-    // img: img
+    vidrio: " - ",
+    img: plegadiza_pvc_ciega_6mm_default
   },
   {
     id: 2,
     nombre: "Puerta plegadiza ciega 10 mm",
     Colores: "Abedul, Fresno, Blanco, Gris, Cedro, Cerezo, Pino, Wengue",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: plegadiza_pvc_ciega_6mm_default
   },
   {
     id: 3,
     nombre: "Puerta plegadiza ciega 8 mm",
     Colores: "Cedro, Pino, Blanco",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: plegadiza_pvc_ciega_6mm_default
   },
   {
     id: 4,
     nombre: "Puerta plegadiza Medio vidrio 10 mm / Con traba o Im\xE1n",
     Colores: "Algarrobo, Cipres, Fresno, Blanco, Gris, Cedro, Cerezo, Pino, Wengue",
-    vidrio: "Crystal, Fumee"
-    // // img: img
+    vidrio: "Crystal, Fumee",
+    img: puerta_todo_vidrio_2_default
   },
   {
     id: 5,
     nombre: "Puerta plegadiza Medio vidrio / Con traba o Im\xE1n",
     Colores: "Algarrobo, Cipres, Fresno, Blanco, Gris, Cedro, Cerezo, Pino, Wengue",
-    vidrio: "Crystal, Fumee"
-    // // img: img
+    vidrio: "Crystal, Fumee",
+    img: puerta_todo_vidrio_2_default
   },
   {
     id: 6,
     nombre: "Puerta plegadiza Simil Roble",
     Colores: " - ",
-    vidrio: " - "
+    vidrio: " - ",
+    img: ciega_simil_default
   },
   {
     id: 6,
     nombre: "Puerta plegadiza Simil Mogno",
     Colores: " - ",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: ciega_simil_default
   },
   {
     id: 6,
     nombre: "Puerta plegadiza Simil Blanco",
     Colores: " - ",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: ciega_simil_default
   },
   {
     id: 6,
     nombre: "Puerta plegadiza Simil Madera / Todo acrilico",
     Colores: " - ",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: todo_vidrio_simil_default
   },
   {
     id: 7,
     nombre: "Puerta plegadiza Caoba en 2 hojas",
     Colores: " - ",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: ciega_simil_default
   },
   {
     id: 8,
     nombre: "Puerta plegadiza Cedro",
     Colores: " - ",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: plegadiza_cedro_default
   },
   {
     id: 9,
     nombre: "Puerta plegadiza Cedro en 2 hojas",
     Colores: " - ",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: plegadiza_cedro_default
   },
   {
     id: 10,
     nombre: "Puerta plegadiza Vitraux medio punto",
     Colores: " - ",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: plegadiza_vitraux_default
   },
   {
     id: 11,
     nombre: "Puerta plegadiza Cedro / Vidrio entero recto",
     Colores: " - ",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: plegadiza_cedro_vidrio_entero_recto_default
   },
   {
     id: 12,
     nombre: "Puerta plegadiza Caoba / Vidrio entero recto",
     Colores: " - ",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: plegadiza_caoba_vidrio_entero_recto_default
   },
   {
     id: 13,
     nombre: "Puerta plegadiza Cedro / Vidrio entero medio punto",
     Colores: " - ",
-    vidrio: " - "
-    // // img: img
+    vidrio: " - ",
+    img: plegadiza_medio_punto_default
   }
 ];
 
@@ -2539,7 +2644,7 @@ function Pvc() {
 var pvc_default = Pvc;
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DZPEGCIV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-AMXLXIFO.js", imports: ["/build/_shared/chunk-6RWAZIAA.js", "/build/_shared/chunk-4C27JRJE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-XIKVSPLT.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-WZF6UDUR.js", imports: ["/build/_shared/chunk-4C27JRJE.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-XG2BTHCL.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-LGAZIYXD.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-B7Q5QG7R.js", imports: ["/build/_shared/chunk-6RWAZIAA.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/plegadizas": { id: "routes/plegadizas", parentId: "root", path: "plegadizas", index: void 0, caseSensitive: void 0, module: "/build/routes/plegadizas-E6DCVK5Z.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-DDMSXWDK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-RMRTPIZB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-L5JOP265.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-7THQMR7L.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-DMAAQTJS.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-5FRVC64W.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-VND4O3S6.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "068ff884", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1693654030644 }, url: "/build/manifest-068FF884.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DZPEGCIV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-AMXLXIFO.js", imports: ["/build/_shared/chunk-6RWAZIAA.js", "/build/_shared/chunk-4C27JRJE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-XIKVSPLT.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-I4B5LJAA.js", imports: ["/build/_shared/chunk-4C27JRJE.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-UIWARCGK.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-LGAZIYXD.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-B7Q5QG7R.js", imports: ["/build/_shared/chunk-6RWAZIAA.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/plegadizas": { id: "routes/plegadizas", parentId: "root", path: "plegadizas", index: void 0, caseSensitive: void 0, module: "/build/routes/plegadizas-5ZNAW7B4.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-DDMSXWDK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-RMRTPIZB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-L5JOP265.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-7THQMR7L.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-DMAAQTJS.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-5FRVC64W.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-VND4O3S6.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "271de578", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1693677077855 }, url: "/build/manifest-271DE578.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

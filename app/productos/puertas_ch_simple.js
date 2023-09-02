@@ -35,8 +35,8 @@ export const chapaSimple = [
     id: 3,
     nombre: 'Puerta chapa simple - Mod 525 (ciega) / 925 / 983 (ciega)',
     categoria: 'Chapa simple',
-    marco: 'Chapa B.W.G Nº 24',
-    hoja: 'Chapa B.W.G Nº 24',
+    marco: 'Chapa B.W.G Nº 22',
+    hoja: 'Chapa B.W.G Nº 22',
     bisagras: 'Pomelas',
     cerradura: 'Comun sin combinacion',
     img: img2

@@ -14,17 +14,8 @@ import {
   __toESM
 } from "/build/_shared/chunk-PNG5AS42.js";
 
-// public/imgs/linea-100-1.jpg
-var linea_100_1_default = "/build/_assets/linea-100-1-LP4RNFJN.jpg";
-
-// public/imgs/linea-100-2.jpg
-var linea_100_2_default = "/build/_assets/linea-100-2-IRSOKMCU.jpg";
-
-// public/imgs/linea-100-3.jpg
-var linea_100_3_default = "/build/_assets/linea-100-3-PXBMA6LI.jpg";
-
 // public/imgs/chapa-doble-sin-inyectar-1.jpg
-var chapa_doble_sin_inyectar_1_default = "/build/_assets/chapa-doble-sin-inyectar-1-AVJTP3Y2.jpg";
+var chapa_doble_sin_inyectar_1_default = "/build/_assets/chapa-doble-sin-inyectar-1-OTCDLK6L.jpg";
 
 // public/imgs/img-puertas-L1810.png
 var img_puertas_L1810_default = "/build/_assets/img-puertas-L1810-MU6ROHAY.png";
@@ -62,39 +53,9 @@ if (import.meta) {
     //@ts-expect-error
     "app\\productos\\puertas_doble_ch.js"
   );
-  import.meta.hot.lastModified = "1693653115637.8267";
+  import.meta.hot.lastModified = "1693674398753.5938";
 }
 var chapaDoble = [
-  {
-    id: 1,
-    nombre: "Linea 100 marco pesado - Mod 100 / 110 / 112",
-    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
-    bisagras: "Municion",
-    cerradura: "Com\xFAn sin combinaci\xF3n",
-    img: linea_100_1_default
-  },
-  {
-    id: 2,
-    nombre: "Linea 100 marco pesado - Mod 126 / 140 / 142",
-    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
-    bisagras: "Municion",
-    cerradura: "Com\xFAn sin combinaci\xF3n",
-    img: linea_100_2_default
-  },
-  {
-    id: 3,
-    nombre: "Linea 100 marco pesado - Mod 143 / 141 / 146",
-    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
-    bisagras: "Municion",
-    cerradura: "Com\xFAn sin combinaci\xF3n",
-    img: linea_100_3_default
-  },
   {
     id: 4,
     nombre: "Linea 400 marco pesado - Mod 420 / 460",
@@ -207,6 +168,82 @@ var chapaDoble = [
   }
 ];
 
+// public/imgs/linea-100-1.jpg
+var linea_100_1_default = "/build/_assets/linea-100-1-LP4RNFJN.jpg";
+
+// public/imgs/linea-100-2.jpg
+var linea_100_2_default = "/build/_assets/linea-100-2-IRSOKMCU.jpg";
+
+// public/imgs/linea-100-3.jpg
+var linea_100_3_default = "/build/_assets/linea-100-3-PXBMA6LI.jpg";
+
+// public/imgs/puerta-doble-chapa-inyectada-linea500-700.jpg
+var puerta_doble_chapa_inyectada_linea500_700_default = "/build/_assets/puerta-doble-chapa-inyectada-linea500-700-FXWVKT6M.jpg";
+
+// public/imgs/linea-900.jpg
+var linea_900_default = "/build/_assets/linea-900-JIKJMT6P.jpg";
+
+// app/productos/puertas_inyectadas.js
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app\\productos\\puertas_inyectadas.js"
+  );
+  import.meta.hot.lastModified = "1693674827633.4453";
+}
+var inyectadas = [
+  {
+    id: 1,
+    nombre: "Linea 100 marco pesado - Mod 100 / 110 / 112",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
+    bisagras: "Municion",
+    cerradura: "Com\xFAn sin combinaci\xF3n",
+    img: linea_100_1_default
+  },
+  {
+    id: 2,
+    nombre: "Linea 100 marco pesado - Mod 126 / 140 / 142",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
+    bisagras: "Municion",
+    cerradura: "Com\xFAn sin combinaci\xF3n",
+    img: linea_100_2_default
+  },
+  {
+    id: 3,
+    nombre: "Linea 100 marco pesado - Mod 143 / 141 / 146",
+    categoria: "Chapa doble inyectada con poliuretano expandido de alta densidad",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
+    bisagras: "Municion",
+    cerradura: "Com\xFAn sin combinaci\xF3n",
+    img: linea_100_3_default
+  },
+  {
+    id: 4,
+    nombre: "Lineas 500 - 700 marco pesado - Mod 500 / 700 / 762 / 765",
+    categoria: "Chapa doble sin inyectar",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22",
+    bisagras: "Municion",
+    cerradura: "Cerradura de seguridad doble paleta",
+    img: puerta_doble_chapa_inyectada_linea500_700_default
+  },
+  {
+    id: 5,
+    nombre: "Linea 900 marco pesado - Mod 900 / 904 / 910 / 920",
+    categoria: "Chapa doble sin inyectar",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22",
+    bisagras: "Municion",
+    cerradura: "Cerradura de seguridad doble paleta",
+    img: linea_900_default
+  }
+];
+
 // app/routes/doblechapa.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
@@ -226,7 +263,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\doblechapa.jsx"
   );
-  import.meta.hot.lastModified = "1693359929683.709";
+  import.meta.hot.lastModified = "1693673604662.1687";
 }
 function meta() {
   return [{
@@ -242,13 +279,36 @@ function meta() {
   }];
 }
 function Doblechapa() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(categorias_default, { children: chapaDoble.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(card_default, { nombre: puerta.nombre, marco: puerta.marco, hoja: puerta.hoja, bisagras: puerta.bisagras, cerradura: puerta.cerradura, img: puerta.img }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(categorias_default, { children: inyectadas.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(card_default, { nombre: puerta.nombre, marco: puerta.marco, hoja: puerta.hoja, bisagras: puerta.bisagras, cerradura: puerta.cerradura, img: puerta.img }, void 0, false, {
+      fileName: "app/routes/doblechapa.jsx",
+      lineNumber: 44,
+      columnNumber: 56
+    }, this)), categoria: "Puertas chapa doble inyectadas" }, void 0, false, {
+      fileName: "app/routes/doblechapa.jsx",
+      lineNumber: 44,
+      columnNumber: 9
+    }, this) }, void 0, false, {
+      fileName: "app/routes/doblechapa.jsx",
+      lineNumber: 43,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(categorias_default, { children: chapaDoble.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(card_default, { nombre: puerta.nombre, marco: puerta.marco, hoja: puerta.hoja, bisagras: puerta.bisagras, cerradura: puerta.cerradura, img: puerta.img }, void 0, false, {
+      fileName: "app/routes/doblechapa.jsx",
+      lineNumber: 47,
+      columnNumber: 56
+    }, this)), categoria: "Puertas chapa doble sin inyectar" }, void 0, false, {
+      fileName: "app/routes/doblechapa.jsx",
+      lineNumber: 47,
+      columnNumber: 9
+    }, this) }, void 0, false, {
+      fileName: "app/routes/doblechapa.jsx",
+      lineNumber: 46,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, true, {
     fileName: "app/routes/doblechapa.jsx",
-    lineNumber: 41,
-    columnNumber: 57
-  }, this)), categoria: "Puertas chapa doble" }, void 0, false, {
-    fileName: "app/routes/doblechapa.jsx",
-    lineNumber: 41,
+    lineNumber: 42,
     columnNumber: 10
   }, this);
 }
@@ -262,4 +322,4 @@ export {
   doblechapa_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/doblechapa-XG2BTHCL.js.map
+//# sourceMappingURL=/build/routes/doblechapa-UIWARCGK.js.map
