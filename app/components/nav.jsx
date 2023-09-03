@@ -5,7 +5,7 @@ function Nav() {
 
     return (
         <>
-            <nav className='w-full text-white flex justify-between items-center text-lg font-light py-5 md:py-0 px-4 flex-wrap gap-4'>
+            <nav className='w-full text-white flex justify-between items-center text-lg font-light py-0 px-4 flex-wrap gap-4'>
                 <Link
                     to='/'
                     className={location.pathname === '/' ? 'bg-amber-500 rounded p-1 text-black font-semibold' : 'hover:text-gray-300 transition-colors hover:cursor-pointer'}

@@ -145,13 +145,13 @@ __export(root_exports, {
 var import_react3 = require("@remix-run/react");
 
 // app/styles/index.css
-var styles_default = "/build/_assets/index-ZMFFJFZE.css";
+var styles_default = "/build/_assets/index-FQNHYYMQ.css";
 
 // app/components/nav.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
 function Nav() {
   let location = (0, import_react2.useLocation)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_jsx_dev_runtime2.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("nav", { className: "w-full text-white flex justify-between items-center text-lg font-light py-5 md:py-0 px-4 flex-wrap gap-4", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_jsx_dev_runtime2.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("nav", { className: "w-full text-white flex justify-between items-center text-lg font-light py-0 px-4 flex-wrap gap-4", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
       import_react2.Link,
       {
@@ -253,7 +253,7 @@ var logo_default = "/build/_assets/logo-4PXBK5NH.png";
 // app/components/header.jsx
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime");
 function Header() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("header", { className: "flex flex-col md:flex-row items-center justify-center bg-slate-900/50 py-5 border-b border-gray-300 sticky top-0 w-full z-10", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("header", { className: "flex flex-col md:flex-row items-center justify-center bg-slate-900/50 py-2 border-b border-gray-300 sticky top-0 w-full z-10", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex-col items-center justify-center w-44 me-4 container mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: logo_default, alt: "Imagen logotipo", className: "w-auto hidden md:inline" }, void 0, !1, {
       fileName: "app/components/header.jsx",
       lineNumber: 15,
@@ -273,22 +273,13 @@ function Header() {
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "w-1/3 text-white flex items-center justify-center", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://www.instagram.com/", target: "_blank", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_ai.AiOutlineInstagram, { className: "mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://instagram.com/aberturas_marquez?igshid=MzRlODBiNWFlZA==", target: "_blank", rel: "noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_ai.AiOutlineInstagram, { className: "mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer" }, void 0, !1, {
         fileName: "app/components/header.jsx",
         lineNumber: 19,
-        columnNumber: 64
+        columnNumber: 118
       }, this) }, void 0, !1, {
         fileName: "app/components/header.jsx",
         lineNumber: 19,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "www.youtube.com", target: "_blank", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_ai.AiOutlineWhatsApp, { className: "mx-2 w-6 h-6 hover:text-green-500 transition-colors hover:cursor-pointer" }, void 0, !1, {
-        fileName: "app/components/header.jsx",
-        lineNumber: 20,
-        columnNumber: 53
-      }, this) }, void 0, !1, {
-        fileName: "app/components/header.jsx",
-        lineNumber: 20,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "/nosotros", target: "_blank", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_ai.AiOutlineEnvironment, { className: "mx-2 w-6 h-6 hover:text-red-500 transition-colors hover:cursor-pointer" }, void 0, !1, {
@@ -675,7 +666,7 @@ function meta2() {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - Chapa Simple"
     },
     {
       name: "description",
@@ -889,7 +880,7 @@ function meta3() {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - Ventanas PVC"
     },
     {
       name: "description",
@@ -1167,7 +1158,7 @@ function meta4() {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - Doble Chapa"
     },
     {
       name: "description",
@@ -1266,7 +1257,8 @@ var doblechapa_default = Doblechapa;
 // app/routes/plegadizas.jsx
 var plegadizas_exports = {};
 __export(plegadizas_exports, {
-  default: () => plegadizas_default
+  default: () => plegadizas_default,
+  meta: () => meta5
 });
 
 // public/imgs/plegadiza-pvc-ciega-6mm.jpg
@@ -1275,17 +1267,139 @@ var plegadiza_pvc_ciega_6mm_default = "/build/_assets/plegadiza-pvc-ciega-6mm-EB
 // public/imgs/puerta_todo_vidrio_2.jpg
 var puerta_todo_vidrio_2_default = "/build/_assets/puerta_todo_vidrio_2-U7OWYCFL.jpg";
 
-// public/imgs/todo_vidrio_simil.jpg
-var todo_vidrio_simil_default = "/build/_assets/todo_vidrio_simil-QBFL6J55.jpg";
+// app/productos/puertas_plegadizas.js
+var plegadizas = [
+  {
+    id: 1,
+    nombre: "Puerta plegadiza ciega 6 mm",
+    colores: "Abedul, Fresno, Cedro, Cerezo, Pino, Blanco, Wengue",
+    vidrio: " - ",
+    img: plegadiza_pvc_ciega_6mm_default
+  },
+  {
+    id: 2,
+    nombre: "Puerta plegadiza ciega 10 mm",
+    colores: "Abedul, Fresno, Blanco, Gris, Cedro, Cerezo, Pino, Wengue",
+    vidrio: " - ",
+    img: plegadiza_pvc_ciega_6mm_default
+  },
+  {
+    id: 3,
+    nombre: "Puerta plegadiza ciega 8 mm",
+    colores: "Cedro, Pino, Blanco",
+    vidrio: " - ",
+    img: plegadiza_pvc_ciega_6mm_default
+  },
+  {
+    id: 4,
+    nombre: "Puerta plegadiza Medio vidrio 10 mm / Con traba o Im\xE1n",
+    colores: "Algarrobo, Cipres, Fresno, Blanco, Gris, Cedro, Cerezo, Pino, Wengue",
+    vidrio: "Crystal, Fumee",
+    img: puerta_todo_vidrio_2_default
+  },
+  {
+    id: 5,
+    nombre: "Puerta plegadiza Medio vidrio / Con traba o Im\xE1n",
+    colores: "Algarrobo, Cipres, Fresno, Blanco, Gris, Cedro, Cerezo, Pino, Wengue",
+    vidrio: "Crystal, Fumee",
+    img: puerta_todo_vidrio_2_default
+  }
+  // {
+  // id: 6,
+  // nombre: 'Puerta plegadiza Simil Roble',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img6
+  // },
+  // {
+  // id: 7,
+  // nombre: 'Puerta plegadiza Simil Mogno',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img7
+  // },
+  // {
+  // id: 8,
+  // nombre: 'Puerta plegadiza Simil Blanco',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img8
+  // },
+  // {
+  // id: 9,
+  // nombre: 'Puerta plegadiza Simil Madera / Todo acrilico',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img9
+  // },
+  // {
+  // id: 10,
+  // nombre: 'Puerta plegadiza Caoba en 2 hojas',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img4
+  // },
+  // {
+  // id: 11,
+  // nombre: 'Puerta plegadiza Cedro',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img11
+  // },
+  // {
+  // id: 12,
+  // nombre: 'Puerta plegadiza Cedro en 2 hojas',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img8
+  // },
+  // {
+  // id: 13,
+  // nombre: 'Puerta plegadiza Vitraux medio punto',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img13
+  // },
+  // {
+  // id: 14,
+  // nombre: 'Puerta plegadiza Cedro / Vidrio entero recto',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img14
+  // },
+  // {
+  // id: 15,
+  // nombre: 'Puerta plegadiza Caoba / Vidrio entero recto',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img15
+  // },
+  // {
+  // id: 16,
+  // nombre: 'Puerta plegadiza Cedro / Vidrio entero medio punto',
+  // colores: ' - ',
+  // vidrio: ' - ',
+  // img: img16
+  // }
+];
 
-// public/imgs/ciega_simil.jpg
-var ciega_simil_default = "/build/_assets/ciega_simil-HHJJLCSK.jpg";
+// public/imgs/simil_madera_todo_acrilico.jpg
+var simil_madera_todo_acrilico_default = "/build/_assets/simil_madera_todo_acrilico-QAL6PS5V.jpg";
+
+// public/imgs/simil_roble.jpg
+var simil_roble_default = "/build/_assets/simil_roble-X54JBTVK.jpg";
+
+// public/imgs/simil_mogno.jpg
+var simil_mogno_default = "/build/_assets/simil_mogno-5QDQD45M.jpg";
+
+// public/imgs/simil_blanco.jpg
+var simil_blanco_default = "/build/_assets/simil_blanco-G2T56BTL.jpg";
 
 // public/imgs/plegadiza-cedro.jpg
 var plegadiza_cedro_default = "/build/_assets/plegadiza-cedro-3WBB546Y.jpg";
 
 // public/imgs/plegadiza-vitraux.jpg
-var plegadiza_vitraux_default = "/build/_assets/plegadiza-vitraux-R7LOTHIL.jpg";
+var plegadiza_vitraux_default = "/build/_assets/plegadiza-vitraux-JYBPKTZA.jpg";
 
 // public/imgs/plegadiza-cedro-vidrio-entero-recto.jpg
 var plegadiza_cedro_vidrio_entero_recto_default = "/build/_assets/plegadiza-cedro-vidrio-entero-recto-JZ6NTWMD.jpg";
@@ -1296,162 +1410,250 @@ var plegadiza_caoba_vidrio_entero_recto_default = "/build/_assets/plegadiza-caob
 // public/imgs/plegadiza-medio-punto.jpg
 var plegadiza_medio_punto_default = "/build/_assets/plegadiza-medio-punto-RBMXQZNM.jpg";
 
-// app/productos/puertas_plegadizas.js
-var plegadizas = [
-  {
-    id: 1,
-    nombre: "Puerta plegadiza ciega 6 mm",
-    Colores: "Abedul, Fresno, Cedro, Cerezo, Pino, Blanco, Wengue",
-    vidrio: " - ",
-    img: plegadiza_pvc_ciega_6mm_default
-  },
-  {
-    id: 2,
-    nombre: "Puerta plegadiza ciega 10 mm",
-    Colores: "Abedul, Fresno, Blanco, Gris, Cedro, Cerezo, Pino, Wengue",
-    vidrio: " - ",
-    img: plegadiza_pvc_ciega_6mm_default
-  },
-  {
-    id: 3,
-    nombre: "Puerta plegadiza ciega 8 mm",
-    Colores: "Cedro, Pino, Blanco",
-    vidrio: " - ",
-    img: plegadiza_pvc_ciega_6mm_default
-  },
-  {
-    id: 4,
-    nombre: "Puerta plegadiza Medio vidrio 10 mm / Con traba o Im\xE1n",
-    Colores: "Algarrobo, Cipres, Fresno, Blanco, Gris, Cedro, Cerezo, Pino, Wengue",
-    vidrio: "Crystal, Fumee",
-    img: puerta_todo_vidrio_2_default
-  },
-  {
-    id: 5,
-    nombre: "Puerta plegadiza Medio vidrio / Con traba o Im\xE1n",
-    Colores: "Algarrobo, Cipres, Fresno, Blanco, Gris, Cedro, Cerezo, Pino, Wengue",
-    vidrio: "Crystal, Fumee",
-    img: puerta_todo_vidrio_2_default
-  },
+// app/productos/plegadizas_nobel.js
+var plegadizasNobel = [
   {
     id: 6,
     nombre: "Puerta plegadiza Simil Roble",
-    Colores: " - ",
-    vidrio: " - ",
-    img: ciega_simil_default
-  },
-  {
-    id: 6,
-    nombre: "Puerta plegadiza Simil Mogno",
-    Colores: " - ",
-    vidrio: " - ",
-    img: ciega_simil_default
-  },
-  {
-    id: 6,
-    nombre: "Puerta plegadiza Simil Blanco",
-    Colores: " - ",
-    vidrio: " - ",
-    img: ciega_simil_default
-  },
-  {
-    id: 6,
-    nombre: "Puerta plegadiza Simil Madera / Todo acrilico",
-    Colores: " - ",
-    vidrio: " - ",
-    img: todo_vidrio_simil_default
+    caracteristicas: "Construidas en melamina 1ra calidad en 10 mm de espesor. Bisagras standard con tratamiento antidesgaste. Marco standard de 3 y 4,5 cm de ancho. Batiente (placa de cierre) en MDF de 18 mm de espesor. Cerradura de enganche. Gu\xEDa superior en aluminio anodizado. Ruedas de nylon con rodamientos a rulem\xE1n para asegurar un funcionamiento suave y silencioso.",
+    img: simil_roble_default
   },
   {
     id: 7,
-    nombre: "Puerta plegadiza Caoba en 2 hojas",
-    Colores: " - ",
-    vidrio: " - ",
-    img: ciega_simil_default
+    nombre: "Puerta plegadiza Simil Mogno",
+    caracteristicas: "Construidas en melamina 1ra calidad en 10 mm de espesor. Bisagras standard con tratamiento antidesgaste. Marco standard de 3 y 4,5 cm de ancho. Batiente (placa de cierre) en MDF de 18 mm de espesor. Cerradura de enganche. Gu\xEDa superior en aluminio anodizado. Ruedas de nylon con rodamientos a rulem\xE1n para asegurar un funcionamiento suave y silencioso.",
+    img: simil_mogno_default
   },
   {
     id: 8,
-    nombre: "Puerta plegadiza Cedro",
-    Colores: " - ",
-    vidrio: " - ",
-    img: plegadiza_cedro_default
+    nombre: "Puerta plegadiza Simil Blanco",
+    caracteristicas: "Construidas en melamina 1ra calidad en 10 mm de espesor. Bisagras standard con tratamiento antidesgaste. Marco standard de 3 y 4,5 cm de ancho. Batiente (placa de cierre) en MDF de 18 mm de espesor. Cerradura de enganche. Gu\xEDa superior en aluminio anodizado. Ruedas de nylon con rodamientos a rulem\xE1n para asegurar un funcionamiento suave y silencioso.",
+    img: simil_blanco_default
   },
   {
     id: 9,
-    nombre: "Puerta plegadiza Cedro en 2 hojas",
-    Colores: " - ",
-    vidrio: " - ",
-    img: plegadiza_cedro_default
-  },
-  {
-    id: 10,
-    nombre: "Puerta plegadiza Vitraux medio punto",
-    Colores: " - ",
-    vidrio: " - ",
-    img: plegadiza_vitraux_default
+    nombre: "Puerta plegadiza Simil Madera / Todo acrilico",
+    caracteristicas: "Construidas en melamina 1ra calidad en 10 mm de espesor. Bisagras standard con tratamiento antidesgaste. Marco standard de 3 y 4,5 cm de ancho. Batiente (placa de cierre) en MDF de 18 mm de espesor. Cerradura de enganche. Gu\xEDa superior en aluminio anodizado. Ruedas de nylon con rodamientos a rulem\xE1n para asegurar un funcionamiento suave y silencioso.",
+    img: simil_madera_todo_acrilico_default
   },
   {
     id: 11,
-    nombre: "Puerta plegadiza Cedro / Vidrio entero recto",
-    Colores: " - ",
-    vidrio: " - ",
-    img: plegadiza_cedro_vidrio_entero_recto_default
-  },
-  {
-    id: 12,
-    nombre: "Puerta plegadiza Caoba / Vidrio entero recto",
-    Colores: " - ",
-    vidrio: " - ",
-    img: plegadiza_caoba_vidrio_entero_recto_default
+    nombre: "Puerta plegadiza Cedro",
+    caracteristicas: "Construidas en aglomerados de 1ra calidad de 10 mm de espesor. Lustre poliuret\xE1nico brillante o semi-mate. Bisagras de PVC r\xEDgidos. Marco standard de 4,5 y 5,5 cm de ancho. Batiente (placa de cierre) en MDF de 16 mm de espesor. Gu\xEDa superior en aluminio anodizado. Manijones de bronce o platil e im\xE1nes. Ruedas de nylon con rodamientos a rulem\xE1n para asegurar un funcionamiento suave y silencioso.",
+    img: plegadiza_cedro_default
   },
   {
     id: 13,
+    nombre: "Puerta plegadiza Vitraux medio punto",
+    caracteristicas: "Construidas en aglomerados de 1ra calidad de 10 mm de espesor. Lustre poliuret\xE1nico brillante o semi-mate. Bisagras de PVC r\xEDgidos. Marco standard de 4,5 y 5,5 cm de ancho. Batiente (placa de cierre) en MDF de 16 mm de espesor. Gu\xEDa superior en aluminio anodizado. Manijones de bronce o platil e im\xE1nes. Ruedas de nylon con rodamientos a rulem\xE1n para asegurar un funcionamiento suave y silencioso.",
+    img: plegadiza_vitraux_default
+  },
+  {
+    id: 14,
+    nombre: "Puerta plegadiza Cedro / Vidrio entero recto",
+    caracteristicas: "Construidas en aglomerados de 1ra calidad de 10 mm de espesor. Lustre poliuret\xE1nico brillante o semi-mate. Bisagras de PVC r\xEDgidos. Marco standard de 4,5 y 5,5 cm de ancho. Batiente (placa de cierre) en MDF de 16 mm de espesor. Gu\xEDa superior en aluminio anodizado. Manijones de bronce o platil e im\xE1nes. Ruedas de nylon con rodamientos a rulem\xE1n para asegurar un funcionamiento suave y silencioso.",
+    img: plegadiza_cedro_vidrio_entero_recto_default
+  },
+  {
+    id: 15,
+    nombre: "Puerta plegadiza Caoba / Vidrio entero recto",
+    caracteristicas: "Construidas en aglomerados de 1ra calidad de 10 mm de espesor. Lustre poliuret\xE1nico brillante o semi-mate. Bisagras de PVC r\xEDgidos. Marco standard de 4,5 y 5,5 cm de ancho. Batiente (placa de cierre) en MDF de 16 mm de espesor. Gu\xEDa superior en aluminio anodizado. Manijones de bronce o platil e im\xE1nes. Ruedas de nylon con rodamientos a rulem\xE1n para asegurar un funcionamiento suave y silencioso.",
+    img: plegadiza_caoba_vidrio_entero_recto_default
+  },
+  {
+    id: 16,
     nombre: "Puerta plegadiza Cedro / Vidrio entero medio punto",
-    Colores: " - ",
-    vidrio: " - ",
+    caracteristicas: "Construidas en aglomerados de 1ra calidad de 10 mm de espesor. Lustre poliuret\xE1nico brillante o semi-mate. Bisagras de PVC r\xEDgidos. Marco standard de 4,5 y 5,5 cm de ancho. Batiente (placa de cierre) en MDF de 16 mm de espesor. Gu\xEDa superior en aluminio anodizado. Manijones de bronce o platil e im\xE1nes. Ruedas de nylon con rodamientos a rulem\xE1n para asegurar un funcionamiento suave y silencioso.",
     img: plegadiza_medio_punto_default
   }
 ];
 
+// app/components/cardPlegadizas.jsx
+var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), cardPlegadizas = ({ nombre, colores, vidrio, img }) => /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex flex-col items-center justify-center w-full h-full bg-white shadow", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("img", { src: img, alt: nombre, className: "w-full" }, void 0, !1, {
+    fileName: "app/components/cardPlegadizas.jsx",
+    lineNumber: 6,
+    columnNumber: 7
+  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "p-4 w-full text-start", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h2", { className: "font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center", children: nombre }, void 0, !1, {
+      fileName: "app/components/cardPlegadizas.jsx",
+      lineNumber: 8,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "grid grid-cols-2 items-center text-center", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { className: "font-bold py-2", children: [
+        "Colores: ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "font-light", children: colores }, void 0, !1, {
+          fileName: "app/components/cardPlegadizas.jsx",
+          lineNumber: 10,
+          columnNumber: 50
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/cardPlegadizas.jsx",
+        lineNumber: 10,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { className: "font-bold py-2", children: [
+        "Vidrio: ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "font-light", children: vidrio }, void 0, !1, {
+          fileName: "app/components/cardPlegadizas.jsx",
+          lineNumber: 11,
+          columnNumber: 49
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/cardPlegadizas.jsx",
+        lineNumber: 11,
+        columnNumber: 11
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/components/cardPlegadizas.jsx",
+      lineNumber: 9,
+      columnNumber: 9
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/cardPlegadizas.jsx",
+    lineNumber: 7,
+    columnNumber: 7
+  }, this)
+] }, void 0, !0, {
+  fileName: "app/components/cardPlegadizas.jsx",
+  lineNumber: 5,
+  columnNumber: 5
+}, this), cardPlegadizas_default = cardPlegadizas;
+
+// app/components/cardPlegadizasNobel.jsx
+var import_react6 = require("react"), import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), cardPlegadizasNobel = ({ nombre, caracteristicas, img }) => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex flex-col items-center justify-center w-full h-full bg-white shadow", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: img, alt: nombre, className: "w-full" }, void 0, !1, {
+    fileName: "app/components/cardPlegadizasNobel.jsx",
+    lineNumber: 6,
+    columnNumber: 7
+  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "p-4 w-full text-start", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { className: "font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center", children: nombre }, void 0, !1, {
+      fileName: "app/components/cardPlegadizasNobel.jsx",
+      lineNumber: 8,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex items-center justify-center text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { className: "font-bold py-2", children: [
+      "Caracteristicas: ",
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "font-light", children: caracteristicas }, void 0, !1, {
+        fileName: "app/components/cardPlegadizasNobel.jsx",
+        lineNumber: 10,
+        columnNumber: 58
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/components/cardPlegadizasNobel.jsx",
+      lineNumber: 10,
+      columnNumber: 11
+    }, this) }, void 0, !1, {
+      fileName: "app/components/cardPlegadizasNobel.jsx",
+      lineNumber: 9,
+      columnNumber: 9
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/cardPlegadizasNobel.jsx",
+    lineNumber: 7,
+    columnNumber: 7
+  }, this)
+] }, void 0, !0, {
+  fileName: "app/components/cardPlegadizasNobel.jsx",
+  lineNumber: 5,
+  columnNumber: 5
+}, this), cardPlegadizasNobel_default = cardPlegadizasNobel;
+
 // app/routes/plegadizas.jsx
-var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), Plegadizas = () => /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
-  categorias_default,
-  {
-    children: plegadizas.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
-      card_default,
-      {
-        nombre: puerta.nombre,
-        marco: puerta.marco,
-        hoja: puerta.hoja,
-        bisagras: puerta.bisagras,
-        cerradura: puerta.cerradura,
-        img: puerta.img
-      },
-      void 0,
-      !1,
-      {
-        fileName: "app/routes/plegadizas.jsx",
-        lineNumber: 12,
-        columnNumber: 9
-      },
-      this
-    )),
-    categoria: "Puertas plegadizas"
-  },
-  void 0,
-  !1,
-  {
-    fileName: "app/routes/plegadizas.jsx",
-    lineNumber: 10,
-    columnNumber: 5
-  },
-  this
-), plegadizas_default = Plegadizas;
+var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
+function meta5() {
+  return [
+    {
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez - Plegadizas"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
+    }
+  ];
+}
+var Plegadizas = () => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+    categorias_default,
+    {
+      children: plegadizas.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+        cardPlegadizas_default,
+        {
+          colores: puerta.colores,
+          vidrio: puerta.vidrio,
+          img: puerta.img
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/plegadizas.jsx",
+          lineNumber: 34,
+          columnNumber: 11
+        },
+        this
+      )),
+      categoria: "Puertas plegadizas pvc"
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/plegadizas.jsx",
+      lineNumber: 32,
+      columnNumber: 7
+    },
+    this
+  ),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+    categorias_default,
+    {
+      children: plegadizasNobel.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+        cardPlegadizasNobel_default,
+        {
+          img: puerta.img,
+          nombre: puerta.nombre,
+          caracteristicas: puerta.caracteristicas
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/plegadizas.jsx",
+          lineNumber: 44,
+          columnNumber: 11
+        },
+        this
+      )),
+      categoria: "Puertas plegadizas madera"
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/plegadizas.jsx",
+      lineNumber: 42,
+      columnNumber: 7
+    },
+    this
+  )
+] }, void 0, !0, {
+  fileName: "app/routes/plegadizas.jsx",
+  lineNumber: 31,
+  columnNumber: 5
+}, this), plegadizas_default = Plegadizas;
 
 // app/routes/seguridad.jsx
 var seguridad_exports = {};
 __export(seguridad_exports, {
   default: () => seguridad_default,
-  meta: () => meta5
+  meta: () => meta6
 });
 
 // public/imgs/puertas-de-seguridad-1.jpg
@@ -1534,14 +1736,14 @@ var seguridad = [
 ];
 
 // app/routes/seguridad.jsx
-var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
-function meta5() {
+var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
+function meta6() {
   return [
     {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - Seguridad"
     },
     {
       name: "description",
@@ -1554,10 +1756,10 @@ function meta5() {
   ];
 }
 function Seguridad() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
     categorias_default,
     {
-      children: seguridad.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+      children: seguridad.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
         card_default,
         {
           nombre: puerta.nombre,
@@ -1594,7 +1796,7 @@ var seguridad_default = Seguridad;
 var tecnodeck_exports = {};
 __export(tecnodeck_exports, {
   default: () => tecnodeck_default,
-  meta: () => meta6
+  meta: () => meta7
 });
 
 // public/imgs/tecno_deck.jpg
@@ -1611,14 +1813,14 @@ var tecnodeck = [
 ];
 
 // app/routes/tecnodeck.jsx
-var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
-function meta6() {
+var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime");
+function meta7() {
   return [
     {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - TecnoDeck"
     },
     {
       name: "description",
@@ -1631,10 +1833,10 @@ function meta6() {
   ];
 }
 function Tecnodeck() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
     categoriasPvc_default,
     {
-      children: tecnodeck.map((prod) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+      children: tecnodeck.map((prod) => /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
         cardpvc_default,
         {
           nombre: prod.nombre,
@@ -1669,7 +1871,7 @@ var tecnodeck_default = Tecnodeck;
 var aluminio_exports = {};
 __export(aluminio_exports, {
   default: () => aluminio_default,
-  meta: () => meta7
+  meta: () => meta8
 });
 
 // public/imgs/PA301-min-800x800.png
@@ -1726,14 +1928,14 @@ var aluminio = [
 ];
 
 // app/routes/aluminio.jsx
-var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
-function meta7() {
+var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime");
+function meta8() {
   return [
     {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - Aluminio"
     },
     {
       name: "description",
@@ -1746,10 +1948,10 @@ function meta7() {
   ];
 }
 function Aluminio() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
     categorias_default,
     {
-      children: aluminio.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+      children: aluminio.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
         card_default,
         {
           nombre: puerta.nombre,
@@ -1786,21 +1988,21 @@ var aluminio_default = Aluminio;
 var nosotros_exports = {};
 __export(nosotros_exports, {
   default: () => nosotros_default,
-  meta: () => meta8
+  meta: () => meta9
 });
 
 // public/imgs/map.jpg
 var map_default = "/build/_assets/map-HLDFBFIJ.jpg";
 
 // app/routes/nosotros.jsx
-var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime");
-function meta8() {
+var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime");
+function meta9() {
   return [
     {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - Nosotros"
     },
     {
       name: "description",
@@ -1813,14 +2015,14 @@ function meta8() {
   ];
 }
 function Nosotros() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("main", { className: "flex flex-col items-center justify-center px-6 py-20 min-h-screen", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h1", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "Nosotros" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("main", { className: "flex flex-col items-center justify-center px-6 py-20 min-h-screen", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("h1", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "Nosotros" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 27,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { className: "text-md md:text-lg font-light py-4", children: "En Aberturas Marquez nos ocupamos de asesorar al cliente sobre sus mejores opciones para sus necesidades teniendo en cuenta la relaci\xF3n calidad precio. Priorizamos el plazo de entrega fijado para brindarles un buen servicio a nuestros clientes. Trabajamos con l\xEDneas de productos economicas y con l\xEDneas premium para que el cliente pueda elegir lo que mas se adapte a sus necesidades y su presupuesto." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-md md:text-lg font-light py-4", children: "En Aberturas Marquez nos ocupamos de asesorar al cliente sobre sus mejores opciones para sus necesidades teniendo en cuenta la relaci\xF3n calidad precio. Priorizamos el plazo de entrega fijado para brindarles un buen servicio a nuestros clientes. Trabajamos con l\xEDneas de productos economicas y con l\xEDneas premium para que el cliente pueda elegir lo que mas se adapte a sus necesidades y su presupuesto." }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 28,
         columnNumber: 9
@@ -1830,38 +2032,38 @@ function Nosotros() {
       lineNumber: 26,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "\xBF Donde nos encontramos ?" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "\xBF Donde nos encontramos ?" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 32,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("img", { src: map_default, alt: "Imagen de mapa", className: "w-full my-2" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("img", { src: map_default, alt: "Imagen de mapa", className: "w-full my-2" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 33,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center border-b border-black border-spacing-4", children: "Av. Brig. Gral. Juan Manuel de Rosas 2475, B1655 Jos\xE9 Le\xF3n Su\xE1rez, Provincia de Buenos Aires" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center border-b border-black border-spacing-4", children: "Av. Brig. Gral. Juan Manuel de Rosas 2475, B1655 Jos\xE9 Le\xF3n Su\xE1rez, Provincia de Buenos Aires" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 34,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center", children: "Horarios de atenci\xF3n: Lunes a Viernes de 9:00 a 12:30 / 15:00 a 19:00 - Sabados de 9:00 a 13:00" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center", children: "Horarios de atenci\xF3n: Lunes a Viernes de 9:00 a 12:30 / 15:00 a 19:00 - Sabados de 9:00 a 13:00" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 35,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h3", { className: "text-start uppercase text-lg md:text-xl lg:text-2xl font-bold underline", children: "Contacto" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("h3", { className: "text-start uppercase text-lg md:text-xl lg:text-2xl font-bold underline", children: "Contacto" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 36,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-start", children: "Whatsapp: 11-4444-5555 ( Ezequiel )" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-start", children: "Whatsapp: 11-6816-4079 ( Ezequiel )" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 37,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-start", children: "Instagram: @Aberturas_Marquez" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-start", children: "Instagram: @Aberturas_Marquez" }, void 0, !1, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 38,
         columnNumber: 9
@@ -1882,41 +2084,95 @@ var nosotros_default = Nosotros;
 // app/routes/ventanas.jsx
 var ventanas_exports = {};
 __export(ventanas_exports, {
-  default: () => ventanas_default
+  default: () => ventanas_default,
+  meta: () => meta10
 });
+
+// public/imgs/modena--corrediza.jpg
+var modena_corrediza_default = "/build/_assets/modena--corrediza-MTIVZL63.jpg";
+
+// public/imgs/a30.jpg
+var a30_default = "/build/_assets/a30-WWIMPRQF.jpg";
+
+// public/imgs/herrero-corrediza.jpg
+var herrero_corrediza_default = "/build/_assets/herrero-corrediza-DWNG5E5M.jpg";
+
+// public/imgs/rotonda-corrediza.jpg
+var rotonda_corrediza_default = "/build/_assets/rotonda-corrediza-R62ILDX3.jpg";
+
+// public/imgs/rotonda_640.jpg
+var rotonda_640_default = "/build/_assets/rotonda_640-H42B567N.jpg";
 
 // app/productos/ventanas.js
 var ventanas = [
   {
+    id: 3,
+    nombre: "L\xEDnea Herrero",
+    caracteristicas: "Es una l\xEDnea de dise\xF1o cl\xE1sico y el m\xE1s tradicional en el mercado de aberturas de aluminio. Las mismas pueden ser confeccionadas con vidrio entero o vidrio repartido, con un sistema de cierre central manual y tiradores laterales. Posee un tipo de perfileria (liviana ) que contiene menos espesor que las dem\xE1s l\xEDneas, pero con la misma funcionalidad. Es un Sistema de Carpinter\xEDa liviano y dise\xF1ado para satisfacer las necesidades b\xE1sicas del segmento en viviendas unifamiliares. Est\xE1 l\xEDnea permite una baja considerable en los costos finales a un valor extremadamente accesible.",
+    img: herrero_corrediza_default
+  },
+  {
     id: 1,
-    nombre: "",
-    desc: "",
-    info: "",
-    img: ""
+    nombre: "L\xEDnea Modena",
+    caracteristicas: "Posee un dise\xF1o moderno y gran equilibrio en la relaci\xF3n peso-resistencia. Posibilita gran variedad de combinaciones. Se puede utilizar vidrio simple o Doble Vidriado Herm\xE9tico (DVH). Todas las aberturas son doble contacto y en la ventana de abrir tiene la opci\xF3n de utilizar c\xE1mara condensadora de presiones, lo que le otorga gran resistencia a la infiltraci\xF3n de agua y aire.",
+    img: modena_corrediza_default
+  },
+  {
+    id: 2,
+    nombre: "L\xEDnea A30",
+    caracteristicas: "Destacado por su dise\xF1o y excelente performance. Sus amplias posibilidades constructivas y la variedad de tipolog\xEDas, ofrecen una herramienta de alta prestaci\xF3n en la realizaci\xF3n de los proyectos. Se puede utilizar vidrio simple o Doble Vidriado Herm\xE9tico (DVH), en las corredizas de aplicaci\xF3n encapsulada y en las batientes con contravidrio de borde recto o curvo. Resiste el paso del tiempo, sus perfiles no requieren ning\xFAn tipo de mantenimiento y admiten tratamiento superficial como el pintado o anodizado. A30 New s\xF3lo admite accesorios de alta calidad, lo cual garantiza un \xF3ptimo funcionamiento de las aberturas en su uso cotidiano.",
+    img: a30_default
+  },
+  {
+    id: 4,
+    nombre: "L\xEDnea Rotonda 750",
+    caracteristicas: "Es la l\xEDnea de mediana prestaci\xF3n m\xE1s completa del mercado. Vers\xE1til, resistente y adaptable a m\xFAltiples requerimientos, la Serie 750 se ha redefinido incluyendo en su dise\xF1o las formas redondeadas que caracterizan a la l\xEDnea",
+    img: rotonda_corrediza_default
+  },
+  {
+    id: 5,
+    nombre: "L\xEDnea Rotonda 640",
+    caracteristicas: "La Serie 640 responde a las nuevas tendencias de los profesionales de la arquitectura. Su dise\xF1o de anticipaci\xF3n y sus terminaciones son un ejemplo de la evoluci\xF3n de este sistema. Delicadas formas redondas, robustez y sobriedad, visi\xF3n coplanar: caracter\xEDsticas de un producto superior.",
+    img: rotonda_640_default
   }
 ];
 
 // app/routes/ventanas.jsx
-var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime");
+function meta10() {
+  return [
+    {
+      charset: "utf-8"
+    },
+    {
+      title: "Aberturas Marquez - Ventanas"
+    },
+    {
+      name: "description",
+      content: "Tienda de aberturas online"
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0"
+    }
+  ];
+}
 function Ventanas() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
     categorias_default,
     {
-      children: ventanas.map((ventana) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
-        card_default,
+      children: ventanas.map((ventana) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+        cardPlegadizasNobel_default,
         {
           nombre: ventana.nombre,
-          marco: ventana.marco,
-          hoja: ventana.hoja,
-          bisagras: ventana.bisagras,
-          cerradura: ventana.cerradura,
-          img: ventana.img
+          img: ventana.img,
+          caracteristicas: ventana.caracteristicas
         },
         void 0,
         !1,
         {
           fileName: "app/routes/ventanas.jsx",
-          lineNumber: 12,
+          lineNumber: 31,
           columnNumber: 9
         },
         this
@@ -1927,7 +2183,7 @@ function Ventanas() {
     !1,
     {
       fileName: "app/routes/ventanas.jsx",
-      lineNumber: 10,
+      lineNumber: 29,
       columnNumber: 5
     },
     this
@@ -1939,16 +2195,16 @@ var ventanas_default = Ventanas;
 var puertas_exports = {};
 __export(puertas_exports, {
   default: () => puertas_default,
-  meta: () => meta9
+  meta: () => meta11
 });
-var import_react6 = require("@remix-run/react"), import_jsx_dev_runtime19 = require("react/jsx-dev-runtime");
-function meta9() {
+var import_react7 = require("@remix-run/react"), import_jsx_dev_runtime21 = require("react/jsx-dev-runtime");
+function meta11() {
   return [
     {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - Puertas"
     },
     {
       name: "description",
@@ -1961,15 +2217,15 @@ function meta9() {
   ];
 }
 function Puertas() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("section", { className: "min-h-screen flex flex-col items-center justify-center bg-categorias", children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "flex flex-col items-center justify-center p-10", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow", children: "Puertas" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("section", { className: "min-h-screen flex flex-col items-center justify-center bg-categorias", children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "flex flex-col items-center justify-center p-10", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow", children: "Puertas" }, void 0, !1, {
       fileName: "app/routes/puertas.jsx",
       lineNumber: 26,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "flex flex-col lg:grid lg:grid-cols-5 items-center justify-items-center p-10 w-full gap-6", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
-        import_react6.Link,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "flex flex-col lg:grid lg:grid-cols-5 items-center justify-items-center p-10 w-full gap-6", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+        import_react7.Link,
         {
           to: "/chapasimple",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
@@ -1984,8 +2240,8 @@ function Puertas() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
-        import_react6.Link,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+        import_react7.Link,
         {
           to: "/doblechapa",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
@@ -2000,8 +2256,8 @@ function Puertas() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
-        import_react6.Link,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+        import_react7.Link,
         {
           to: "/seguridad",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
@@ -2016,8 +2272,8 @@ function Puertas() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
-        import_react6.Link,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+        import_react7.Link,
         {
           to: "/placa",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
@@ -2032,8 +2288,8 @@ function Puertas() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
-        import_react6.Link,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+        import_react7.Link,
         {
           to: "/aluminio",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
@@ -2048,8 +2304,8 @@ function Puertas() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
-        import_react6.Link,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+        import_react7.Link,
         {
           to: "/plegadizas",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
@@ -2085,7 +2341,7 @@ var puertas_default = Puertas;
 var zocalos_exports = {};
 __export(zocalos_exports, {
   default: () => zocalos_default,
-  meta: () => meta10
+  meta: () => meta12
 });
 
 // public/imgs/tecno-zocalos-02.png
@@ -2102,14 +2358,14 @@ var zocalos = [
 ];
 
 // app/routes/zocalos.jsx
-var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime");
-function meta10() {
+var import_jsx_dev_runtime22 = require("react/jsx-dev-runtime");
+function meta12() {
   return [
     {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - Zocalos"
     },
     {
       name: "description",
@@ -2122,10 +2378,10 @@ function meta10() {
   ];
 }
 function Zocalos() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
     categoriasPvc_default,
     {
-      children: zocalos.map((prod) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+      children: zocalos.map((prod) => /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
         cardpvc_default,
         {
           nombre: prod.nombre,
@@ -2161,28 +2417,28 @@ var index_exports = {};
 __export(index_exports, {
   default: () => index_default
 });
-var import_react7 = require("@remix-run/react");
+var import_react8 = require("@remix-run/react");
 
 // public/imgs/puerta-placa-pino-marco-pino-finger-jo.webp
 var puerta_placa_pino_marco_pino_finger_jo_default = "/build/_assets/puerta-placa-pino-marco-pino-finger-jo-UV4T25IT.webp";
 
 // app/routes/_index.jsx
-var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime");
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_jsx_dev_runtime21.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("section", { className: "w-full h-screen flex items-center justify-center md:justify-end banner-index", children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "flex flex-col items-center justify-center flex-nowrap md:flex-wrap w-full md:w-1/3 h-1/2 md:h-full bg-slate-900/25 p-4 text-white", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("h1", { className: "uppercase text-xl md:text-3xl font-bold mb-4", children: "\xBFYa conoces la linea PVC?" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_jsx_dev_runtime23.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("section", { className: "w-full h-screen flex items-center justify-center md:justify-end banner-index", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "flex flex-col items-center justify-center flex-nowrap md:flex-wrap w-full md:w-1/3 h-1/2 md:h-full bg-slate-900/25 p-4 text-white", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("h1", { className: "uppercase text-xl md:text-3xl font-bold mb-4", children: "\xBFYa conoces la linea PVC?" }, void 0, !1, {
         fileName: "app/routes/_index.jsx",
-        lineNumber: 16,
+        lineNumber: 14,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("p", { className: "text-md md:text-xl py-5 border-t", children: "Contamos con la tecnolog\xEDa m\xE1s innovadora disponible hoy en d\xEDa para la renovaci\xF3n de ventanas que soluciona tus problemas de climatizaci\xF3n del hogar, ruido, filtraciones y seguridad." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("p", { className: "text-md md:text-xl py-5 border-t", children: "Contamos con la tecnolog\xEDa m\xE1s innovadora disponible hoy en d\xEDa para la renovaci\xF3n de ventanas que soluciona tus problemas de climatizaci\xF3n del hogar, ruido, filtraciones y seguridad." }, void 0, !1, {
         fileName: "app/routes/_index.jsx",
-        lineNumber: 17,
+        lineNumber: 15,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
-        import_react7.Link,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
+        import_react8.Link,
         {
           to: "/ventanaspvc",
           className: "uppercase p-2 rounded hover:bg-amber-500 bg-slate-500 text-2xl transition-all",
@@ -2192,90 +2448,63 @@ function Index() {
         !1,
         {
           fileName: "app/routes/_index.jsx",
-          lineNumber: 18,
+          lineNumber: 16,
           columnNumber: 11
         },
         this
       )
     ] }, void 0, !0, {
       fileName: "app/routes/_index.jsx",
-      lineNumber: 15,
+      lineNumber: 13,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/routes/_index.jsx",
-      lineNumber: 14,
+      lineNumber: 12,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("section", { className: "flex flex-col min-h-screen items-center justify-center py-10 border-t container mx-auto", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold text-white my-10 w-full", children: "Ofertas" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("section", { className: "flex flex-col min-h-screen items-center justify-center py-10 border-t container mx-auto", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold text-white my-10 w-full", children: "Ofertas" }, void 0, !1, {
         fileName: "app/routes/_index.jsx",
-        lineNumber: 25,
+        lineNumber: 23,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "grid grid-cols-12 gap-0", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "col-start-2 col-end-11 lg:col-start-2 lg:col-end-7 border", children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "py-5 px-3 bg-white flex flex-col items-center", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("img", { src: puerta_placa_pino_marco_pino_finger_jo_default, alt: "Imagen Puerta roble oferta", className: "w-full" }, void 0, !1, {
-            fileName: "app/routes/_index.jsx",
-            lineNumber: 29,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("h3", { className: "text-2xl font-bold border-b border-spacing-2 uppercase py-2", children: "Puerta Placa Pino" }, void 0, !1, {
-            fileName: "app/routes/_index.jsx",
-            lineNumber: 30,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("p", { className: "py-2 font-light text-lg text-center", children: "Puerta placa con hoja de pino y marco de pino. Cerradura simple paleta con 1 llave y 2 bocallaves." }, void 0, !1, {
-            fileName: "app/routes/_index.jsx",
-            lineNumber: 31,
-            columnNumber: 15
-          }, this)
-        ] }, void 0, !0, {
-          fileName: "app/routes/_index.jsx",
-          lineNumber: 28,
-          columnNumber: 13
-        }, this) }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "flex items-center justify-center gap-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "border", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "py-5 px-3 bg-white flex flex-col items-center", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("img", { src: puerta_placa_pino_marco_pino_finger_jo_default, alt: "Imagen Puerta roble oferta", className: "w-1/2" }, void 0, !1, {
           fileName: "app/routes/_index.jsx",
           lineNumber: 27,
-          columnNumber: 11
+          columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "col-start-2 col-end-11 lg:col-start-7 lg:col-end-12 border", children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "py-5 px-3 bg-white flex flex-col items-center", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("img", { src: simple_chapa_linea_100_default, alt: "Imagen Puerta roble oferta", className: "w-full" }, void 0, !1, {
-            fileName: "app/routes/_index.jsx",
-            lineNumber: 36,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("h3", { className: "text-2xl font-bold border-b border-spacing-2 uppercase py-2", children: "Puerta chapa simple linea 100" }, void 0, !1, {
-            fileName: "app/routes/_index.jsx",
-            lineNumber: 37,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("p", { className: "py-2 font-light text-lg text-center", children: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem itaque est hic iste amet. Dignissimos inventore iste, ipsa enim adipisci doloremque, nihil, et odit labore rem minima debitis? Voluptates, debitis." }, void 0, !1, {
-            fileName: "app/routes/_index.jsx",
-            lineNumber: 38,
-            columnNumber: 15
-          }, this)
-        ] }, void 0, !0, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("h3", { className: "text-2xl font-bold border-b border-spacing-2 uppercase py-2", children: "Puerta Placa Pino" }, void 0, !1, {
           fileName: "app/routes/_index.jsx",
-          lineNumber: 35,
-          columnNumber: 13
-        }, this) }, void 0, !1, {
+          lineNumber: 28,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("p", { className: "py-2 font-light text-lg text-center", children: "Puerta placa con hoja de pino y marco de pino. Cerradura simple paleta con 1 llave y 2 bocallaves." }, void 0, !1, {
           fileName: "app/routes/_index.jsx",
-          lineNumber: 34,
-          columnNumber: 11
+          lineNumber: 29,
+          columnNumber: 15
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/_index.jsx",
         lineNumber: 26,
+        columnNumber: 13
+      }, this) }, void 0, !1, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 25,
+        columnNumber: 11
+      }, this) }, void 0, !1, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 24,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/_index.jsx",
-      lineNumber: 24,
+      lineNumber: 22,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/_index.jsx",
-    lineNumber: 13,
+    lineNumber: 11,
     columnNumber: 5
   }, this);
 }
@@ -2285,7 +2514,7 @@ var index_default = Index;
 var placa_exports = {};
 __export(placa_exports, {
   default: () => placa_default,
-  meta: () => meta11
+  meta: () => meta13
 });
 
 // public/imgs/PINO-MARC-DE-ALUM-min-800x800.png
@@ -2485,14 +2714,14 @@ var placa = [
 ];
 
 // app/routes/placa.jsx
-var import_jsx_dev_runtime22 = require("react/jsx-dev-runtime");
-function meta11() {
+var import_jsx_dev_runtime24 = require("react/jsx-dev-runtime");
+function meta13() {
   return [
     {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - Placa"
     },
     {
       name: "description",
@@ -2505,10 +2734,10 @@ function meta11() {
   ];
 }
 function Placa() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
     categorias_default,
     {
-      children: placa.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+      children: placa.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
         card_default,
         {
           nombre: puerta.nombre,
@@ -2545,16 +2774,16 @@ var placa_default = Placa;
 var pvc_exports = {};
 __export(pvc_exports, {
   default: () => pvc_default,
-  meta: () => meta12
+  meta: () => meta14
 });
-var import_react8 = require("@remix-run/react"), import_jsx_dev_runtime23 = require("react/jsx-dev-runtime");
-function meta12() {
+var import_react9 = require("@remix-run/react"), import_jsx_dev_runtime25 = require("react/jsx-dev-runtime");
+function meta14() {
   return [
     {
       charset: "utf-8"
     },
     {
-      title: "Aberturas Marquez"
+      title: "Aberturas Marquez - PVC"
     },
     {
       name: "description",
@@ -2567,15 +2796,15 @@ function meta12() {
   ];
 }
 function Pvc() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_jsx_dev_runtime23.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("section", { className: "min-h-screen flex flex-col items-center justify-center bg-categorias", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "flex flex-col items-center justify-center p-10", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow", children: "PVC" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_jsx_dev_runtime25.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("section", { className: "min-h-screen flex flex-col items-center justify-center bg-categorias", children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "flex flex-col items-center justify-center p-10", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow", children: "PVC" }, void 0, !1, {
       fileName: "app/routes/pvc.jsx",
       lineNumber: 27,
       columnNumber: 11
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "flex flex-col lg:grid lg:grid-cols-3 items-center justify-items-center p-10 w-full gap-6", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
-        import_react8.Link,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "flex flex-col lg:grid lg:grid-cols-3 items-center justify-items-center p-10 w-full gap-6", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+        import_react9.Link,
         {
           to: "/ventanasPvc",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
@@ -2590,8 +2819,8 @@ function Pvc() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
-        import_react8.Link,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+        import_react9.Link,
         {
           to: "/tecnodeck",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
@@ -2606,8 +2835,8 @@ function Pvc() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
-        import_react8.Link,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+        import_react9.Link,
         {
           to: "/zocalos",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
@@ -2644,7 +2873,7 @@ function Pvc() {
 var pvc_default = Pvc;
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DZPEGCIV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-AMXLXIFO.js", imports: ["/build/_shared/chunk-6RWAZIAA.js", "/build/_shared/chunk-4C27JRJE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-XIKVSPLT.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-I4B5LJAA.js", imports: ["/build/_shared/chunk-4C27JRJE.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-UIWARCGK.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-LGAZIYXD.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-B7Q5QG7R.js", imports: ["/build/_shared/chunk-6RWAZIAA.js", "/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/plegadizas": { id: "routes/plegadizas", parentId: "root", path: "plegadizas", index: void 0, caseSensitive: void 0, module: "/build/routes/plegadizas-5ZNAW7B4.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-DDMSXWDK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-RMRTPIZB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-L5JOP265.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-7THQMR7L.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-DMAAQTJS.js", imports: ["/build/_shared/chunk-FB7R36IV.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-5FRVC64W.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-VND4O3S6.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "271de578", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1693677077855 }, url: "/build/manifest-271DE578.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-2SZ3672G.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-3IKAEVTA.js", imports: ["/build/_shared/chunk-6RWAZIAA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-E2ZY227G.js", imports: ["/build/_shared/chunk-IKSKEJW6.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-HBJUTFUA.js", imports: ["/build/_shared/chunk-IKSKEJW6.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-6JPKA5BK.js", imports: ["/build/_shared/chunk-IKSKEJW6.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-UV7PZB6A.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-RRFIP3SB.js", imports: ["/build/_shared/chunk-6RWAZIAA.js", "/build/_shared/chunk-IKSKEJW6.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/plegadizas": { id: "routes/plegadizas", parentId: "root", path: "plegadizas", index: void 0, caseSensitive: void 0, module: "/build/routes/plegadizas-DGD5IATB.js", imports: ["/build/_shared/chunk-IIMOIDBN.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-E3PPWPHX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-IH2YX4K4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-IZFQHGFT.js", imports: ["/build/_shared/chunk-IKSKEJW6.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-BXJHSM6Z.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-IHQHYPCS.js", imports: ["/build/_shared/chunk-IIMOIDBN.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-S6PFW4Q6.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-FYZHR4UP.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "92be72a9", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1693783012244 }, url: "/build/manifest-92BE72A9.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

@@ -12,7 +12,7 @@ export function meta() {
       charset: 'utf-8'
     },
     {
-      title: 'Aberturas Marquez'
+      title: 'Aberturas Marquez - Doble Chapa'
     },
     {
       name: 'description',

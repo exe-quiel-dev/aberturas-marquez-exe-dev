@@ -11,7 +11,7 @@ export function meta() {
       charset: 'utf-8'
   },
   {
-      title: 'Aberturas Marquez'
+      title: 'Aberturas Marquez - Ventanas PVC'
   },
   {
       name: 'description',
