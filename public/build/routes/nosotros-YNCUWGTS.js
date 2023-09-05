@@ -32,7 +32,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\nosotros.jsx"
   );
-  import.meta.hot.lastModified = "1693780631131.0728";
+  import.meta.hot.lastModified = "1693785654223.7678";
 }
 function meta() {
   return [{
@@ -81,22 +81,22 @@ function Nosotros() {
         lineNumber: 45,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center", children: "Horarios de atenci\xF3n: Lunes a Viernes de 9:00 a 12:30 / 15:00 a 19:00 - Sabados de 9:00 a 13:00" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center border-b border-black", children: "Horarios de atenci\xF3n: Lunes a Viernes de 9:00 a 12:30 / 15:00 a 19:00 - Sabados de 9:00 a 13:00" }, void 0, false, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 46,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { className: "text-start uppercase text-lg md:text-xl lg:text-2xl font-bold underline", children: "Contacto" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { className: "text-start uppercase text-lg md:text-xl lg:text-2xl font-bold underline mt-2", children: "Contacto" }, void 0, false, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 47,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-start", children: "Whatsapp: 11-6816-4079 ( Ezequiel )" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-lg py-2 font-semibold text-start", children: "Whatsapp: 11-6816-4079 ( Ezequiel )" }, void 0, false, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 48,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-start", children: "Instagram: @Aberturas_Marquez" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-lg py-2 font-semibold text-start", children: "Instagram: @Aberturas_Marquez" }, void 0, false, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 49,
         columnNumber: 9
@@ -122,4 +122,4 @@ export {
   nosotros_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/nosotros-UV7PZB6A.js.map
+//# sourceMappingURL=/build/routes/nosotros-YNCUWGTS.js.map

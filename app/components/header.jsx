@@ -16,9 +16,9 @@ function Header() {
         </div>
         <Nav />
         <div className='w-1/3 text-white flex items-center justify-center'>
-          <a href='https://instagram.com/aberturas_marquez?igshid=MzRlODBiNWFlZA==' target='_blank' rel='noreferrer'><AiOutlineInstagram className='mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer' /></a>
+          <a href='https://instagram.com/aberturas_marquez?igshid=MzRlODBiNWFlZA==' target='_blank' rel='noreferrer' alt="Logotipo instagram"><AiOutlineInstagram className='mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer' /></a>
           {/* <a href='href="https://api.whatsapp.com/send?phone=541168164079&text=Hola' target='_blank' rel='noreferrer'><AiOutlineWhatsApp className='mx-2 w-6 h-6 hover:text-green-500 transition-colors hover:cursor-pointer' /></a> */}
-          <a href='/nosotros' target='_blank'><AiOutlineEnvironment className='mx-2 w-6 h-6 hover:text-red-500 transition-colors hover:cursor-pointer' /></a>
+          <a href='/nosotros' target='_blank' alt="Logotipo whatsapp"><AiOutlineEnvironment className='mx-2 w-6 h-6 hover:text-red-500 transition-colors hover:cursor-pointer' /></a>
         </div>
       </header>
   )

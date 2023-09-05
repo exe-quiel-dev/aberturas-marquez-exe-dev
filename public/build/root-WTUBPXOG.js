@@ -20,7 +20,7 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // app/styles/index.css
-var styles_default = "/build/_assets/index-FQNHYYMQ.css";
+var styles_default = "/build/_assets/index-CV77PSO3.css";
 
 // app/components/nav.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -204,7 +204,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\header.jsx"
   );
-  import.meta.hot.lastModified = "1693781401977.6245";
+  import.meta.hot.lastModified = "1693786150939.3926";
 }
 function Header() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("header", { className: "flex flex-col md:flex-row items-center justify-center bg-slate-900/50 py-2 border-b border-gray-300 sticky top-0 w-full z-10", children: [
@@ -227,19 +227,19 @@ function Header() {
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "w-1/3 text-white flex items-center justify-center", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://instagram.com/aberturas_marquez?igshid=MzRlODBiNWFlZA==", target: "_blank", rel: "noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(AiOutlineInstagram, { className: "mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://instagram.com/aberturas_marquez?igshid=MzRlODBiNWFlZA==", target: "_blank", rel: "noreferrer", alt: "Logotipo instagram", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(AiOutlineInstagram, { className: "mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer" }, void 0, false, {
         fileName: "app/components/header.jsx",
         lineNumber: 36,
-        columnNumber: 118
+        columnNumber: 143
       }, this) }, void 0, false, {
         fileName: "app/components/header.jsx",
         lineNumber: 36,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/nosotros", target: "_blank", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(AiOutlineEnvironment, { className: "mx-2 w-6 h-6 hover:text-red-500 transition-colors hover:cursor-pointer" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/nosotros", target: "_blank", alt: "Logotipo whatsapp", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(AiOutlineEnvironment, { className: "mx-2 w-6 h-6 hover:text-red-500 transition-colors hover:cursor-pointer" }, void 0, false, {
         fileName: "app/components/header.jsx",
         lineNumber: 38,
-        columnNumber: 47
+        columnNumber: 71
       }, this) }, void 0, false, {
         fileName: "app/components/header.jsx",
         lineNumber: 38,
@@ -425,4 +425,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-2SZ3672G.js.map
+//# sourceMappingURL=/build/root-WTUBPXOG.js.map

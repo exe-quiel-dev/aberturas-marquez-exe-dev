@@ -35,7 +35,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\_index.jsx"
   );
-  import.meta.hot.lastModified = "1693781607134.8523";
+  import.meta.hot.lastModified = "1693785713823.8708";
 }
 function Index() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, { children: [
@@ -45,7 +45,7 @@ function Index() {
         lineNumber: 30,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-md md:text-xl py-5 border-t", children: "Contamos con la tecnolog\xEDa m\xE1s innovadora disponible hoy en d\xEDa para la renovaci\xF3n de ventanas que soluciona tus problemas de climatizaci\xF3n del hogar, ruido, filtraciones y seguridad." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-md md:text-xl py-5 border-t", children: "Contamos con la tecnolog\xEDa m\xE1s innovadora disponible hoy en d\xEDa para la renovaci\xF3n de ventanas que soluciona tus problemas de climatizaci\xF3n del hogar, ruido y filtraciones." }, void 0, false, {
         fileName: "app/routes/_index.jsx",
         lineNumber: 31,
         columnNumber: 11
@@ -119,4 +119,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   index_default as default
 };
-//# sourceMappingURL=/build/routes/_index-3IKAEVTA.js.map
+//# sourceMappingURL=/build/routes/_index-S7OKM5NM.js.map

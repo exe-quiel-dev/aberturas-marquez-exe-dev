@@ -12,7 +12,7 @@ function Index() {
       <section className='w-full h-screen flex items-center justify-center md:justify-end banner-index'>
         <div className="flex flex-col items-center justify-center flex-nowrap md:flex-wrap w-full md:w-1/3 h-1/2 md:h-full bg-slate-900/25 p-4 text-white">
           <h1 className="uppercase text-xl md:text-3xl font-bold mb-4">¿Ya conoces la linea PVC?</h1>
-          <p className="text-md md:text-xl py-5 border-t">Contamos con la tecnología más innovadora disponible hoy en día para la renovación de ventanas que soluciona tus problemas de climatización del hogar, ruido, filtraciones y seguridad.</p>
+          <p className="text-md md:text-xl py-5 border-t">Contamos con la tecnología más innovadora disponible hoy en día para la renovación de ventanas que soluciona tus problemas de climatización del hogar, ruido y filtraciones.</p>
           <Link 
            to='/ventanaspvc'
            className='uppercase p-2 rounded hover:bg-amber-500 bg-slate-500 text-2xl transition-all' 
