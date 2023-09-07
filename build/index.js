@@ -38,7 +38,7 @@ var entry_server_exports = {};
 __export(entry_server_exports, {
   default: () => handleRequest
 });
-var import_node_stream = require("node:stream"), import_node = require("@remix-run/node"), import_react = require("@remix-run/react"), import_isbot = __toESM(require("isbot")), import_server = require("react-dom/server"), import_jsx_runtime = require("react/jsx-runtime"), ABORT_DELAY = 5e3;
+var import_node_stream = require("node:stream"), import_node = require("@remix-run/node"), import_react = require("@remix-run/react"), import_isbot = __toESM(require("isbot")), import_server = require("react-dom/server"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ABORT_DELAY = 5e3;
 function handleRequest(request, responseStatusCode, responseHeaders, remixContext, loadContext) {
   return (0, import_isbot.default)(request.headers.get("user-agent")) ? handleBotRequest(
     request,
@@ -55,13 +55,21 @@ function handleRequest(request, responseStatusCode, responseHeaders, remixContex
 function handleBotRequest(request, responseStatusCode, responseHeaders, remixContext) {
   return new Promise((resolve, reject) => {
     let shellRendered = !1, { pipe, abort } = (0, import_server.renderToPipeableStream)(
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
         import_react.RemixServer,
         {
           context: remixContext,
           url: request.url,
           abortDelay: ABORT_DELAY
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/entry.server.jsx",
+          lineNumber: 47,
+          columnNumber: 7
+        },
+        this
       ),
       {
         onAllReady() {
@@ -88,13 +96,21 @@ function handleBotRequest(request, responseStatusCode, responseHeaders, remixCon
 function handleBrowserRequest(request, responseStatusCode, responseHeaders, remixContext) {
   return new Promise((resolve, reject) => {
     let shellRendered = !1, { pipe, abort } = (0, import_server.renderToPipeableStream)(
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
         import_react.RemixServer,
         {
           context: remixContext,
           url: request.url,
           abortDelay: ABORT_DELAY
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/entry.server.jsx",
+          lineNumber: 97,
+          columnNumber: 7
+        },
+        this
       ),
       {
         onShellReady() {
@@ -129,54 +145,102 @@ __export(root_exports, {
 var import_react3 = require("@remix-run/react");
 
 // app/styles/index.css
-var styles_default = "/build/_assets/index-THYTDXCP.css";
+var styles_default = "/build/_assets/index-ALRAZXZR.css";
 
 // app/components/nav.jsx
-var import_react2 = require("@remix-run/react"), import_jsx_runtime2 = require("react/jsx-runtime");
+var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
 function Nav() {
   let location = (0, import_react2.useLocation)();
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_jsx_runtime2.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("nav", { className: "w-full text-white flex justify-between items-center text-lg font-light py-0 px-4 flex-wrap gap-4", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_jsx_dev_runtime2.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("nav", { className: "w-full text-white flex justify-between items-center text-lg font-light py-0 px-4 flex-wrap gap-4", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
       import_react2.Link,
       {
         to: "/",
         className: location.pathname === "/" ? "bg-amber-500 rounded p-1 text-black font-semibold" : "hover:text-gray-300 transition-colors hover:cursor-pointer",
         children: "Inicio"
-      }
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/components/nav.jsx",
+        lineNumber: 9,
+        columnNumber: 17
+      },
+      this
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
       import_react2.Link,
       {
         to: "/nosotros",
         className: location.pathname === "/nosotros" ? "bg-amber-500 rounded p-1 text-black font-semibold" : "hover:text-gray-300 transition-colors hover:cursor-pointer",
         children: "Quienes somos"
-      }
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/components/nav.jsx",
+        lineNumber: 13,
+        columnNumber: 17
+      },
+      this
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
       import_react2.Link,
       {
         to: "/puertas",
         className: location.pathname === "/puertas" ? "bg-amber-500 rounded p-1 text-black font-semibold" : "hover:text-gray-300 transition-colors hover:cursor-pointer",
         children: "Puertas"
-      }
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/components/nav.jsx",
+        lineNumber: 17,
+        columnNumber: 17
+      },
+      this
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
       import_react2.Link,
       {
         to: "/ventanas",
         className: location.pathname === "/ventanas" ? "bg-amber-500 rounded p-1 text-black font-semibold" : "hover:text-gray-300 transition-colors hover:cursor-pointer",
         children: "Ventanas"
-      }
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/components/nav.jsx",
+        lineNumber: 21,
+        columnNumber: 17
+      },
+      this
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
       import_react2.Link,
       {
         to: "/pvc",
         className: location.pathname === "/pvc" ? "bg-amber-500 rounded p-1 text-black font-semibold" : "hover:text-gray-300 transition-colors hover:cursor-pointer",
         children: "Linea pvc"
-      }
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/components/nav.jsx",
+        lineNumber: 25,
+        columnNumber: 17
+      },
+      this
     )
-  ] }) });
+  ] }, void 0, !0, {
+    fileName: "app/components/nav.jsx",
+    lineNumber: 8,
+    columnNumber: 13
+  }, this) }, void 0, !1, {
+    fileName: "app/components/nav.jsx",
+    lineNumber: 7,
+    columnNumber: 9
+  }, this);
 }
 var nav_default = Nav;
 
@@ -187,25 +251,93 @@ var import_ai = require("react-icons/ai");
 var logo_default = "/build/_assets/logo-4PXBK5NH.png";
 
 // app/components/header.jsx
-var import_jsx_runtime3 = require("react/jsx-runtime");
+var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime");
 function Header() {
-  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("header", { className: "flex flex-col md:flex-row items-center justify-center bg-slate-900/50 py-2 border-b border-gray-300 sticky top-0 w-full z-10", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { className: "flex-col items-center justify-center w-44 me-4 container mx-auto", children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "/", children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("img", { src: logo_default, alt: "Imagen logotipo", className: "w-auto hidden md:inline" }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(nav_default, {}),
-    /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "w-1/3 text-white flex items-center justify-center", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "https://instagram.com/aberturas_marquez?igshid=MzRlODBiNWFlZA==", target: "_blank", rel: "noreferrer", alt: "Logotipo instagram", children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_ai.AiOutlineInstagram, { className: "mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer" }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "https://wa.me/541168164079", target: "_blank", rel: "noreferrer", alt: "Logotipo whatsapp", children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_ai.AiOutlineWhatsApp, { className: "mx-2 w-6 h-6 hover:text-green-500 transition-colors hover:cursor-pointer" }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "https://www.facebook.com/aberturas.marquez.3?mibextid=ZbWKwL", target: "_blank", rel: "noreferrer", alt: "Logotipo facebook", children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_ai.AiOutlineFacebook, { className: "mx-2 w-6 h-6 hover:text-blue-600 transition-colors hover:cursor-pointer" }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "/nosotros", target: "_blank", alt: "Logotipo whatsapp", children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_ai.AiOutlineEnvironment, { className: "mx-2 w-6 h-6 hover:text-red-500 transition-colors hover:cursor-pointer" }) })
-    ] })
-  ] });
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("header", { className: "flex flex-col md:flex-row items-center justify-center bg-slate-900/50 py-2 border-b border-gray-300 sticky top-0 w-full z-10", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex-col items-center justify-center w-44 me-4 container mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: logo_default, alt: "Imagen logotipo", className: "w-auto hidden md:inline" }, void 0, !1, {
+      fileName: "app/components/header.jsx",
+      lineNumber: 15,
+      columnNumber: 21
+    }, this) }, void 0, !1, {
+      fileName: "app/components/header.jsx",
+      lineNumber: 15,
+      columnNumber: 9
+    }, this) }, void 0, !1, {
+      fileName: "app/components/header.jsx",
+      lineNumber: 14,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(nav_default, {}, void 0, !1, {
+      fileName: "app/components/header.jsx",
+      lineNumber: 17,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "w-1/3 text-white flex items-center justify-center", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://instagram.com/aberturas_marquez?igshid=MzRlODBiNWFlZA==", target: "_blank", rel: "noreferrer", alt: "Logotipo instagram", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_ai.AiOutlineInstagram, { className: "mx-2 w-6 h-6 hover:text-violet-500 transition-colors hover:cursor-pointer" }, void 0, !1, {
+        fileName: "app/components/header.jsx",
+        lineNumber: 19,
+        columnNumber: 141
+      }, this) }, void 0, !1, {
+        fileName: "app/components/header.jsx",
+        lineNumber: 19,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://wa.me/541168164079", target: "_blank", rel: "noreferrer", alt: "Logotipo whatsapp", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_ai.AiOutlineWhatsApp, { className: "mx-2 w-6 h-6 hover:text-green-500 transition-colors hover:cursor-pointer" }, void 0, !1, {
+        fileName: "app/components/header.jsx",
+        lineNumber: 20,
+        columnNumber: 103
+      }, this) }, void 0, !1, {
+        fileName: "app/components/header.jsx",
+        lineNumber: 20,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://www.facebook.com/aberturas.marquez.3?mibextid=ZbWKwL", target: "_blank", rel: "noreferrer", alt: "Logotipo facebook", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_ai.AiOutlineFacebook, { className: "mx-2 w-6 h-6 hover:text-blue-600 transition-colors hover:cursor-pointer" }, void 0, !1, {
+        fileName: "app/components/header.jsx",
+        lineNumber: 21,
+        columnNumber: 137
+      }, this) }, void 0, !1, {
+        fileName: "app/components/header.jsx",
+        lineNumber: 21,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "/nosotros", target: "_blank", alt: "Logotipo whatsapp", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_ai.AiOutlineEnvironment, { className: "mx-2 w-6 h-6 hover:text-red-500 transition-colors hover:cursor-pointer" }, void 0, !1, {
+        fileName: "app/components/header.jsx",
+        lineNumber: 22,
+        columnNumber: 69
+      }, this) }, void 0, !1, {
+        fileName: "app/components/header.jsx",
+        lineNumber: 22,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/components/header.jsx",
+      lineNumber: 18,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/header.jsx",
+    lineNumber: 13,
+    columnNumber: 5
+  }, this);
 }
 var header_default = Header;
 
 // app/components/footer.jsx
-var import_jsx_runtime4 = require("react/jsx-runtime");
+var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime");
 function Footer() {
-  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("footer", { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "container mx-auto p-10 pb-4", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(nav_default, {}) }) });
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("footer", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "container mx-auto p-10 pb-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(nav_default, {}, void 0, !1, {
+    fileName: "app/components/footer.jsx",
+    lineNumber: 7,
+    columnNumber: 13
+  }, this) }, void 0, !1, {
+    fileName: "app/components/footer.jsx",
+    lineNumber: 6,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/components/footer.jsx",
+    lineNumber: 5,
+    columnNumber: 5
+  }, this);
 }
 var footer_default = Footer;
 
@@ -213,7 +345,7 @@ var footer_default = Footer;
 var favicon_default = "/build/_assets/favicon-3WVMFQIW.png";
 
 // app/root.jsx
-var import_jsx_runtime5 = require("react/jsx-runtime");
+var import_jsx_dev_runtime5 = require("react/jsx-dev-runtime");
 function meta() {
   return [
     {
@@ -262,20 +394,56 @@ function links() {
   ];
 }
 function App() {
-  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(Document, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react3.Outlet, {}) });
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_react3.Outlet, {}, void 0, !1, {
+    fileName: "app/root.jsx",
+    lineNumber: 69,
+    columnNumber: 13
+  }, this) }, void 0, !1, {
+    fileName: "app/root.jsx",
+    lineNumber: 68,
+    columnNumber: 5
+  }, this);
 }
 function Document({ children }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("html", { lang: "es", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("head", { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react3.Meta, {}),
-      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react3.Links, {})
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("body", { className: "bg-gradient-to-tl from-cyan-700 to-slate-500", id: "root", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(header_default, {}),
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("html", { lang: "es", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("head", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_react3.Meta, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 78,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_react3.Links, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 79,
+        columnNumber: 17
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/root.jsx",
+      lineNumber: 77,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("body", { className: "bg-gradient-to-tl from-cyan-700 to-slate-500", id: "root", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(header_default, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 82,
+        columnNumber: 17
+      }, this),
       children,
-      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(footer_default, {})
-    ] })
-  ] });
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(footer_default, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 84,
+        columnNumber: 17
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/root.jsx",
+      lineNumber: 81,
+      columnNumber: 13
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/root.jsx",
+    lineNumber: 76,
+    columnNumber: 5
+  }, this);
 }
 
 // app/routes/chapasimple.jsx
@@ -420,39 +588,103 @@ var chapaSimple = [
 ];
 
 // app/components/card.jsx
-var import_jsx_runtime6 = require("react/jsx-runtime"), Card = ({ nombre, marco, hoja, bisagras, cerradura, img }) => /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "flex flex-col items-center justify-center w-full h-full bg-white shadow", children: [
-  /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { src: img, alt: nombre, className: "w-full" }),
-  /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "p-4 w-full text-start", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h2", { className: "font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center", children: nombre }),
-    /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "grid grid-cols-2 items-center text-center", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("p", { className: "font-bold py-2", children: [
+var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), Card = ({ nombre, marco, hoja, bisagras, cerradura, img }) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-col items-center justify-center w-full h-full bg-white shadow", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: img, alt: nombre, className: "w-full" }, void 0, !1, {
+    fileName: "app/components/card.jsx",
+    lineNumber: 5,
+    columnNumber: 7
+  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "p-4 w-full text-start", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { className: "font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center", children: nombre }, void 0, !1, {
+      fileName: "app/components/card.jsx",
+      lineNumber: 7,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid grid-cols-2 items-center text-center", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "font-bold py-2", children: [
         "Marco: ",
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "font-light", children: marco })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("p", { className: "font-bold py-2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { className: "font-light", children: marco }, void 0, !1, {
+          fileName: "app/components/card.jsx",
+          lineNumber: 9,
+          columnNumber: 48
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/card.jsx",
+        lineNumber: 9,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "font-bold py-2", children: [
         "Hoja: ",
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "font-light", children: hoja })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("p", { className: "font-bold py-2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { className: "font-light", children: hoja }, void 0, !1, {
+          fileName: "app/components/card.jsx",
+          lineNumber: 10,
+          columnNumber: 47
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/card.jsx",
+        lineNumber: 10,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "font-bold py-2", children: [
         "Bisagras: ",
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "font-light", children: bisagras })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("p", { className: "font-bold py-2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { className: "font-light", children: bisagras }, void 0, !1, {
+          fileName: "app/components/card.jsx",
+          lineNumber: 11,
+          columnNumber: 51
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/card.jsx",
+        lineNumber: 11,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "font-bold py-2", children: [
         "Cerradura: ",
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "font-light", children: cerradura })
-      ] })
-    ] })
-  ] })
-] }), card_default = Card;
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { className: "font-light", children: cerradura }, void 0, !1, {
+          fileName: "app/components/card.jsx",
+          lineNumber: 12,
+          columnNumber: 52
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/card.jsx",
+        lineNumber: 12,
+        columnNumber: 11
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/components/card.jsx",
+      lineNumber: 8,
+      columnNumber: 9
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/card.jsx",
+    lineNumber: 6,
+    columnNumber: 7
+  }, this)
+] }, void 0, !0, {
+  fileName: "app/components/card.jsx",
+  lineNumber: 4,
+  columnNumber: 5
+}, this), card_default = Card;
 
 // app/components/categorias.jsx
-var import_react4 = require("react"), import_jsx_runtime7 = require("react/jsx-runtime"), Categorias = ({ children, categoria, subcategoria }) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("section", { className: "min-h-screen bg-categorias border-b border-gray-300 flex flex-col items-center", children: [
-  /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h1", { className: "uppercase text-3xl md:text-4xl font-black py-6 text-white text-center w-full drop-shadow bg-slate-600/50", children: categoria }),
-  /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-items-center gap-4 w-full min-h-screen bg-slate-600/50 py-10 px-5 rounded", children })
-] }), categorias_default = Categorias;
+var import_react4 = require("react"), import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), Categorias = ({ children, categoria, subcategoria }) => /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("section", { className: "min-h-screen bg-categorias border-b border-gray-300 flex flex-col items-center", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black py-6 text-white text-center w-full drop-shadow bg-slate-600/50", children: categoria }, void 0, !1, {
+    fileName: "app/components/categorias.jsx",
+    lineNumber: 6,
+    columnNumber: 7
+  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-items-center gap-4 w-full min-h-screen bg-slate-600/50 py-10 px-5 rounded", children }, void 0, !1, {
+    fileName: "app/components/categorias.jsx",
+    lineNumber: 7,
+    columnNumber: 7
+  }, this)
+] }, void 0, !0, {
+  fileName: "app/components/categorias.jsx",
+  lineNumber: 5,
+  columnNumber: 5
+}, this), categorias_default = Categorias;
 
 // app/routes/chapasimple.jsx
-var import_jsx_runtime8 = require("react/jsx-runtime");
+var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
 function meta2() {
   return [
     {
@@ -472,10 +704,10 @@ function meta2() {
   ];
 }
 function Chapasimple() {
-  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
     categorias_default,
     {
-      children: chapaSimple.map((puerta) => /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
+      children: chapaSimple.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
         card_default,
         {
           nombre: puerta.nombre,
@@ -484,10 +716,26 @@ function Chapasimple() {
           bisagras: puerta.bisagras,
           cerradura: puerta.cerradura,
           img: puerta.img
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/chapasimple.jsx",
+          lineNumber: 31,
+          columnNumber: 9
+        },
+        this
       )),
       categoria: "Puertas chapa simple"
-    }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/chapasimple.jsx",
+      lineNumber: 29,
+      columnNumber: 5
+    },
+    this
   );
 }
 var chapasimple_default = Chapasimple;
@@ -500,28 +748,68 @@ __export(ventanaspvc_exports, {
 });
 
 // app/components/cardpvc.jsx
-var import_jsx_runtime9 = require("react/jsx-runtime");
+var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime");
 function Cardpvc({ nombre, info, img }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "flex flex-col items-center justify-center w-full min-h-full bg-white", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("img", { src: img, alt: nombre, className: "w-full" }),
-    /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "p-4 w-full text-start", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("h2", { className: "font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center", children: nombre }),
-      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "flex items-center justify-center text-center", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("p", { className: "font-bold py-2", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-col items-center justify-center w-full min-h-full bg-white", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { src: img, alt: nombre, className: "w-full" }, void 0, !1, {
+      fileName: "app/components/cardpvc.jsx",
+      lineNumber: 6,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "p-4 w-full text-start", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h2", { className: "font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center", children: nombre }, void 0, !1, {
+        fileName: "app/components/cardpvc.jsx",
+        lineNumber: 8,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex items-center justify-center text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "font-bold py-2", children: [
         "Descripcion: ",
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("span", { className: "font-light text-sm md:text-lg", children: info })
-      ] }) })
-    ] })
-  ] });
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "font-light text-sm md:text-lg", children: info }, void 0, !1, {
+          fileName: "app/components/cardpvc.jsx",
+          lineNumber: 10,
+          columnNumber: 54
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/cardpvc.jsx",
+        lineNumber: 10,
+        columnNumber: 11
+      }, this) }, void 0, !1, {
+        fileName: "app/components/cardpvc.jsx",
+        lineNumber: 9,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/components/cardpvc.jsx",
+      lineNumber: 7,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/cardpvc.jsx",
+    lineNumber: 5,
+    columnNumber: 5
+  }, this);
 }
 var cardpvc_default = Cardpvc;
 
 // app/components/categoriasPvc.jsx
-var import_react5 = require("react"), import_jsx_runtime10 = require("react/jsx-runtime");
+var import_react5 = require("react"), import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
 function CategoriasPvc({ children, categoria, subcategoria }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("section", { className: "min-h-screen bg-categorias border-b border-gray-300 flex flex-col items-center", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h1", { className: "uppercase text-3xl md:text-4xl font-black pb-4 text-white text-center w-full drop-shadow bg-gray-600/50 py-6", children: categoria }),
-    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items center justify-items-center gap-4 w-full min-h-screen bg-gray-600/50 py-10 px-5 rounded", children })
-  ] });
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "min-h-screen bg-categorias border-b border-gray-300 flex flex-col items-center", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black pb-4 text-white text-center w-full drop-shadow bg-gray-600/50 py-6", children: categoria }, void 0, !1, {
+      fileName: "app/components/categoriasPvc.jsx",
+      lineNumber: 6,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items center justify-items-center gap-4 w-full min-h-screen bg-gray-600/50 py-10 px-5 rounded", children }, void 0, !1, {
+      fileName: "app/components/categoriasPvc.jsx",
+      lineNumber: 7,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/categoriasPvc.jsx",
+    lineNumber: 5,
+    columnNumber: 5
+  }, this);
 }
 var categoriasPvc_default = CategoriasPvc;
 
@@ -610,7 +898,7 @@ var ventanasPvc = [
 ];
 
 // app/routes/ventanaspvc.jsx
-var import_jsx_runtime11 = require("react/jsx-runtime");
+var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime");
 function meta3() {
   return [
     {
@@ -630,20 +918,36 @@ function meta3() {
   ];
 }
 function VentanasPvc() {
-  return /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
     categoriasPvc_default,
     {
-      children: ventanasPvc.map((ventana) => /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+      children: ventanasPvc.map((ventana) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
         cardpvc_default,
         {
           nombre: ventana.nombre,
           info: ventana.info,
           img: ventana.img
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/ventanaspvc.jsx",
+          lineNumber: 31,
+          columnNumber: 11
+        },
+        this
       )),
       categoria: "PVC",
       subcategoria: "Ventanas Corredizas"
-    }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/ventanaspvc.jsx",
+      lineNumber: 29,
+      columnNumber: 5
+    },
+    this
   );
 }
 var ventanaspvc_default = VentanasPvc;
@@ -859,7 +1163,7 @@ var inyectadas = [
 ];
 
 // app/routes/doblechapa.jsx
-var import_jsx_runtime12 = require("react/jsx-runtime");
+var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
 function meta4() {
   return [
     {
@@ -879,11 +1183,11 @@ function meta4() {
   ];
 }
 function Doblechapa() {
-  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("section", { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("section", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
       categorias_default,
       {
-        children: inyectadas.map((puerta) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+        children: inyectadas.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
           card_default,
           {
             nombre: puerta.nombre,
@@ -892,15 +1196,35 @@ function Doblechapa() {
             bisagras: puerta.bisagras,
             cerradura: puerta.cerradura,
             img: puerta.img
-          }
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/doblechapa.jsx",
+            lineNumber: 34,
+            columnNumber: 13
+          },
+          this
         )),
         categoria: "Puertas chapa doble inyectadas"
-      }
-    ) }),
-    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/routes/doblechapa.jsx",
+        lineNumber: 32,
+        columnNumber: 9
+      },
+      this
+    ) }, void 0, !1, {
+      fileName: "app/routes/doblechapa.jsx",
+      lineNumber: 31,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
       categorias_default,
       {
-        children: chapaDoble.map((puerta) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+        children: chapaDoble.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
           card_default,
           {
             nombre: puerta.nombre,
@@ -909,12 +1233,36 @@ function Doblechapa() {
             bisagras: puerta.bisagras,
             cerradura: puerta.cerradura,
             img: puerta.img
-          }
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/doblechapa.jsx",
+            lineNumber: 49,
+            columnNumber: 13
+          },
+          this
         )),
         categoria: "Puertas chapa doble sin inyectar"
-      }
-    ) })
-  ] });
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/routes/doblechapa.jsx",
+        lineNumber: 47,
+        columnNumber: 9
+      },
+      this
+    ) }, void 0, !1, {
+      fileName: "app/routes/doblechapa.jsx",
+      lineNumber: 46,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/routes/doblechapa.jsx",
+    lineNumber: 30,
+    columnNumber: 5
+  }, this);
 }
 var doblechapa_default = Doblechapa;
 
@@ -1133,37 +1481,101 @@ var plegadizasNobel = [
 ];
 
 // app/components/cardPlegadizas.jsx
-var import_jsx_runtime13 = require("react/jsx-runtime"), cardPlegadizas = ({ nombre, colores, vidrio, img }) => /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "flex flex-col items-center justify-center w-full h-full bg-white shadow", children: [
-  /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("img", { src: img, alt: nombre, className: "w-full" }),
-  /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "p-4 w-full text-start", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center", children: nombre }),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "grid grid-cols-2 items-center text-center", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("p", { className: "font-bold py-2", children: [
+var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), cardPlegadizas = ({ nombre, colores, vidrio, img }) => /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex flex-col items-center justify-center w-full h-full bg-white shadow", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("img", { src: img, alt: nombre, className: "w-full" }, void 0, !1, {
+    fileName: "app/components/cardPlegadizas.jsx",
+    lineNumber: 6,
+    columnNumber: 7
+  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "p-4 w-full text-start", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h2", { className: "font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center", children: nombre }, void 0, !1, {
+      fileName: "app/components/cardPlegadizas.jsx",
+      lineNumber: 8,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "grid grid-cols-2 items-center text-center", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { className: "font-bold py-2", children: [
         "Colores: ",
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "font-light", children: colores })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("p", { className: "font-bold py-2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "font-light", children: colores }, void 0, !1, {
+          fileName: "app/components/cardPlegadizas.jsx",
+          lineNumber: 10,
+          columnNumber: 50
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/cardPlegadizas.jsx",
+        lineNumber: 10,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { className: "font-bold py-2", children: [
         "Vidrio: ",
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "font-light", children: vidrio })
-      ] })
-    ] })
-  ] })
-] }), cardPlegadizas_default = cardPlegadizas;
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "font-light", children: vidrio }, void 0, !1, {
+          fileName: "app/components/cardPlegadizas.jsx",
+          lineNumber: 11,
+          columnNumber: 49
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/cardPlegadizas.jsx",
+        lineNumber: 11,
+        columnNumber: 11
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/components/cardPlegadizas.jsx",
+      lineNumber: 9,
+      columnNumber: 9
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/cardPlegadizas.jsx",
+    lineNumber: 7,
+    columnNumber: 7
+  }, this)
+] }, void 0, !0, {
+  fileName: "app/components/cardPlegadizas.jsx",
+  lineNumber: 5,
+  columnNumber: 5
+}, this), cardPlegadizas_default = cardPlegadizas;
 
 // app/components/cardPlegadizasNobel.jsx
-var import_react6 = require("react"), import_jsx_runtime14 = require("react/jsx-runtime"), cardPlegadizasNobel = ({ nombre, caracteristicas, img }) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "flex flex-col items-center justify-center w-full h-full bg-white shadow", children: [
-  /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: img, alt: nombre, className: "w-full" }),
-  /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "p-4 w-full text-start", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center", children: nombre }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "flex items-center justify-center text-center", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("p", { className: "font-bold py-2", children: [
+var import_react6 = require("react"), import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), cardPlegadizasNobel = ({ nombre, caracteristicas, img }) => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex flex-col items-center justify-center w-full h-full bg-white shadow", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: img, alt: nombre, className: "w-full" }, void 0, !1, {
+    fileName: "app/components/cardPlegadizasNobel.jsx",
+    lineNumber: 6,
+    columnNumber: 7
+  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "p-4 w-full text-start", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { className: "font-bold uppercase text-xl mb-4 border-b border-gray-200 text-center", children: nombre }, void 0, !1, {
+      fileName: "app/components/cardPlegadizasNobel.jsx",
+      lineNumber: 8,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex items-center justify-center text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { className: "font-bold py-2", children: [
       "Caracteristicas: ",
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "font-light", children: caracteristicas })
-    ] }) })
-  ] })
-] }), cardPlegadizasNobel_default = cardPlegadizasNobel;
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "font-light", children: caracteristicas }, void 0, !1, {
+        fileName: "app/components/cardPlegadizasNobel.jsx",
+        lineNumber: 10,
+        columnNumber: 58
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/components/cardPlegadizasNobel.jsx",
+      lineNumber: 10,
+      columnNumber: 11
+    }, this) }, void 0, !1, {
+      fileName: "app/components/cardPlegadizasNobel.jsx",
+      lineNumber: 9,
+      columnNumber: 9
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/cardPlegadizasNobel.jsx",
+    lineNumber: 7,
+    columnNumber: 7
+  }, this)
+] }, void 0, !0, {
+  fileName: "app/components/cardPlegadizasNobel.jsx",
+  lineNumber: 5,
+  columnNumber: 5
+}, this), cardPlegadizasNobel_default = cardPlegadizasNobel;
 
 // app/routes/plegadizas.jsx
-var import_jsx_runtime15 = require("react/jsx-runtime");
+var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
 function meta5() {
   return [
     {
@@ -1182,36 +1594,72 @@ function meta5() {
     }
   ];
 }
-var Plegadizas = () => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(import_jsx_runtime15.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
+var Plegadizas = () => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
     categorias_default,
     {
-      children: plegadizas.map((puerta) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
+      children: plegadizas.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
         cardPlegadizas_default,
         {
           colores: puerta.colores,
           vidrio: puerta.vidrio,
           img: puerta.img
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/plegadizas.jsx",
+          lineNumber: 34,
+          columnNumber: 11
+        },
+        this
       )),
       categoria: "Puertas plegadizas pvc"
-    }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/plegadizas.jsx",
+      lineNumber: 32,
+      columnNumber: 7
+    },
+    this
   ),
-  /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
+  /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
     categorias_default,
     {
-      children: plegadizasNobel.map((puerta) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
+      children: plegadizasNobel.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
         cardPlegadizasNobel_default,
         {
           img: puerta.img,
           nombre: puerta.nombre,
           caracteristicas: puerta.caracteristicas
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/plegadizas.jsx",
+          lineNumber: 44,
+          columnNumber: 11
+        },
+        this
       )),
       categoria: "Puertas plegadizas madera"
-    }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/plegadizas.jsx",
+      lineNumber: 42,
+      columnNumber: 7
+    },
+    this
   )
-] }), plegadizas_default = Plegadizas;
+] }, void 0, !0, {
+  fileName: "app/routes/plegadizas.jsx",
+  lineNumber: 31,
+  columnNumber: 5
+}, this), plegadizas_default = Plegadizas;
 
 // app/routes/seguridad.jsx
 var seguridad_exports = {};
@@ -1300,7 +1748,7 @@ var seguridad = [
 ];
 
 // app/routes/seguridad.jsx
-var import_jsx_runtime16 = require("react/jsx-runtime");
+var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
 function meta6() {
   return [
     {
@@ -1320,10 +1768,10 @@ function meta6() {
   ];
 }
 function Seguridad() {
-  return /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
     categorias_default,
     {
-      children: seguridad.map((puerta) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+      children: seguridad.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
         card_default,
         {
           nombre: puerta.nombre,
@@ -1332,10 +1780,26 @@ function Seguridad() {
           bisagras: puerta.bisagras,
           cerradura: puerta.cerradura,
           img: puerta.img
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/seguridad.jsx",
+          lineNumber: 31,
+          columnNumber: 9
+        },
+        this
       )),
       categoria: "Puertas de seguridad"
-    }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/seguridad.jsx",
+      lineNumber: 29,
+      columnNumber: 5
+    },
+    this
   );
 }
 var seguridad_default = Seguridad;
@@ -1361,7 +1825,7 @@ var tecnodeck = [
 ];
 
 // app/routes/tecnodeck.jsx
-var import_jsx_runtime17 = require("react/jsx-runtime");
+var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime");
 function meta7() {
   return [
     {
@@ -1381,20 +1845,36 @@ function meta7() {
   ];
 }
 function Tecnodeck() {
-  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
     categoriasPvc_default,
     {
-      children: tecnodeck.map((prod) => /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
+      children: tecnodeck.map((prod) => /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
         cardpvc_default,
         {
           nombre: prod.nombre,
           info: prod.info,
           img: prod.img
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/tecnodeck.jsx",
+          lineNumber: 31,
+          columnNumber: 11
+        },
+        this
       )),
       categoria: "PVC",
       subcategoria: "Ventanas Corredizas"
-    }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/tecnodeck.jsx",
+      lineNumber: 29,
+      columnNumber: 5
+    },
+    this
   );
 }
 var tecnodeck_default = Tecnodeck;
@@ -1460,7 +1940,7 @@ var aluminio = [
 ];
 
 // app/routes/aluminio.jsx
-var import_jsx_runtime18 = require("react/jsx-runtime");
+var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime");
 function meta8() {
   return [
     {
@@ -1480,10 +1960,10 @@ function meta8() {
   ];
 }
 function Aluminio() {
-  return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
     categorias_default,
     {
-      children: aluminio.map((puerta) => /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+      children: aluminio.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
         card_default,
         {
           nombre: puerta.nombre,
@@ -1492,10 +1972,26 @@ function Aluminio() {
           bisagras: puerta.bisagras,
           cerradura: puerta.cerradura,
           img: puerta.img
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/aluminio.jsx",
+          lineNumber: 31,
+          columnNumber: 9
+        },
+        this
       )),
       categoria: "Puertas chapa simple"
-    }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/aluminio.jsx",
+      lineNumber: 29,
+      columnNumber: 5
+    },
+    this
   );
 }
 var aluminio_default = Aluminio;
@@ -1511,7 +2007,7 @@ __export(nosotros_exports, {
 var map_default = "/build/_assets/map-HLDFBFIJ.jpg";
 
 // app/routes/nosotros.jsx
-var import_jsx_runtime19 = require("react/jsx-runtime");
+var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime");
 function meta9() {
   return [
     {
@@ -1531,22 +2027,74 @@ function meta9() {
   ];
 }
 function Nosotros() {
-  return /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("main", { className: "flex flex-col items-center justify-center px-6 py-20 min-h-screen", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("h1", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "Nosotros" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", { className: "text-md md:text-lg font-light py-4", children: "En Aberturas Marquez nos ocupamos de asesorar al cliente sobre sus mejores opciones para sus necesidades teniendo en cuenta la relaci\xF3n calidad precio. Priorizamos el plazo de entrega fijado para brindarles un buen servicio a nuestros clientes. Trabajamos con l\xEDneas de productos economicas y con l\xEDneas premium para que el cliente pueda elegir lo que mas se adapte a sus necesidades y su presupuesto." })
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "\xBF Donde nos encontramos ?" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("img", { src: map_default, alt: "Imagen de mapa", className: "w-full my-2" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", { className: "text-lg py-4 font-semibold text-center border-b border-black border-spacing-4", children: "Av. Brig. Gral. Juan Manuel de Rosas 2475, B1655 Jos\xE9 Le\xF3n Su\xE1rez, Provincia de Buenos Aires" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", { className: "text-lg py-4 font-semibold text-center border-b border-black", children: "Horarios de atenci\xF3n: Lunes a Viernes de 9:00 a 12:30 / 15:00 a 19:00 - Sabados de 9:00 a 13:00" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("h3", { className: "text-start uppercase text-lg md:text-xl lg:text-2xl font-bold underline mt-2", children: "Contacto" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", { className: "text-lg py-2 font-semibold text-start", children: "Whatsapp: 11-6816-4079 ( Ezequiel )" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", { className: "text-lg py-2 font-semibold text-start", children: "Instagram: @aberturasmarquez" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", { className: "text-lg py-2 font-semibold text-start", children: "Facebook: Aberturas Marquez" })
-    ] })
-  ] });
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("main", { className: "flex flex-col items-center justify-center px-6 py-20 min-h-screen", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("h1", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "Nosotros" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 27,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-md md:text-lg font-light py-4", children: "En Aberturas Marquez nos ocupamos de asesorar al cliente sobre sus mejores opciones para sus necesidades teniendo en cuenta la relaci\xF3n calidad precio. Priorizamos el plazo de entrega fijado para brindarles un buen servicio a nuestros clientes. Trabajamos con l\xEDneas de productos economicas y con l\xEDneas premium para que el cliente pueda elegir lo que mas se adapte a sus necesidades y su presupuesto." }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 28,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/routes/nosotros.jsx",
+      lineNumber: 26,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: " bg-gray-100 p-4 md:p-10 my-5 rounded-lg shadow-md w-full md:w-1/2", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold", children: "\xBF Donde nos encontramos ?" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 32,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("img", { src: map_default, alt: "Imagen de mapa", className: "w-full my-2" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 33,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center border-b border-black border-spacing-4", children: "Av. Brig. Gral. Juan Manuel de Rosas 2475, B1655 Jos\xE9 Le\xF3n Su\xE1rez, Provincia de Buenos Aires" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 34,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-lg py-4 font-semibold text-center border-b border-black", children: "Horarios de atenci\xF3n: Lunes a Viernes de 9:00 a 12:30 / 15:00 a 19:00 - Sabados de 9:00 a 13:00" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 35,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("h3", { className: "text-start uppercase text-lg md:text-xl lg:text-2xl font-bold underline mt-2", children: "Contacto" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 36,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-lg py-2 font-semibold text-start", children: "Whatsapp: 11-6816-4079 ( Ezequiel )" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 37,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-lg py-2 font-semibold text-start", children: "Instagram: @aberturasmarquez" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 38,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "text-lg py-2 font-semibold text-start", children: "Facebook: Aberturas Marquez" }, void 0, !1, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 39,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/routes/nosotros.jsx",
+      lineNumber: 31,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/routes/nosotros.jsx",
+    lineNumber: 25,
+    columnNumber: 5
+  }, this);
 }
 var nosotros_default = Nosotros;
 
@@ -1607,7 +2155,7 @@ var ventanas = [
 ];
 
 // app/routes/ventanas.jsx
-var import_jsx_runtime20 = require("react/jsx-runtime");
+var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime");
 function meta10() {
   return [
     {
@@ -1627,19 +2175,35 @@ function meta10() {
   ];
 }
 function Ventanas() {
-  return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
     categorias_default,
     {
-      children: ventanas.map((ventana) => /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
+      children: ventanas.map((ventana) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
         cardPlegadizasNobel_default,
         {
           nombre: ventana.nombre,
           img: ventana.img,
           caracteristicas: ventana.caracteristicas
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/ventanas.jsx",
+          lineNumber: 31,
+          columnNumber: 9
+        },
+        this
       )),
       categoria: "Puertas chapa simple"
-    }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/ventanas.jsx",
+      lineNumber: 29,
+      columnNumber: 5
+    },
+    this
   );
 }
 var ventanas_default = Ventanas;
@@ -1650,7 +2214,7 @@ __export(puertas_exports, {
   default: () => puertas_default,
   meta: () => meta11
 });
-var import_react7 = require("@remix-run/react"), import_jsx_runtime21 = require("react/jsx-runtime");
+var import_react7 = require("@remix-run/react"), import_jsx_dev_runtime21 = require("react/jsx-dev-runtime");
 function meta11() {
   return [
     {
@@ -1670,59 +2234,123 @@ function meta11() {
   ];
 }
 function Puertas() {
-  return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("section", { className: "min-h-screen flex flex-col items-center justify-center bg-categorias", children: /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)("div", { className: "flex flex-col items-center justify-center p-10", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("h1", { className: "uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow", children: "Puertas" }),
-    /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)("div", { className: "flex flex-col lg:grid lg:grid-cols-5 items-center justify-items-center p-10 w-full gap-6", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("section", { className: "min-h-screen flex flex-col items-center justify-center bg-categorias", children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "flex flex-col items-center justify-center p-10", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow", children: "Puertas" }, void 0, !1, {
+      fileName: "app/routes/puertas.jsx",
+      lineNumber: 26,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "flex flex-col lg:grid lg:grid-cols-5 items-center justify-items-center p-10 w-full gap-6", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         import_react7.Link,
         {
           to: "/chapasimple",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
           children: "Chapa Simple"
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/puertas.jsx",
+          lineNumber: 28,
+          columnNumber: 11
+        },
+        this
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         import_react7.Link,
         {
           to: "/doblechapa",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
           children: "Chapa Doble"
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/puertas.jsx",
+          lineNumber: 32,
+          columnNumber: 11
+        },
+        this
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         import_react7.Link,
         {
           to: "/seguridad",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
           children: "De Seguridad"
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/puertas.jsx",
+          lineNumber: 36,
+          columnNumber: 11
+        },
+        this
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         import_react7.Link,
         {
           to: "/placa",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
           children: "Placa"
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/puertas.jsx",
+          lineNumber: 40,
+          columnNumber: 11
+        },
+        this
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         import_react7.Link,
         {
           to: "/aluminio",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
           children: "Aluminio"
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/puertas.jsx",
+          lineNumber: 44,
+          columnNumber: 11
+        },
+        this
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         import_react7.Link,
         {
           to: "/plegadizas",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
           children: "Plegadizas"
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/puertas.jsx",
+          lineNumber: 48,
+          columnNumber: 11
+        },
+        this
       )
-    ] })
-  ] }) });
+    ] }, void 0, !0, {
+      fileName: "app/routes/puertas.jsx",
+      lineNumber: 27,
+      columnNumber: 9
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/routes/puertas.jsx",
+    lineNumber: 25,
+    columnNumber: 7
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/puertas.jsx",
+    lineNumber: 24,
+    columnNumber: 5
+  }, this);
 }
 var puertas_default = Puertas;
 
@@ -1747,7 +2375,7 @@ var zocalos = [
 ];
 
 // app/routes/zocalos.jsx
-var import_jsx_runtime22 = require("react/jsx-runtime");
+var import_jsx_dev_runtime22 = require("react/jsx-dev-runtime");
 function meta12() {
   return [
     {
@@ -1767,20 +2395,36 @@ function meta12() {
   ];
 }
 function Zocalos() {
-  return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
     categoriasPvc_default,
     {
-      children: zocalos.map((prod) => /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+      children: zocalos.map((prod) => /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
         cardpvc_default,
         {
           nombre: prod.nombre,
           info: prod.info,
           img: prod.img
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/zocalos.jsx",
+          lineNumber: 31,
+          columnNumber: 11
+        },
+        this
       )),
       categoria: "PVC",
       subcategoria: "Ventanas Corredizas"
-    }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/zocalos.jsx",
+      lineNumber: 29,
+      columnNumber: 5
+    },
+    this
   );
 }
 var zocalos_default = Zocalos;
@@ -1796,30 +2440,90 @@ var import_react8 = require("@remix-run/react");
 var puerta_placa_pino_marco_pino_finger_jo_default = "/build/_assets/puerta-placa-pino-marco-pino-finger-jo-UV4T25IT.webp";
 
 // app/routes/_index.jsx
-var import_jsx_runtime23 = require("react/jsx-runtime");
+var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime");
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)(import_jsx_runtime23.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("section", { className: "w-full h-screen flex items-center justify-center md:justify-end banner-index", children: /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", { className: "flex flex-col items-center justify-center flex-nowrap md:flex-wrap w-full md:w-1/3 h-1/2 md:h-full bg-slate-900/25 p-4 text-white", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("h1", { className: "uppercase text-xl md:text-3xl font-bold mb-4", children: "\xBFYa conoces la linea PVC?" }),
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", { className: "text-md md:text-xl py-5 border-t", children: "Contamos con la tecnolog\xEDa m\xE1s innovadora disponible hoy en d\xEDa para la renovaci\xF3n de ventanas que soluciona tus problemas de climatizaci\xF3n del hogar, ruido y filtraciones." }),
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_jsx_dev_runtime23.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("section", { className: "w-full h-screen flex items-center justify-center md:justify-end banner-index", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "flex flex-col items-center justify-center flex-nowrap md:flex-wrap w-full md:w-1/3 h-1/2 md:h-full bg-slate-900/25 p-4 text-white", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("h1", { className: "uppercase text-xl md:text-3xl font-bold mb-4", children: "\xBFYa conoces la linea PVC?" }, void 0, !1, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 14,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("p", { className: "text-md md:text-xl py-5 border-t", children: "Contamos con la tecnolog\xEDa m\xE1s innovadora disponible hoy en d\xEDa para la renovaci\xF3n de ventanas que soluciona tus problemas de climatizaci\xF3n del hogar, ruido y filtraciones." }, void 0, !1, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 15,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
         import_react8.Link,
         {
           to: "/ventanaspvc",
           className: "uppercase p-2 rounded hover:bg-amber-500 bg-slate-500 text-2xl transition-all",
           children: "Ver ventanas"
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/_index.jsx",
+          lineNumber: 16,
+          columnNumber: 11
+        },
+        this
       )
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("section", { className: "flex flex-col min-h-screen items-center justify-center py-10 border-t container mx-auto", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold text-white my-10 w-full", children: "Ofertas" }),
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("div", { className: "flex items-center justify-center gap-0", children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("div", { className: "border", children: /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", { className: "py-5 px-3 bg-white flex flex-col items-center", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("img", { src: puerta_placa_pino_marco_pino_finger_jo_default, alt: "Imagen Puerta roble oferta", className: "w-1/2" }),
-        /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("h3", { className: "text-2xl font-bold border-b border-spacing-2 uppercase py-2", children: "Puerta Placa Pino" }),
-        /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", { className: "py-2 font-light text-lg text-center", children: "Puerta placa con hoja de pino y marco de pino. Cerradura simple paleta con 1 llave y 2 bocallaves." })
-      ] }) }) })
-    ] })
-  ] });
+    ] }, void 0, !0, {
+      fileName: "app/routes/_index.jsx",
+      lineNumber: 13,
+      columnNumber: 9
+    }, this) }, void 0, !1, {
+      fileName: "app/routes/_index.jsx",
+      lineNumber: 12,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("section", { className: "flex flex-col min-h-screen items-center justify-center py-10 border-t container mx-auto", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("h2", { className: "text-center uppercase text-xl md:text-2xl lg:text-4xl font-bold text-white my-10 w-full", children: "Ofertas" }, void 0, !1, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 23,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "flex items-center justify-center gap-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "border", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "py-5 px-3 bg-white flex flex-col items-center", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("img", { src: puerta_placa_pino_marco_pino_finger_jo_default, alt: "Imagen Puerta roble oferta", className: "w-1/2" }, void 0, !1, {
+          fileName: "app/routes/_index.jsx",
+          lineNumber: 27,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("h3", { className: "text-2xl font-bold border-b border-spacing-2 uppercase py-2", children: "Puerta Placa Pino" }, void 0, !1, {
+          fileName: "app/routes/_index.jsx",
+          lineNumber: 28,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("p", { className: "py-2 font-light text-lg text-center", children: "Puerta placa con hoja de pino y marco de pino. Cerradura simple paleta con 1 llave y 2 bocallaves." }, void 0, !1, {
+          fileName: "app/routes/_index.jsx",
+          lineNumber: 29,
+          columnNumber: 15
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 26,
+        columnNumber: 13
+      }, this) }, void 0, !1, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 25,
+        columnNumber: 11
+      }, this) }, void 0, !1, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 24,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/routes/_index.jsx",
+      lineNumber: 22,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/routes/_index.jsx",
+    lineNumber: 11,
+    columnNumber: 5
+  }, this);
 }
 var index_default = Index;
 
@@ -2027,7 +2731,7 @@ var placa = [
 ];
 
 // app/routes/placa.jsx
-var import_jsx_runtime24 = require("react/jsx-runtime");
+var import_jsx_dev_runtime24 = require("react/jsx-dev-runtime");
 function meta13() {
   return [
     {
@@ -2047,10 +2751,10 @@ function meta13() {
   ];
 }
 function Placa() {
-  return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
     categorias_default,
     {
-      children: placa.map((puerta) => /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+      children: placa.map((puerta) => /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
         card_default,
         {
           nombre: puerta.nombre,
@@ -2059,10 +2763,26 @@ function Placa() {
           bisagras: puerta.bisagras,
           cerradura: puerta.cerradura,
           img: puerta.img
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/placa.jsx",
+          lineNumber: 31,
+          columnNumber: 9
+        },
+        this
       )),
       categoria: "Puertas placa"
-    }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/placa.jsx",
+      lineNumber: 29,
+      columnNumber: 5
+    },
+    this
   );
 }
 var placa_default = Placa;
@@ -2073,7 +2793,7 @@ __export(pvc_exports, {
   default: () => pvc_default,
   meta: () => meta14
 });
-var import_react9 = require("@remix-run/react"), import_jsx_runtime25 = require("react/jsx-runtime");
+var import_react9 = require("@remix-run/react"), import_jsx_dev_runtime25 = require("react/jsx-dev-runtime");
 function meta14() {
   return [
     {
@@ -2093,40 +2813,84 @@ function meta14() {
   ];
 }
 function Pvc() {
-  return /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(import_jsx_runtime25.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("section", { className: "min-h-screen flex flex-col items-center justify-center bg-categorias", children: /* @__PURE__ */ (0, import_jsx_runtime25.jsxs)("div", { className: "flex flex-col items-center justify-center p-10", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("h1", { className: "uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow", children: "PVC" }),
-    /* @__PURE__ */ (0, import_jsx_runtime25.jsxs)("div", { className: "flex flex-col lg:grid lg:grid-cols-3 items-center justify-items-center p-10 w-full gap-6", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_jsx_dev_runtime25.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("section", { className: "min-h-screen flex flex-col items-center justify-center bg-categorias", children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "flex flex-col items-center justify-center p-10", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("h1", { className: "uppercase text-3xl md:text-4xl font-black mb-4 text-white text-center w-full drop-shadow", children: "PVC" }, void 0, !1, {
+      fileName: "app/routes/pvc.jsx",
+      lineNumber: 27,
+      columnNumber: 11
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "flex flex-col lg:grid lg:grid-cols-3 items-center justify-items-center p-10 w-full gap-6", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
         import_react9.Link,
         {
           to: "/ventanasPvc",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
           children: "Ventanas"
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/pvc.jsx",
+          lineNumber: 29,
+          columnNumber: 13
+        },
+        this
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
         import_react9.Link,
         {
           to: "/tecnodeck",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
           children: "Tecno Deck"
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/pvc.jsx",
+          lineNumber: 33,
+          columnNumber: 13
+        },
+        this
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
         import_react9.Link,
         {
           to: "/zocalos",
           className: "text-white text-xl bg-black/50 hover:bg-amber-500/75 rounded p-10 transition-all cursor-pointer hover:shadow-lg text-center uppercase tracking- w-full",
           children: "Zocalos"
-        }
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/pvc.jsx",
+          lineNumber: 37,
+          columnNumber: 13
+        },
+        this
       )
-    ] })
-  ] }) }) });
+    ] }, void 0, !0, {
+      fileName: "app/routes/pvc.jsx",
+      lineNumber: 28,
+      columnNumber: 11
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/routes/pvc.jsx",
+    lineNumber: 26,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/pvc.jsx",
+    lineNumber: 25,
+    columnNumber: 7
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/pvc.jsx",
+    lineNumber: 24,
+    columnNumber: 5
+  }, this);
 }
 var pvc_default = Pvc;
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-VTAGWOD2.js", imports: ["/build/_shared/chunk-E7Y4NJPN.js", "/build/_shared/chunk-DWFMXSZ6.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-K3CUXUJI.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-M4FMVUMA.js", imports: ["/build/_shared/chunk-P6CSIOGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-YSLMZY6C.js", imports: ["/build/_shared/chunk-MBVVPJNL.js", "/build/_shared/chunk-PSSDRMXL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-KSJCYAH3.js", imports: ["/build/_shared/chunk-MBVVPJNL.js", "/build/_shared/chunk-PSSDRMXL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-JH3XTLXV.js", imports: ["/build/_shared/chunk-MBVVPJNL.js", "/build/_shared/chunk-PSSDRMXL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-BNVQQJWM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-IQDCB7VL.js", imports: ["/build/_shared/chunk-P6CSIOGY.js", "/build/_shared/chunk-MBVVPJNL.js", "/build/_shared/chunk-PSSDRMXL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/plegadizas": { id: "routes/plegadizas", parentId: "root", path: "plegadizas", index: void 0, caseSensitive: void 0, module: "/build/routes/plegadizas-POKJW5H4.js", imports: ["/build/_shared/chunk-XQWOBZ46.js", "/build/_shared/chunk-PSSDRMXL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-WR2ARBDM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-GTH636MO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-7EXS3ZI3.js", imports: ["/build/_shared/chunk-MBVVPJNL.js", "/build/_shared/chunk-PSSDRMXL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-ZJ3WHVS5.js", imports: ["/build/_shared/chunk-PLQ3HSBY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-R5P3UTMM.js", imports: ["/build/_shared/chunk-XQWOBZ46.js", "/build/_shared/chunk-PSSDRMXL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-N7GFCQUU.js", imports: ["/build/_shared/chunk-PLQ3HSBY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-2LFJNVPN.js", imports: ["/build/_shared/chunk-PLQ3HSBY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "a98abdec", hmr: void 0, url: "/build/manifest-A98ABDEC.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-NDUFXDZR.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-ZRIOWOYL.js", "/build/_shared/chunk-CKVHI6DB.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-QZEBVDUY.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-S7OKM5NM.js", imports: ["/build/_shared/chunk-6RWAZIAA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aluminio": { id: "routes/aluminio", parentId: "root", path: "aluminio", index: void 0, caseSensitive: void 0, module: "/build/routes/aluminio-E2ZY227G.js", imports: ["/build/_shared/chunk-IKSKEJW6.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chapasimple": { id: "routes/chapasimple", parentId: "root", path: "chapasimple", index: void 0, caseSensitive: void 0, module: "/build/routes/chapasimple-QVCFIL5Y.js", imports: ["/build/_shared/chunk-IKSKEJW6.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/doblechapa": { id: "routes/doblechapa", parentId: "root", path: "doblechapa", index: void 0, caseSensitive: void 0, module: "/build/routes/doblechapa-MEWZ3WQZ.js", imports: ["/build/_shared/chunk-IKSKEJW6.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nosotros": { id: "routes/nosotros", parentId: "root", path: "nosotros", index: void 0, caseSensitive: void 0, module: "/build/routes/nosotros-MFFDRHVA.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/placa": { id: "routes/placa", parentId: "root", path: "placa", index: void 0, caseSensitive: void 0, module: "/build/routes/placa-RRFIP3SB.js", imports: ["/build/_shared/chunk-6RWAZIAA.js", "/build/_shared/chunk-IKSKEJW6.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/plegadizas": { id: "routes/plegadizas", parentId: "root", path: "plegadizas", index: void 0, caseSensitive: void 0, module: "/build/routes/plegadizas-7IF3DUDY.js", imports: ["/build/_shared/chunk-HGP47JZS.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/puertas": { id: "routes/puertas", parentId: "root", path: "puertas", index: void 0, caseSensitive: void 0, module: "/build/routes/puertas-E3PPWPHX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/pvc": { id: "routes/pvc", parentId: "root", path: "pvc", index: void 0, caseSensitive: void 0, module: "/build/routes/pvc-IH2YX4K4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/seguridad": { id: "routes/seguridad", parentId: "root", path: "seguridad", index: void 0, caseSensitive: void 0, module: "/build/routes/seguridad-IZFQHGFT.js", imports: ["/build/_shared/chunk-IKSKEJW6.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tecnodeck": { id: "routes/tecnodeck", parentId: "root", path: "tecnodeck", index: void 0, caseSensitive: void 0, module: "/build/routes/tecnodeck-BXJHSM6Z.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanas": { id: "routes/ventanas", parentId: "root", path: "ventanas", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanas-AI56RWWV.js", imports: ["/build/_shared/chunk-HGP47JZS.js", "/build/_shared/chunk-DA27BJI7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ventanaspvc": { id: "routes/ventanaspvc", parentId: "root", path: "ventanaspvc", index: void 0, caseSensitive: void 0, module: "/build/routes/ventanaspvc-S6PFW4Q6.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/zocalos": { id: "routes/zocalos", parentId: "root", path: "zocalos", index: void 0, caseSensitive: void 0, module: "/build/routes/zocalos-FYZHR4UP.js", imports: ["/build/_shared/chunk-AWNHQIUF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "58c1731f", hmr: { runtime: "/build/_shared\\chunk-CKVHI6DB.js", timestamp: 1694052660448 }, url: "/build/manifest-58C1731F.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
@@ -2260,3 +3024,4 @@ var assetsBuildDirectory = "public\\build", future = { v2_dev: !0, unstable_post
   publicPath,
   routes
 });
+//# sourceMappingURL=index.js.map
