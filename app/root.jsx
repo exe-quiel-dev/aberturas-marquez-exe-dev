@@ -9,6 +9,9 @@ import styles from '~/styles/index.css'
 import Header from '~/components/header'
 import Footer from '~/components/footer'
 
+// IMGS
+import favicon from '../public/imgs/favicon.png'
+
 export function meta() {
     return [
         {
@@ -50,7 +53,11 @@ export function links() {
         {
             rel: 'stylesheet',
             href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
-        }
+        },
+        {
+            rel: 'icon',
+            href: favicon
+        },
     ]
 }
 

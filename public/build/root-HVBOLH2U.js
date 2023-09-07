@@ -330,6 +330,9 @@ $RefreshReg$(_c3, "Footer");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
+// public/imgs/favicon.png
+var favicon_default = "/build/_assets/favicon-3WVMFQIW.png";
+
 // app/root.jsx
 var import_jsx_dev_runtime4 = __toESM(require_jsx_dev_runtime());
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
@@ -380,16 +383,19 @@ function links() {
   }, {
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+  }, {
+    rel: "icon",
+    href: favicon_default
   }];
 }
 function App() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Outlet, {}, void 0, false, {
     fileName: "app/root.jsx",
-    lineNumber: 60,
+    lineNumber: 66,
     columnNumber: 13
   }, this) }, void 0, false, {
     fileName: "app/root.jsx",
-    lineNumber: 59,
+    lineNumber: 65,
     columnNumber: 10
   }, this);
 }
@@ -401,39 +407,39 @@ function Document({
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 69,
+        lineNumber: 75,
         columnNumber: 17
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 70,
+        lineNumber: 76,
         columnNumber: 17
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 68,
+      lineNumber: 74,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("body", { className: "bg-gradient-to-tl from-cyan-700 to-slate-500", id: "root", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(header_default, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 73,
+        lineNumber: 79,
         columnNumber: 17
       }, this),
       children,
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(footer_default, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 75,
+        lineNumber: 81,
         columnNumber: 17
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 72,
+      lineNumber: 78,
       columnNumber: 13
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.jsx",
-    lineNumber: 67,
+    lineNumber: 73,
     columnNumber: 10
   }, this);
 }
@@ -449,4 +455,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-22UASYH3.js.map
+//# sourceMappingURL=/build/root-HVBOLH2U.js.map
