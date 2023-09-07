@@ -1,6 +1,6 @@
 // IMGS
 import img1 from '../../public/imgs/modena--corrediza.jpg'
-import img2 from '../../public/imgs/a30.jpg'
+import img2 from '../../public/imgs/A30.webp'
 import img3 from '../../public/imgs/herrero-corrediza.jpg'
 import img4 from '../../public/imgs/rotonda-corrediza.jpg'
 import img5 from '../../public/imgs/rotonda_640.jpg'

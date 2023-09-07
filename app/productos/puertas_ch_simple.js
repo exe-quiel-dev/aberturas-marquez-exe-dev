@@ -33,12 +33,12 @@ export const chapaSimple = [
   },
   {
     id: 3,
-    nombre: 'Puerta chapa simple - Mod 525 (ciega) / 925 / 983 (ciega)',
+    nombre: 'Linea 300 marco liviano',
     categoria: 'Chapa simple',
     marco: 'Chapa B.W.G Nº 22',
     hoja: 'Chapa B.W.G Nº 22',
-    bisagras: 'Pomelas',
-    cerradura: 'Comun sin combinacion',
+    bisagras: 'Municion',
+    cerradura: 'Cerradura de seguridad doble paleta',
     img: img2
   },
   {

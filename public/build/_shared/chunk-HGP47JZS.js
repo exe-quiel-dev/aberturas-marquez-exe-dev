@@ -15,7 +15,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\cardPlegadizasNobel.jsx"
   );
-  import.meta.hot.lastModified = "1693779748210.556";
+  import.meta.hot.lastModified = "1693779836502.4507";
 }
 var cardPlegadizasNobel = ({ nombre, caracteristicas, img }) => {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col items-center justify-center w-full h-full bg-white shadow", children: [
@@ -62,4 +62,4 @@ var cardPlegadizasNobel_default = cardPlegadizasNobel;
 export {
   cardPlegadizasNobel_default
 };
-//# sourceMappingURL=/build/_shared/chunk-IIMOIDBN.js.map
+//# sourceMappingURL=/build/_shared/chunk-HGP47JZS.js.map

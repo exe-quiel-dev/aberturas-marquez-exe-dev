@@ -1,6 +1,6 @@
 import {
   cardPlegadizasNobel_default
-} from "/build/_shared/chunk-IIMOIDBN.js";
+} from "/build/_shared/chunk-HGP47JZS.js";
 import {
   categorias_default
 } from "/build/_shared/chunk-DA27BJI7.js";
@@ -19,8 +19,8 @@ import {
 // public/imgs/modena--corrediza.jpg
 var modena_corrediza_default = "/build/_assets/modena--corrediza-MTIVZL63.jpg";
 
-// public/imgs/a30.jpg
-var a30_default = "/build/_assets/a30-WWIMPRQF.jpg";
+// public/imgs/A30.webp
+var A30_default = "/build/_assets/A30-HWJNDSIY.webp";
 
 // public/imgs/herrero-corrediza.jpg
 var herrero_corrediza_default = "/build/_assets/herrero-corrediza-DWNG5E5M.jpg";
@@ -37,7 +37,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\productos\\ventanas.js"
   );
-  import.meta.hot.lastModified = "1693783011483.4536";
+  import.meta.hot.lastModified = "1694048415596.0347";
 }
 var ventanas = [
   {
@@ -56,7 +56,7 @@ var ventanas = [
     id: 2,
     nombre: "L\xEDnea A30",
     caracteristicas: "Destacado por su dise\xF1o y excelente performance. Sus amplias posibilidades constructivas y la variedad de tipolog\xEDas, ofrecen una herramienta de alta prestaci\xF3n en la realizaci\xF3n de los proyectos. Se puede utilizar vidrio simple o Doble Vidriado Herm\xE9tico (DVH), en las corredizas de aplicaci\xF3n encapsulada y en las batientes con contravidrio de borde recto o curvo. Resiste el paso del tiempo, sus perfiles no requieren ning\xFAn tipo de mantenimiento y admiten tratamiento superficial como el pintado o anodizado. A30 New s\xF3lo admite accesorios de alta calidad, lo cual garantiza un \xF3ptimo funcionamiento de las aberturas en su uso cotidiano.",
-    img: a30_default
+    img: A30_default
   },
   {
     id: 4,
@@ -127,4 +127,4 @@ export {
   ventanas_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/ventanas-IHQHYPCS.js.map
+//# sourceMappingURL=/build/routes/ventanas-AI56RWWV.js.map

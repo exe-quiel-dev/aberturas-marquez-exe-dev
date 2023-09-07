@@ -32,7 +32,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\nosotros.jsx"
   );
-  import.meta.hot.lastModified = "1693785654223.7678";
+  import.meta.hot.lastModified = "1694048688885.692";
 }
 function meta() {
   return [{
@@ -96,9 +96,14 @@ function Nosotros() {
         lineNumber: 48,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-lg py-2 font-semibold text-start", children: "Instagram: @Aberturas_Marquez" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-lg py-2 font-semibold text-start", children: "Instagram: @aberturasmarquez" }, void 0, false, {
         fileName: "app/routes/nosotros.jsx",
         lineNumber: 49,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-lg py-2 font-semibold text-start", children: "Facebook: Aberturas Marquez" }, void 0, false, {
+        fileName: "app/routes/nosotros.jsx",
+        lineNumber: 50,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
@@ -122,4 +127,4 @@ export {
   nosotros_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/nosotros-YNCUWGTS.js.map
+//# sourceMappingURL=/build/routes/nosotros-MFFDRHVA.js.map

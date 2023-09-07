@@ -35,7 +35,8 @@ function Nosotros() {
         <p className="text-lg py-4 font-semibold text-center border-b border-black">Horarios de atención: Lunes a Viernes de 9:00 a 12:30 / 15:00 a 19:00 - Sabados de 9:00 a 13:00</p>
         <h3 className="text-start uppercase text-lg md:text-xl lg:text-2xl font-bold underline mt-2">Contacto</h3>
         <p className="text-lg py-2 font-semibold text-start">Whatsapp: 11-6816-4079 ( Ezequiel )</p>
-        <p className="text-lg py-2 font-semibold text-start">Instagram: @Aberturas_Marquez</p>
+        <p className="text-lg py-2 font-semibold text-start">Instagram: @aberturasmarquez</p>
+        <p className="text-lg py-2 font-semibold text-start">Facebook: Aberturas Marquez</p>
       </div>
     </main>
   )

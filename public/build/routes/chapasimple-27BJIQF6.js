@@ -52,7 +52,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\productos\\puertas_ch_simple.js"
   );
-  import.meta.hot.lastModified = "1693674136161.1956";
+  import.meta.hot.lastModified = "1694048399019.0422";
 }
 var chapaSimple = [
   {
@@ -77,12 +77,12 @@ var chapaSimple = [
   },
   {
     id: 3,
-    nombre: "Puerta chapa simple - Mod 525 (ciega) / 925 / 983 (ciega)",
+    nombre: "Linea 300 marco liviano",
     categoria: "Chapa simple",
     marco: "Chapa B.W.G N\xBA 22",
     hoja: "Chapa B.W.G N\xBA 22",
-    bisagras: "Pomelas",
-    cerradura: "Comun sin combinacion",
+    bisagras: "Municion",
+    cerradura: "Cerradura de seguridad doble paleta",
     img: chapa_simple_linea_300_default
   },
   {
@@ -212,4 +212,4 @@ export {
   chapasimple_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/chapasimple-HBJUTFUA.js.map
+//# sourceMappingURL=/build/routes/chapasimple-27BJIQF6.js.map

@@ -19,6 +19,39 @@ import {
 // public/imgs/chapa-doble-sin-inyectar-1.jpg
 var chapa_doble_sin_inyectar_1_default = "/build/_assets/chapa-doble-sin-inyectar-1-OTCDLK6L.jpg";
 
+// app/productos/puertas_doble_ch.js
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app\\productos\\puertas_doble_ch.js"
+  );
+  import.meta.hot.lastModified = "1694048064157.4133";
+}
+var chapaDoble = [
+  {
+    id: 4,
+    nombre: "Linea 400 marco pesado - Mod 420 / 460",
+    categoria: "Chapa doble sin inyectar",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa B.W.G N\xBA 22",
+    bisagras: "Municion",
+    cerradura: "No especificado",
+    img: chapa_doble_sin_inyectar_1_default
+  }
+];
+
+// public/imgs/linea-100-2.jpg
+var linea_100_2_default = "/build/_assets/linea-100-2-IRSOKMCU.jpg";
+
+// public/imgs/linea-100-3.jpg
+var linea_100_3_default = "/build/_assets/linea-100-3-PXBMA6LI.jpg";
+
+// public/imgs/puerta-doble-chapa-inyectada-linea500-700.jpg
+var puerta_doble_chapa_inyectada_linea500_700_default = "/build/_assets/puerta-doble-chapa-inyectada-linea500-700-FXWVKT6M.jpg";
+
+// public/imgs/linea-900.jpg
+var linea_900_default = "/build/_assets/linea-900-JIKJMT6P.jpg";
+
 // public/imgs/img-puertas-L1810.png
 var img_puertas_L1810_default = "/build/_assets/img-puertas-L1810-MU6ROHAY.png";
 
@@ -49,149 +82,13 @@ var doble_ch_2016_default = "/build/_assets/doble-ch-2016-7N33DI7U.png";
 // public/imgs/doble-ch-2005-2007.png
 var doble_ch_2005_2007_default = "/build/_assets/doble-ch-2005-2007-7XSV4CJA.png";
 
-// app/productos/puertas_doble_ch.js
-if (import.meta) {
-  import.meta.hot = createHotContext(
-    //@ts-expect-error
-    "app\\productos\\puertas_doble_ch.js"
-  );
-  import.meta.hot.lastModified = "1693674398753.5938";
-}
-var chapaDoble = [
-  {
-    id: 4,
-    nombre: "Linea 400 marco pesado - Mod 420 / 460",
-    categoria: "Chapa doble sin inyectar",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa B.W.G N\xBA 22",
-    bisagras: "Municion",
-    cerradura: "No especificado",
-    img: chapa_doble_sin_inyectar_1_default
-  },
-  {
-    id: 5,
-    nombre: "Clasica 1810",
-    categoria: "Chapa doble inyectada",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
-    bisagras: "-",
-    cerradura: "No especificado",
-    img: img_puertas_L1810_default
-  },
-  {
-    id: 6,
-    nombre: "Clasica 1865",
-    categoria: "Chapa doble inyectada",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
-    bisagras: "-",
-    cerradura: "No especificado",
-    img: img_puertas_LC1865_2_default
-  },
-  {
-    id: 7,
-    nombre: "Clasica 155",
-    categoria: "Chapa doble inyectada",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
-    bisagras: "-",
-    cerradura: "No especificado",
-    img: img_puertas_clasica155_2_default
-  },
-  {
-    id: 8,
-    nombre: "Clasica 1600",
-    categoria: "Chapa doble inyectada",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
-    bisagras: "-",
-    cerradura: "No especificado",
-    img: img_puertas_clasica1600_default
-  },
-  {
-    id: 9,
-    nombre: "Clasica 1665",
-    categoria: "Chapa doble inyectada",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
-    bisagras: "-",
-    cerradura: "No especificado",
-    img: img_puertas_clasica1665_default
-  },
-  {
-    id: 10,
-    nombre: "Clasica 1700",
-    categoria: "Chapa doble inyectada",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
-    bisagras: "-",
-    cerradura: "No especificado",
-    img: img_puertas_clasica1700_default
-  },
-  {
-    id: 11,
-    nombre: "Clasica 1755",
-    categoria: "Chapa doble inyectada",
-    marco: "Chapa B.W.G N\xBA 18",
-    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
-    bisagras: "-",
-    cerradura: "No especificado",
-    img: img_puertas_clasica1755_default
-  },
-  {
-    id: 12,
-    nombre: "Modelo 2015",
-    categoria: "Puerta Doble Chapa",
-    marco: "Chapa N\xBA24 ",
-    hoja: "Chapa N\xBA24 Inyectada con poliuretano - Aislacion termica-acustica",
-    bisagras: "Embutidas marco",
-    cerradura: "Cerradura de seguridad",
-    img: doble_ch_2015_default
-  },
-  {
-    id: 13,
-    nombre: "Modelo 2016",
-    categoria: "Puerta Doble Chapa",
-    marco: "Chapa N\xBA24 ",
-    hoja: "Chapa N\xBA24 Inyectada con poliuretano - Aislacion termica-acustica / Postigo Lateral / Apliques acero inox 20 mm",
-    bisagras: "Embutidas marco",
-    cerradura: "Cerradura de seguridad",
-    img: doble_ch_2016_default
-  },
-  {
-    id: 14,
-    nombre: "Modelo 2005 / 2007",
-    categoria: "Puerta Doble Chapa",
-    marco: "Chapa N\xBA24 ",
-    hoja: "Chapa N\xBA24 Inyectada con poliuretano - Aislacion termica-acustica",
-    bisagras: "Embutidas marco",
-    cerradura: "Cerradura de seguridad",
-    img: doble_ch_2005_2007_default
-  }
-];
-
-// public/imgs/linea-100-1.jpg
-var linea_100_1_default = "/build/_assets/linea-100-1-LP4RNFJN.jpg";
-
-// public/imgs/linea-100-2.jpg
-var linea_100_2_default = "/build/_assets/linea-100-2-IRSOKMCU.jpg";
-
-// public/imgs/linea-100-3.jpg
-var linea_100_3_default = "/build/_assets/linea-100-3-PXBMA6LI.jpg";
-
-// public/imgs/puerta-doble-chapa-inyectada-linea500-700.jpg
-var puerta_doble_chapa_inyectada_linea500_700_default = "/build/_assets/puerta-doble-chapa-inyectada-linea500-700-FXWVKT6M.jpg";
-
-// public/imgs/linea-900.jpg
-var linea_900_default = "/build/_assets/linea-900-JIKJMT6P.jpg";
-
 // app/productos/puertas_inyectadas.js
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
     "app\\productos\\puertas_inyectadas.js"
   );
-  import.meta.hot.lastModified = "1693674827633.4453";
+  import.meta.hot.lastModified = "1694048063630.1035";
 }
 var inyectadas = [
   {
@@ -202,7 +99,7 @@ var inyectadas = [
     hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
     bisagras: "Municion",
     cerradura: "Com\xFAn sin combinaci\xF3n",
-    img: linea_100_1_default
+    img: linea_100_2_default
   },
   {
     id: 2,
@@ -212,7 +109,7 @@ var inyectadas = [
     hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
     bisagras: "Municion",
     cerradura: "Com\xFAn sin combinaci\xF3n",
-    img: linea_100_2_default
+    img: linea_100_3_default
   },
   {
     id: 3,
@@ -222,7 +119,7 @@ var inyectadas = [
     hoja: "Chapa B.W.G N\xBA 22 (Opcional barral y vistas de acero inox)",
     bisagras: "Municion",
     cerradura: "Com\xFAn sin combinaci\xF3n",
-    img: linea_100_3_default
+    img: puerta_doble_chapa_inyectada_linea500_700_default
   },
   {
     id: 4,
@@ -232,7 +129,7 @@ var inyectadas = [
     hoja: "Chapa B.W.G N\xBA 22",
     bisagras: "Municion",
     cerradura: "Cerradura de seguridad doble paleta",
-    img: puerta_doble_chapa_inyectada_linea500_700_default
+    img: linea_900_default
   },
   {
     id: 5,
@@ -242,7 +139,107 @@ var inyectadas = [
     hoja: "Chapa B.W.G N\xBA 22",
     bisagras: "Municion",
     cerradura: "Cerradura de seguridad doble paleta",
-    img: linea_900_default
+    img: img_puertas_L1810_default
+  },
+  {
+    id: 6,
+    nombre: "Clasica 1810",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_LC1865_2_default
+  },
+  {
+    id: 7,
+    nombre: "Clasica 1865",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_L1810_default
+  },
+  {
+    id: 8,
+    nombre: "Clasica 155",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica155_2_default
+  },
+  {
+    id: 9,
+    nombre: "Clasica 1600",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1600_default
+  },
+  {
+    id: 10,
+    nombre: "Clasica 1665",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1665_default
+  },
+  {
+    id: 11,
+    nombre: "Clasica 1700",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1700_default
+  },
+  {
+    id: 12,
+    nombre: "Clasica 1755",
+    categoria: "Chapa doble inyectada",
+    marco: "Chapa B.W.G N\xBA 18",
+    hoja: "Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas",
+    bisagras: "-",
+    cerradura: "No especificado",
+    img: img_puertas_clasica1755_default
+  },
+  {
+    id: 13,
+    nombre: "Modelo 2015",
+    categoria: "Puerta Doble Chapa",
+    marco: "Chapa N\xBA24 ",
+    hoja: "Chapa N\xBA24 Inyectada con poliuretano - Aislacion termica-acustica",
+    bisagras: "Embutidas marco",
+    cerradura: "Cerradura de seguridad",
+    img: doble_ch_2015_default
+  },
+  {
+    id: 14,
+    nombre: "Modelo 2016",
+    categoria: "Puerta Doble Chapa",
+    marco: "Chapa N\xBA24 ",
+    hoja: "Chapa N\xBA24 Inyectada con poliuretano - Aislacion termica-acustica / Postigo Lateral / Apliques acero inox 20 mm",
+    bisagras: "Embutidas marco",
+    cerradura: "Cerradura de seguridad",
+    img: doble_ch_2016_default
+  },
+  {
+    id: 15,
+    nombre: "Modelo 2005 / 2007",
+    categoria: "Puerta Doble Chapa",
+    marco: "Chapa N\xBA24 ",
+    hoja: "Chapa N\xBA24 Inyectada con poliuretano - Aislacion termica-acustica",
+    bisagras: "Embutidas marco",
+    cerradura: "Cerradura de seguridad",
+    img: doble_ch_2005_2007_default
   }
 ];
 
@@ -265,7 +262,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\doblechapa.jsx"
   );
-  import.meta.hot.lastModified = "1693780638418.354";
+  import.meta.hot.lastModified = "1694048095107.0679";
 }
 function meta() {
   return [{
@@ -324,4 +321,4 @@ export {
   doblechapa_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/doblechapa-6JPKA5BK.js.map
+//# sourceMappingURL=/build/routes/doblechapa-WBDNCSAD.js.map
