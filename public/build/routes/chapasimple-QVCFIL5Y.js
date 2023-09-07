@@ -28,8 +28,8 @@ var chapa_simple_linea_800_default = "/build/_assets/chapa-simple-linea-800-YPFH
 // public/imgs/simple-chapa-linea-100.jpg
 var simple_chapa_linea_100_default = "/build/_assets/simple-chapa-linea-100-QRY64G2L.jpg";
 
-// public/imgs/puerta-ch-simple-2018.png
-var puerta_ch_simple_2018_default = "/build/_assets/puerta-ch-simple-2018-KNZ4LXI7.png";
+// public/imgs/puerta-ch-simple-100.png
+var puerta_ch_simple_100_default = "/build/_assets/puerta-ch-simple-100-LICWAE6F.png";
 
 // public/imgs/puerta-ch-simple-2003.png
 var puerta_ch_simple_2003_default = "/build/_assets/puerta-ch-simple-2003-AO4BG5NV.png";
@@ -43,8 +43,8 @@ var puerta_ch_simple_2049_default = "/build/_assets/puerta-ch-simple-2049-3PRBWK
 // public/imgs/puerta-ch-simple-101.png
 var puerta_ch_simple_101_default = "/build/_assets/puerta-ch-simple-101-UK2L3W4V.png";
 
-// public/imgs/puerta-ch-simple-100.png
-var puerta_ch_simple_100_default = "/build/_assets/puerta-ch-simple-100-LICWAE6F.png";
+// public/imgs/puerta-ch-simple-2018.png
+var puerta_ch_simple_2018_default = "/build/_assets/puerta-ch-simple-2018-KNZ4LXI7.png";
 
 // app/productos/puertas_ch_simple.js
 if (import.meta) {
@@ -52,7 +52,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\productos\\puertas_ch_simple.js"
   );
-  import.meta.hot.lastModified = "1694048399019.0422";
+  import.meta.hot.lastModified = "1694052659602.4485";
 }
 var chapaSimple = [
   {
@@ -96,11 +96,11 @@ var chapaSimple = [
     img: simple_chapa_linea_100_default
   },
   {
-    id: 5,
+    id: 10,
     nombre: "Modelo 2018",
     categoria: "Puerta chapa simple",
     marco: "Chapa N\xBA24 ",
-    hoja: "Chapa N\xBA26 / Visor \xF3ptico",
+    hoja: "Chapa N\xBA26 / Estampado bastonado",
     bisagras: "Soldadas a punto",
     cerradura: "Cerradura doble paleta",
     img: puerta_ch_simple_2018_default
@@ -137,6 +137,16 @@ var chapaSimple = [
   },
   {
     id: 9,
+    nombre: "Modelo 100",
+    categoria: "Puerta chapa simple",
+    marco: "Chapa N\xBA24 ",
+    hoja: "Chapa N\xBA26 /  Estampado bastonado",
+    bisagras: "Soldadas a punto",
+    cerradura: "Cerradura doble paleta",
+    img: puerta_ch_simple_100_default
+  },
+  {
+    id: 9,
     nombre: "Modelo 101",
     categoria: "Puerta chapa simple",
     marco: "Chapa N\xBA24 ",
@@ -144,16 +154,6 @@ var chapaSimple = [
     bisagras: "Soldadas a punto",
     cerradura: "Cerradura doble paleta",
     img: puerta_ch_simple_101_default
-  },
-  {
-    id: 10,
-    nombre: "Modelo 2018",
-    categoria: "Puerta chapa simple",
-    marco: "Chapa N\xBA24 ",
-    hoja: "Chapa N\xBA26 / Estampado bastonado",
-    bisagras: "Soldadas a punto",
-    cerradura: "Cerradura doble paleta",
-    img: puerta_ch_simple_100_default
   }
 ];
 
@@ -212,4 +212,4 @@ export {
   chapasimple_default as default,
   meta
 };
-//# sourceMappingURL=/build/routes/chapasimple-27BJIQF6.js.map
+//# sourceMappingURL=/build/routes/chapasimple-QVCFIL5Y.js.map

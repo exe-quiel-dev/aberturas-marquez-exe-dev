@@ -23,11 +23,11 @@ export const inyectadas = [
     hoja: 'Chapa B.W.G Nº 22 (Opcional barral y vistas de acero inox)',
     bisagras: 'Municion',
     cerradura: 'Común sin combinación',
-    img: img2
+    img: img1
   },
   {
     id: 2,
-    nombre: 'Linea 100 marco pesado - Mod 126 / 140 / 142',
+    nombre: 'Linea 100 marco pesado - Mod 143 / 141 / 146',
     categoria: 'Chapa doble inyectada con poliuretano expandido de alta densidad',
     marco: 'Chapa B.W.G Nº 18',
     hoja: 'Chapa B.W.G Nº 22 (Opcional barral y vistas de acero inox)',
@@ -37,13 +37,13 @@ export const inyectadas = [
   },
   {
     id: 3,
-    nombre: 'Linea 100 marco pesado - Mod 143 / 141 / 146',
+    nombre: 'Linea 100 marco pesado - Mod 126 / 140 / 142',
     categoria: 'Chapa doble inyectada con poliuretano expandido de alta densidad',
     marco: 'Chapa B.W.G Nº 18',
     hoja: 'Chapa B.W.G Nº 22 (Opcional barral y vistas de acero inox)',
     bisagras: 'Municion',
     cerradura: 'Común sin combinación',
-    img: img4
+    img: img2
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const inyectadas = [
     hoja: 'Chapa B.W.G Nº 22',
     bisagras: 'Municion',
     cerradura: 'Cerradura de seguridad doble paleta',
-    img: img5
+    img: img4
   },
   {
     id: 5,
@@ -63,27 +63,17 @@ export const inyectadas = [
     hoja: 'Chapa B.W.G Nº 22',
     bisagras: 'Municion',
     cerradura: 'Cerradura de seguridad doble paleta',
-    img: img6
+    img: img5
   },
   {
     id: 6,
-    nombre: 'Clasica 1810',
-    categoria: 'Chapa doble inyectada',
-    marco: 'Chapa B.W.G Nº 18',
-    hoja: 'Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas',
-    bisagras: '-',
-    cerradura: 'No especificado',
-    img: img7
-  },
-  {
-    id: 7,
     nombre: 'Clasica 1865',
     categoria: 'Chapa doble inyectada',
     marco: 'Chapa B.W.G Nº 18',
     hoja: 'Chapa 40mm - Intectado de poliuretano - Pintura Poliester - Hojas electrocincadas',
     bisagras: '-',
     cerradura: 'No especificado',
-    img: img6
+    img: img7
   },
   {
     id: 8,

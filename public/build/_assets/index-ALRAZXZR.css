@@ -728,6 +728,10 @@ video {
 .hover\:bg-amber-500\/75:hover {
   background-color: #f59e0bbf;
 }
+.hover\:text-blue-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -743,10 +747,6 @@ video {
 .hover\:text-violet-500:hover {
   --tw-text-opacity: 1;
   color: rgb(139 92 246 / var(--tw-text-opacity));
-}
-.hover\:text-blue-600:hover {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 .hover\:shadow-lg:hover {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
@@ -824,4 +824,4 @@ video {
     line-height: 2.5rem;
   }
 }
-/*# sourceMappingURL=/build/_assets/index-T2NEKWX6.css.map */
+/*# sourceMappingURL=/build/_assets/index-GMDOBFHQ.css.map */
