@@ -27,6 +27,10 @@ export function meta() {
         {
             name: 'viewport',
             content: 'width=device-width, initial-scale=1.0'
+        },
+        {
+            rel: "google-site-verification",
+            content: "0rpfnWp5tdIK3oaWg53-ZGpteCsneQ2OfHGD308LTRA"
         }
     ]
 }
@@ -57,7 +61,7 @@ export function links() {
         {
             rel: 'icon',
             href: favicon
-        },
+        }
     ]
 }
 
