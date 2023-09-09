@@ -34,7 +34,7 @@ function Ventanas() {
           caracteristicas={ventana.caracteristicas}
         />
       ))}
-      categoria='Puertas chapa simple'
+      categoria='Ventanas'
     />
   )
 }
